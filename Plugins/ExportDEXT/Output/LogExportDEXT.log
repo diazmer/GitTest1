@@ -1,0 +1,578 @@
+﻿----------------------------------------------------------------
+Start of logging 2024-02-13 13:27:16 encoding='utf-8'
+----------------------------------------------------------------
+D: 
+D:  #####     #    #     #                              #####                               
+D: #     #   # #   ##    # #####  ###### #        ##   #     # ##### #    # #####  #  ####  
+D: #        #   #  # #   # #    # #      #       #  #  #         #   #    # #    # # #    # 
+D: #       #     # #  #  # #    # #####  #      #    #  #####    #   #    # #    # # #    # 
+D: #       ####### #   # # #    # #      #      ######       #   #   #    # #    # # #    # 
+D: #     # #     # #    ## #    # #      #      #    # #     #   #   #    # #    # # #    # 
+D:  #####  #     # #     # #####  ###### ###### #    #  #####    #    ####  #####  #  ####  
+D: 
+I: Running C:\Program Files\Vector CANdelaStudio 18\Bin\CANdelaStudio.exe v18.0.1104.0
+I: Current directory is C:\Temp\DiagDataPipeline\Plugins\ExportDEXT
+I: Entering InitInstance...
+I: Entering basic initialization tasks...
+I:  Initialize CrashHandler.
+I:  Initialize Resource Provider.
+I: Basic initialization done.
+I: Entering command line parsing...
+I:   Parsed command line: shell command is 0
+I:   Processing of command line done.
+I: Command line parsing done.
+I: Command line mode activated.
+I: Entering setup of applicaton profile...
+I: Start searching for existing ini file: CANdelaStudio.ini
+I:   Found an existing ini file in default folder: C:\ProgramData\Vector\CANdelaStudio\18\CANdelaStudio.ini
+I:   File C:\ProgramData\Vector\CANdelaStudio\18\CANdelaStudio.ini exists with write permissions, will take this file.
+I: Start searching for existing ini file: Actions.ini
+I:   Found an existing ini file in default folder: C:\ProgramData\Vector\CANdelaStudio\18\Actions.ini
+I:   File C:\ProgramData\Vector\CANdelaStudio\18\Actions.ini exists with write permissions, will take this file.
+I:   Using GUI language de-DE from INI.
+I: Setup of application profile done.
+D: Initialize resource DLLs.
+I: Initialize Vector licensing...
+D: License: InitCallbacks
+D: Scanning VLC Licenses:
+D: Preferred License Type: none
+D: AS--.AE 
+D:   CANdelaStudio Pro 20 (55432, 55432000083) ReactDate:2025-01-13 ExpDate:- LicenseType: Device
+I: Vector licensing initialized successfully.
+I: The following edition is licensed: pro
+I: Version of installed DDM is 25.2.0
+I: Initializing Plug-in Manager...
+I: Plug-in 'Create DoIP Interface' successfully loaded
+I: Plug-in 'Create ISO10681 FlexRay Interface' successfully loaded
+I: Plug-in 'Create K-Line 5 Baud Initialization Interface' successfully loaded
+I: Plug-in 'Create K-Line Fast Initialization Interface' successfully loaded
+I: Plug-in 'Disable overlong functional CAN requests' successfully loaded
+I: Plug-in 'Enable Fixed Qualifier' successfully loaded
+I: Plug-in 'Enable ODX mode' successfully loaded
+I: Plug-in 'Manage MultiIdentity ECU' successfully loaded
+I: Plug-in 'Mercedes-Benz: Add PTI Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Add ZKB Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Assign Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Clean up projects (Nissan/Renault)' successfully loaded
+I: Plug-in 'Mercedes-Benz: Create Production Service List' successfully loaded
+I: Plug-in 'Mercedes-Benz: Create SDG Attribute' successfully loaded
+I: Plug-in 'Mercedes-Benz: Datenbereinigung VK Daimler Lead ECUs' successfully loaded
+I: Plug-in 'Mercedes-Benz: Enable DIAG-LAYER editing' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 220' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 220 Renault' successfully loaded
+I: Plug-in 'Mercedes-Benz: Import DTCs and environment data from ODX' successfully loaded
+I: Plug-in 'Mercedes-Benz: Job Replace' successfully loaded
+I: Plug-in 'Mercedes-Benz: PrepareODX 2.2.0' successfully loaded
+I: Plug-in 'Mercedes-Benz: Remove trailing blanks' successfully loaded
+I: Plug-in 'Mercedes-Benz: Set ExportAsTable attribute to '0'' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update FaultMemory service $19 $04 from DIDs' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update State Group 'Authorization' from target groups' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update State Group 'Authorization' from target groups (using legacy TargetGroup-Names)' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 202dc' successfully loaded
+I: Plug-in 'Mercedes-Benz: Access Rights Exporter' successfully loaded
+I: Plug-in 'Mercedes-Benz: Access Rights Matrix Ruleset' successfully loaded
+I: Plug-in 'Mercedes-Benz: DataObject SDG Exchange' successfully loaded
+I: Plug-in 'Mercedes-Benz: Remove Diogenes Properties' successfully loaded
+I: Plug-in 'Mercedes-Benz: Replace Target Group Qualifiers' successfully loaded
+I: Plug-in 'Mercedes-Benz: Service Target Group Export Import' successfully loaded
+I: Plug-in 'Mercedes-Benz: Set SDG Values' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update DTC Error Texts' successfully loaded
+I: Plug-in 'MultiOemSupportCmdLine' successfully loaded
+D: Initialize help system.
+D: Execution of command-line commands...
+D: Searching for registry key Software\Vector\CANdelaPersistors for global persistors path
+D:   registry key exists, value: 'C:\Program Files (x86)\Common Files\Vector CANdelaPersistors 20\Bin' (this directory exists)
+D:   global persistors version: 20.0.00100
+D: Detected dtd version 18.0.6
+D: VCANdelaPersistorImpl::GetFileVersion: DTD version '18.0.6' detected
+I: Loading 'C:\Temp\DiagDataPipeline\Plugins\ExportDEXT\Input\NEWCDD.cdd'...
+I:   dtd version: file 18.0.6, program 18.0.6
+D: Document supports the languages (en-US)
+D: Document contains the uptodate languages (en-US)
+D: Template: Qualifier : DCS_UDS, SaveNo : 20, Label : 1.00.70, DPRS
+I:   template data loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   library variant 'MBC_FaultMemory_Event_Defaults' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'Common_Diagnostics' loaded
+D: Start loading requirement data model
+D: End loading requirement data model
+I: Document version: 00.00.01
+I: Done loading.
+I:   Logging turned on again
+I: Checking consistency of document. This may take a while, please be patient...
+W: Warning: DTC table in Diagnostic Instance qpath:/Common_Diagnostics/Development_Fault_Memory' has no DTC.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 16 bits.
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqId
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTId
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqId
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqExtAddr
+D: ComParamMan: Unidentified ComParam CP_Baudrate
+D: ComParamMan: Unidentified ComParam CP_BlockSize
+D: ComParamMan: Unidentified ComParam CP_StMin
+D: ComParamMan: Unidentified ComParam CP_P2Max
+D: ComParamMan: Unidentified ComParam CP_P2Star
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Unidentified ComParam CP_Bs
+D: ComParamMan: Unidentified ComParam CP_Br
+D: ComParamMan: Unidentified ComParam CP_Cr
+D: ComParamMan: Unidentified ComParam CP_CanTransmissionTime
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC23Handling
+D: ComParamMan: Unidentified ComParam CP_RC23CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTId
+D: ComParamMan: Unidentified ComParam CP_StMinOverride
+D: ComParamMan: Unidentified ComParam CP_ModifyTiming
+D: ComParamMan: Unidentified ComParam CP_SamplesPerBit
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Unidentified ComParam CP_CANFDSyncJumpWidth
+D: ComParamMan: Unidentified ComParam CP_CANFDTxMaxDataLength
+D: ComParamMan: Unidentified ComParam CP_CANFDBitSamplePoint
+D: ComParamMan: Unidentified ComParam CanFdDataBaudrate
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RequestAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqId
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanPhysReqId' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqExtAddr
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanPhysReqExtAddr' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTId
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanRespUSDTId' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTExtAddr
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanRespUSDTExtAddr' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqId
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanFuncReqId' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqExtAddr
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanFuncReqExtAddr' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_Baudrate
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_Baudrate' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_BlockSize
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_BlockSize' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_StMin
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_StMin' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_Bs
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_Bs' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_Br
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_Br' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_Cr
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_Cr' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanTransmissionTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanTransmissionTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC23Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC23Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC23CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC23CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTExtAddr
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanRespUUDTExtAddr' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTId
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanRespUUDTId' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_StMinOverride
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_StMinOverride' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_ModifyTiming
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_ModifyTiming' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_SamplesPerBit
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_SamplesPerBit' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RequestAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+D: ComParamMan: Setting COM parameter 'BusType' to value 'FlexRay' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_P2Max
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam EcuAddress2
+D: ComParamMan: Unidentified ComParam PDUListReqPhys
+D: ComParamMan: Unidentified ComParam PDUListReqFunc
+D: ComParamMan: Unidentified ComParam PDUListRes
+D: ComParamMan: Unidentified ComParam FrFrameFillerByte
+D: ComParamMan: Unidentified ComParam AutoP2Handling
+D: ComParamMan: Unidentified ComParam RC21Handling
+D: ComParamMan: Unidentified ComParam RC21RequestTime
+D: ComParamMan: Unidentified ComParam RC21CompletionTimeout
+D: ComParamMan: Unidentified ComParam RC78Handling
+D: ComParamMan: Unidentified ComParam RC78CompletionTimeout
+D: ComParamMan: Setting COM parameter 'TransportProtocolType' to value 'ISO10681' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam ConnectionModePhys
+D: ComParamMan: Unidentified ComParam BufferSize
+D: ComParamMan: Unidentified ComParam BandwidthControl
+D: ComParamMan: Unidentified ComParam InterfaceNotRelevantForODX
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalEcuAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalFunctionalAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalGatewayAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalTesterAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Max' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Star' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21RequestTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RequestAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalEcuAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalFunctionalAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalGatewayAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalTesterAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Max' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Star' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21RequestTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RequestAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalEcuAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalFunctionalAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalGatewayAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalTesterAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Max' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Star' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21RequestTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RequestAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+I: Checking request length for services supporting functional addressing for normal addressing scheme.
+I: ...Done.
+I: Checking service prefixes in base variant "Common_Diagnostics" ... OK
+I: Checking service prefixes in library variant "MBC_FaultMemory_Event_Defaults" ... OK
+I: Document is consistent.
+I: No document language code specified. You can select one using command line parameter 'u', e.g. '/u en-US'. For now using first found up to date language 'en-US'.
+I: Checking consistency of document. This may take a while, please be patient...
+W: Warning: DTC table in Diagnostic Instance qpath:/Common_Diagnostics/Development_Fault_Memory' has no DTC.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 16 bits.
+I: Document is consistent.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 16 bits.
+I: Starting Autosar Diagnostic Extract Export...
+I: Creating configuration for DEXT export...
+I: ECU name to export: New_CDD
+I: Variant to export: Common_Diagnostics
+I: Exporting to file: C:\Temp\DiagDataPipeline\Plugins\ExportDEXT\Output\TestDEXT.arxml
+I: Selected Autosar Version for DEXT export: 'v4.4.0'
+I: No shaper patch file selected.
+I: Export based on template 'DSUDS MB.OS 2.0 Template 23.42.01'
+I: Document has version '00.00.01'
+I: Export done by 'CANdelaStudio 18.0.1104'
+I: Export is based on manufacturer 'Daimler'
+I: Configuration for DEXT export created.
+I: Script file for DDM created.
+I: Building command line for DEXT export...
+I: DEXT command line: "C:\Program Files (x86)\Common Files\Vector\DiagnosticDataModifier\DiagnosticDataModifier.exe" import /if "C:\Users\diazmer\AppData\Local\Temp\Script.xml" /lf "C:\Users\diazmer\AppData\Local\Temp\New_CDD.log" d
+I: Spawning process for DEXT...
+I: DEXT process started. Waiting for finalization...

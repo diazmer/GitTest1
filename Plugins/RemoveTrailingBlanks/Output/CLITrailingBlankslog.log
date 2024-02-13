@@ -1,0 +1,411 @@
+﻿----------------------------------------------------------------
+Start of logging 2024-02-12 11:51:28 encoding='utf-8'
+----------------------------------------------------------------
+D: 
+D:  #####     #    #     #                              #####                               
+D: #     #   # #   ##    # #####  ###### #        ##   #     # ##### #    # #####  #  ####  
+D: #        #   #  # #   # #    # #      #       #  #  #         #   #    # #    # # #    # 
+D: #       #     # #  #  # #    # #####  #      #    #  #####    #   #    # #    # # #    # 
+D: #       ####### #   # # #    # #      #      ######       #   #   #    # #    # # #    # 
+D: #     # #     # #    ## #    # #      #      #    # #     #   #   #    # #    # # #    # 
+D:  #####  #     # #     # #####  ###### ###### #    #  #####    #    ####  #####  #  ####  
+D: 
+I: Running C:\Program Files\Vector CANdelaStudio 18\Bin\CANdelaStudio.exe v18.0.1104.0
+I: Current directory is C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks
+I: Entering InitInstance...
+I: Entering basic initialization tasks...
+I:  Initialize CrashHandler.
+I:  Initialize Resource Provider.
+I: Basic initialization done.
+I: Entering command line parsing...
+I:   Parsed command line: shell command is 0
+I:   Processing of command line done.
+I: Command line parsing done.
+I: Entering setup of applicaton profile...
+I: Start searching for existing ini file: CANdelaStudio.ini
+I:   Found an existing ini file in default folder: C:\ProgramData\Vector\CANdelaStudio\18\CANdelaStudio.ini
+I:   File C:\ProgramData\Vector\CANdelaStudio\18\CANdelaStudio.ini exists with write permissions, will take this file.
+I: Start searching for existing ini file: Actions.ini
+I:   Found an existing ini file in default folder: C:\ProgramData\Vector\CANdelaStudio\18\Actions.ini
+I:   File C:\ProgramData\Vector\CANdelaStudio\18\Actions.ini exists with write permissions, will take this file.
+I:   Using GUI language de-DE from INI.
+I: Setup of application profile done.
+D: Initialize resource DLLs.
+I: Initialize Vector licensing...
+D: License: InitCallbacks
+D: Scanning VLC Licenses:
+D: Preferred License Type: none
+D: AS--.AE 
+D:   CANdelaStudio Pro 20 (55432, 55432000083) ReactDate:2025-01-13 ExpDate:- LicenseType: Device
+I: Vector licensing initialized successfully.
+I: The following edition is licensed: pro
+I: Version of installed DDM is 25.2.0
+I: Initializing Plug-in Manager...
+I: Plug-in 'Create DoIP Interface' successfully loaded
+I: Plug-in 'Create ISO10681 FlexRay Interface' successfully loaded
+I: Plug-in 'Create K-Line 5 Baud Initialization Interface' successfully loaded
+I: Plug-in 'Create K-Line Fast Initialization Interface' successfully loaded
+I: Plug-in 'Disable overlong functional CAN requests' successfully loaded
+I: Plug-in 'Enable Fixed Qualifier' successfully loaded
+I: Plug-in 'Enable ODX mode' successfully loaded
+I: Plug-in 'Manage MultiIdentity ECU' successfully loaded
+I: Plug-in 'Mercedes-Benz: Add PTI Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Add ZKB Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Assign Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Clean up projects (Nissan/Renault)' successfully loaded
+I: Plug-in 'Mercedes-Benz: Create Production Service List' successfully loaded
+I: Plug-in 'Mercedes-Benz: Create SDG Attribute' successfully loaded
+I: Plug-in 'Mercedes-Benz: Datenbereinigung VK Daimler Lead ECUs' successfully loaded
+I: Plug-in 'Mercedes-Benz: Enable DIAG-LAYER editing' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 220' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 220 Renault' successfully loaded
+I: Plug-in 'Mercedes-Benz: Import DTCs and environment data from ODX' successfully loaded
+I: Plug-in 'Mercedes-Benz: Job Replace' successfully loaded
+I: Plug-in 'Mercedes-Benz: PrepareODX 2.2.0' successfully loaded
+I: Plug-in 'Mercedes-Benz: Remove trailing blanks' successfully loaded
+I: Plug-in 'Mercedes-Benz: Set ExportAsTable attribute to '0'' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update FaultMemory service $19 $04 from DIDs' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update State Group 'Authorization' from target groups' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update State Group 'Authorization' from target groups (using legacy TargetGroup-Names)' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 202dc' successfully loaded
+I: Plug-in 'Mercedes-Benz: Access Rights Exporter' successfully loaded
+I: Plug-in 'Mercedes-Benz: Access Rights Matrix Ruleset' successfully loaded
+I: Plug-in 'Mercedes-Benz: DataObject SDG Exchange' successfully loaded
+I: Plug-in 'Mercedes-Benz: Remove Diogenes Properties' successfully loaded
+I: Plug-in 'Mercedes-Benz: Replace Target Group Qualifiers' successfully loaded
+I: Plug-in 'Mercedes-Benz: Service Target Group Export Import' successfully loaded
+I: Plug-in 'Mercedes-Benz: Set SDG Values' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update DTC Error Texts' successfully loaded
+I: Plug-in 'MultiOemSupportCmdLine' successfully loaded
+D: Initialize help system.
+D: Disclaimer dialog will be shown.
+D: Strictness of disclaimer dialog is LOW.
+D: Language of disclaimer dialog is German
+D: Show splash screen...
+D: Initialize default font.
+D: Initialize user actions.
+I: Initializing ActionManager...
+D: Loading actions from file C:\ProgramData\Vector\CANdelaStudio\18\Actions.ini
+I: Initializing Document Templates...
+D:   Creation of document frame done.
+D:   Creation of template frame done.
+D:   Creation of backup frame done.
+D:   Creation of translator frame done.
+D: Initialize TMX dictionary.
+D: Initializing main application window...
+D:   Creating main application.
+D:   Main window initialize instance.
+D: Scan System Information:
+D: Operating system: Microsoft Windows NT 6.2.9200.0 (64bit)
+D:   Processor:                 11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz
+D:   Logical Processors:        8
+D:   Processor Cores:           4
+D:   Total physical memory:     16064 MB
+D:   Available physical memory: 6603 MB
+D:   Total virtual memory:      134217728 MB
+D:   Available virtual memory:  134212282 MB
+D: Scan Module Information:
+D: Rel. Path                               File Name                                                              File Version         Creation Time     
+D:                                         202203_201812.ecdd                                                                          2022-11-28  11:00 
+D:                                         A2LImport.dll                                                          1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         AccessRightsExporterApp.exe                                            1800.3.1             2023-12-14  06:29 
+D:                                         Altova.dll                                                             1800.0.0 2022-10-21  2022-11-29  07:19 
+D:                                         AltovaXML.dll                                                          1800.0.0 2022-10-21  2022-11-29  07:19 
+D:                                         ASAP2Parser.dll                                                        4, 1, 0, 73004       2023-12-14  06:29 
+D:                                         ASAP2Parser01.dll                                                      4, 1, 00, 73004      2023-12-14  06:29 
+D:                                         ASAP2Parser49.dll                                                      4, 1, 00, 72220      2023-12-14  06:29 
+D:                                         CANdela.Skin.dll                                                       18.2.5.0             2022-12-02  10:14 
+D:                                         CANdela.SupportProvider.dll                                            18.0.01104.000       2023-12-14  06:29 
+D:                                         CANdelaArchitectureLibrary.dll                                                              2023-12-14  06:29 
+D:                                         CANdelaStudio.exe                                                      18.0.01104.000       2023-12-14  06:29 
+D:                                         CANdelaStudio_de.cmd                                                                        2022-12-02  10:15 
+D:                                         CANdelaStudio_ja.cmd                                                                        2022-12-02  10:15 
+D:                                         CANdelaStudioLauncher.exe                                                                   2023-12-14  06:29 
+D:                                         CANdelaStudioSE.exe                                                    18.0.01104.000       2023-12-14  06:29 
+D:                                         CANdelaWizards.dll                                                     1.0.0.0              2023-12-14  06:29 
+D:                                         CDDFiller.dll                                                          1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         CDDInterpreter.dll                                                     1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         cdi.dll                                                                1800.0.0 2022-10-21  2022-11-29  07:19 
+D:                                         CdiExport.dll                                                          1800.0.0 2022-10-21  2022-11-29  07:19 
+D:                                         CdlCommonLib.dll                                                                            2023-12-14  06:29 
+D:                                         CdlCommonLibSE.dll                                                                          2023-12-14  06:29 
+D:                                         ClrBridge.dll                                                          18.0.01104.000       2023-12-14  06:29 
+D:                                         ClrBridgeApi.dll                                                       18.0.01104.000       2023-12-14  06:29 
+D:                                         COMdbLib12.dll                                                         Version 3.9.8 SP0    2022-11-28  11:00 
+D:                                         ComParamMan.dll                                                        1800.8.4             2023-12-14  06:29 
+D:                                         CoreDIM.dll                                                            1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         DaMe.dll                                                               1800.8.4             2023-12-14  06:29 
+D:                                         DameNetBridge.dll                                                      18.0.01104.000       2023-12-14  06:29 
+D:                                         DbcImport.dll                                                          1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         DDIT.dll                                                               1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         DditGlobalStateProvider.dll                                            1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         DDxChecker.dll                                                         1800.2.0             2022-11-28  11:01 
+D:                                         DDxExport.dll                                                          1800.2.0             2022-11-28  11:01 
+D: \de                                     CANdela.SupportProvider.resources.dll                                  18.0.01104.000       2023-12-14  06:29 
+D: \de                                     CANdelaWizards.resources.dll                                           1.0.0.0              2023-12-14  06:29 
+D: \de                                     DevExpress.Data.v20.1.resources.dll                                    20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.Office.v20.1.Core.resources.dll                             20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.Pdf.v20.1.Core.resources.dll                                20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.Utils.v20.1.resources.dll                                   20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.Xpf.Core.v20.1.resources.dll                                20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.Xpf.Grid.v20.1.Core.resources.dll                           20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.Xpf.Printing.v20.1.resources.dll                            20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.XtraBars.v20.1.resources.dll                                20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.XtraEditors.v20.1.resources.dll                             20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.XtraGrid.v20.1.resources.dll                                20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.XtraLayout.v20.1.resources.dll                              20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.XtraPrinting.v20.1.resources.dll                            20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.XtraRichEdit.v20.1.resources.dll                            20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.XtraTreeList.v20.1.resources.dll                            20.1.7.0             2020-08-27  01:00 
+D: \de                                     DevExpress.XtraVerticalGrid.v20.1.resources.dll                        20.1.7.0             2020-08-27  01:00 
+D: \de                                     FrontendNet.resources.dll                                              18.0.01104.000       2023-12-14  06:29 
+D: \de                                     FrontendViews.resources.dll                                            18.0.01104.000       2023-12-14  06:29 
+D: \de                                     PatchInstaller_Mercedes-Benz.txt                                                            2024-01-17  08:54 
+D: \de                                     RequirementDialogNet.resources.dll                                     18.0.01104.000       2023-12-14  06:29 
+D: \de                                     ShortcutsLibrary.resources.dll                                         1.0.0.0              2023-12-14  06:29 
+D: \de                                     SwcSyncGui.resources.dll                                               1800.0.14            2023-12-14  06:29 
+D:                                         DevComponents.DotNetBar2.dll                                           14.0.0.23            2022-03-17  01:04 
+D:                                         DevExpress.BonusSkins.v20.1.dll                                        20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Data.Desktop.v20.1.dll                                      20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Data.v20.1.dll                                              20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Images.v20.1.dll                                            20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Mvvm.v20.1.dll                                              20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Office.v20.1.Core.dll                                       20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Pdf.v20.1.Core.dll                                          20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Pdf.v20.1.Drawing.dll                                       20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Printing.v20.1.Core.dll                                     20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.RichEdit.v20.1.Core.dll                                     20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Sparkline.v20.1.Core.dll                                    20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Utils.v20.1.dll                                             20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Xpf.Accordion.v20.1.dll                                     20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Xpf.Controls.v20.1.dll                                      20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Xpf.Core.v20.1.dll                                          20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Xpf.Grid.v20.1.Core.dll                                     20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Xpf.Grid.v20.1.dll                                          20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Xpf.Grid.v20.1.Extensions.dll                               20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Xpf.LayoutControl.v20.1.dll                                 20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Xpf.Printing.v20.1.dll                                      20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Xpf.Themes.Office2016White.v20.1.dll                        20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.Xpf.Themes.Office2019Colorful.v20.1.dll                     20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.XtraBars.v20.1.dll                                          20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.XtraEditors.v20.1.dll                                       20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.XtraGrid.v20.1.dll                                          20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.XtraLayout.v20.1.dll                                        20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.XtraNavBar.v20.1.dll                                        20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.XtraPrinting.v20.1.dll                                      20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.XtraRichEdit.v20.1.dll                                      20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.XtraTreeList.v20.1.dll                                      20.1.7.0             2020-08-27  01:00 
+D:                                         DevExpress.XtraVerticalGrid.v20.1.dll                                  20.1.7.0             2020-08-27  01:00 
+D:                                         DextExport.dll                                                         1801.0.0             2023-12-14  06:29 
+D:                                         DextExportUtils.dll                                                    1801.0.0             2023-12-14  06:29 
+D:                                         DextImportController.dll                                               1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         DextInterpreter.dll                                                    1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         DiagContentTransferController.dll                                      1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         DiffUpd.dll                                                            1800.8.4             2023-12-14  06:29 
+D:                                         Diogenes.dll                                                           18 2022-12-05        2023-12-14  06:29 
+D:                                         DiogenesExport.dll                                                     18 2022-12-05        2023-12-14  06:29 
+D:                                         DiogenesWriter.dll                                                     18 2022-12-05        2023-12-14  06:29 
+D:                                         DisclaimStatic.dll                                                     Version 3.0.2        2015-07-27  06:54 
+D:                                         Divelements.SandGrid.dll                                               2.2.3.1              2022-03-31  05:23 
+D:                                         DocumentPropertyExport.dll                                             1801.0.0             2023-12-14  06:29 
+D:                                         DotNetUtils.dll                                                        18.0.01104.000       2023-12-14  06:29 
+D:                                         Ecuex2DimNativeSynthesizers.dll                                        1800.0.14 2023-12-13 2023-12-14  06:29 
+D:                                         EventExportController.dll                                              1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         EventFiller.dll                                                        1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         EventImportController.dll                                              1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         EventInterpreter.dll                                                   1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         EventPropertyExportController.dll                                      1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         FrontendNet.dll                                                        18.0.01104.000       2023-12-14  06:29 
+D:                                         FrontendNetBridge.dll                                                  18.0.01104.000       2023-12-14  06:29 
+D:                                         FrontendViews.dll                                                      18.0.01104.000       2023-12-14  06:29 
+D:                                         GenTool_CsDataServerAsrBase.dll                                        4.10.00.04           2023-12-14  06:29 
+D:                                         GenTool_CsDataServerDomAsr3.dll                                        4.10.00.04           2023-12-14  06:29 
+D:                                         GenTool_CsDataServerDomAsr3.XmlSerializers.dll                         4.10.0.4             2023-12-14  06:29 
+D:                                         GenTool_CsDataServerDomAsr4.dll                                        4.10.00.04           2023-12-14  06:29 
+D:                                         GenTool_CsDataServerDomAsr4.XmlSerializers.dll                         4.10.0.4             2023-12-14  06:29 
+D:                                         GuiImportDialogs.dll                                                   1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         GuiImportResde-DE.dll                                                  1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         GuiImportResen-US.dll                                                  1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         GuiImportResja-JP.dll                                                  1800.1.1 2023-02-21  2023-12-14  06:29 
+D:                                         IImportTransformator.dll                                               1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         ImportDataModel.dll                                                    1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         ImportExecutor.dll                                                     1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         ImportPersistor.dll                                                    1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         ImportTransformator.dll                                                1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         InfoWindow2.dll                                                        3.0.0.0              2020-11-03  10:34 
+D:                                         Ionic.Zip.Reduced.dll                                                  1.9.1.8              2023-12-14  06:29 
+D: \ja                                     CANdela.SupportProvider.resources.dll                                  18.0.01100.000       2023-12-14  06:29 
+D: \ja                                     DevExpress.Data.v20.1.resources.dll                                    20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.Office.v20.1.Core.resources.dll                             20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.Pdf.v20.1.Core.resources.dll                                20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.Utils.v20.1.resources.dll                                   20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.Xpf.Printing.v20.1.resources.dll                            20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.XtraBars.v20.1.resources.dll                                20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.XtraEditors.v20.1.resources.dll                             20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.XtraGrid.v20.1.resources.dll                                20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.XtraLayout.v20.1.resources.dll                              20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.XtraPrinting.v20.1.resources.dll                            20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.XtraRichEdit.v20.1.resources.dll                            20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.XtraTreeList.v20.1.resources.dll                            20.1.7.0             2020-08-27  01:00 
+D: \ja                                     DevExpress.XtraVerticalGrid.v20.1.resources.dll                        20.1.7.0             2020-08-27  01:00 
+D: \ja                                     FrontendNet.resources.dll                                              18.0.01100.000       2023-12-14  06:29 
+D: \ja                                     FrontendViews.resources.dll                                                                 2023-12-14  06:29 
+D: \ja                                     PatchInstaller_Mercedes-Benz.txt                                                            2024-01-17  08:54 
+D: \ja                                     RequirementDialogNet.resources.dll                                     18.0.01100.000       2023-12-14  06:29 
+D: \ja                                     ShortcutsLibrary.resources.dll                                         1.0.0.0              2023-12-14  06:29 
+D: \ja                                     SwcSyncGui.resources.dll                                               1800.0.3             2023-12-14  06:29 
+D:                                         Licenses.zip                                                                                2023-12-14  06:29 
+D:                                         LocalizationProvider.dll                                               18.0.01104.000       2023-12-14  06:29 
+D:                                         Md5Util.dll                                                            1.0.0.0              2023-12-14  06:29 
+D:                                         MDX50Export.dll                                                        1800.0.0 2022-10-19  2022-11-28  11:01 
+D:                                         MercedesBenzODX210DCSE.dll                                             1800.0.0             2023-12-14  06:29 
+D:                                         MercedesBenzOdx210DCSECrumbsImporter.dll                               1800.0.0             2023-12-14  06:29 
+D:                                         MercedesBenzODX210DCSETOOLS.dll                                        1800.0.0             2023-12-14  06:29 
+D:                                         MercedesBenzORC210DCSE.dll                                             1800.0.0             2023-12-14  06:29 
+D:                                         OBDDA2CDD.dll                                                          1.0.1 2022-10-28     2022-11-28  11:00 
+D:                                         ObdDaImportController.dll                                              1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         OdxComplianceCheck.dll                                                 1800.0.11 2023-12-14 2023-12-14  06:29 
+D:                                         OdxCrumbsImporter.dll                                                  1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         OdxExport.exe                                                          1800.0.2 2022-11-28  2022-11-29  07:19 
+D:                                         ODXExport201.dll                                                       1800.0.11 2023-12-14 2023-12-14  06:29 
+D:                                         ODXExport210.dll                                                       1800.0.11 2023-12-14 2023-12-14  06:29 
+D:                                         ODXExport220.dll                                                       1800.0.11 2023-12-14 2023-12-14  06:29 
+D:                                         ODXExportCallerLib.dll                                                 1800.0.2 2022-11-28  2022-11-29  07:19 
+D:                                         ODXExportProxy.dll                                                     1800.0.2 2022-11-28  2022-11-29  07:19 
+D:                                         OdxImport.dll                                                          1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         PatchInstaller_Mercedes-Benz.txt                                                            2024-01-17  08:54 
+D:                                         Persistor.dll                                                          1800.8.4             2023-12-14  06:29 
+D: \Plugins                                CreateDoIPInterface.cdlplg                                             1801.0.0             2023-12-14  06:29 
+D: \Plugins                                CreateISO10681FlexRayInterface.cdlplg                                  1801.0.0             2023-12-14  06:29 
+D: \Plugins                                CreateKLine5BaudInterface.cdlplg                                       1801.0.0             2023-12-14  06:29 
+D: \Plugins                                CreateKLineFastInterface.cdlplg                                        1801.0.0             2023-12-14  06:29 
+D: \Plugins                                DaimlerUpdateDTCErrorTexts.zip                                                              2024-01-11  03:19 
+D: \Plugins\DataObjectSDGExchangeTemplates LC_Data_Template_Invalid_test.xlsx                                                          2023-11-17  10:01 
+D: \Plugins\DataObjectSDGExchangeTemplates Lean_Compliance_Attributes_Template.xlsx                                                    2023-03-13  08:48 
+D: \Plugins                                DisableOverlongFunctionalCANRequests.cdlplg                            1801.0.0             2023-12-14  06:29 
+D: \Plugins                                DocumentFormat.OpenXml.dll                                             2.5.5631.0           2023-12-14  06:29 
+D: \Plugins                                EnableFixedQualifier.cdlplg                                            1801.0.0             2023-12-14  06:29 
+D: \Plugins                                EnableOdxMode.cdlplg                                                   1801.0.0             2023-12-14  06:29 
+D: \Plugins                                ExportsetSDG.log                                                                            2023-12-14  08:27 
+D: \Plugins                                ManageMultiIdentityEcu.cdlplg                                          1801.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenz_DCS_ODX_E_IMPORT.cdlplg                                   1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzAccessRightsExporter.dll                                   1800.3.1             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzAccessRightsMatrixRuleset.dll                              1800.0.2             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzAccessRightsMatrixRulesetCore.dll                          1800.0.2.0           2023-12-14  06:29 
+D: \Plugins                                MercedesBenzAccessRightsMatrixRulesetDataBridge.dll                    1800.0.2             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzAddPTITargetGroup.cdlplg                                   1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzAddZKBTargetGroup.cdlplg                                   1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzAssignTargetGroup.cdlplg                                   1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzAssignTargetGroupServices.dll                              1800.0.0.0           2023-12-14  06:29 
+D: \Plugins                                MercedesBenzCleanUpRenaultNissan.cdlplg                                1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzCreateProductionServiceList.cdlplg                         1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzCreateSdgAttributePlugin.cdlplg                            1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzDataObjectSDGExchange.dll                                  1800.0.2             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzDataObjectSDGExchangeCore.dll                              18.0.2.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzDataObjectSDGExchangeCoreBridge.dll                        1800.0.2             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzDatenbereinigungVKDaimlerLeadECUs.cdlplg                   1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzEnableDiagLayerAttributeEditing.cdlplg                     1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzImport220ODXE.cdlplg                                       1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzImport220ODXERenault.cdlplg                                1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzImportDtcsAndEnvDataFromDifferentFiles.cdlplg              1800.0.1             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzJobReplace.cdlplg                                          1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzPrepareODX220.cdlplg                                       1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzRemoveDiogenesProperties.dll                               1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzRemoveTrailingBlanks.cdlplg                                1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzReplaceTargetGroupQualifiers.dll                           1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzServiceTargetGroupExportImport.dll                         1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzSetExportAsTableToZero.cdlplg                              1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzSetSdgValues.dll                                           1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzUpdateDTCErrorTexts.dll                                    1800.0.0.0           2023-12-14  06:29 
+D: \Plugins                                MercedesBenzUpdateDTCErrorTextsCore.dll                                1800.0.0.0           2023-12-14  06:29 
+D: \Plugins                                MercedesBenzUpdateDTCErrorTextsCoreBridge.dll                          1800.0.0.0           2023-12-14  06:29 
+D: \Plugins                                MercedesBenzUpdateFaultMemory1904FromDIDs.cdlplg                       1800.0.0             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzUpdateStateGroupAuthorization.cdlplg                       1800.0.1             2023-12-14  06:29 
+D: \Plugins                                MercedesBenzUpdateStateGroupAuthorizationLegacyTargetGroupNames.cdlplg 1800.0.1             2023-12-14  06:29 
+D: \Plugins                                MultiOemSupportCmdLine.dll                                             1809.0.0 2023-12-13  2023-12-14  06:29 
+D: \Plugins                                PatchInstaller_Mercedes-Benz.txt                                                            2024-01-17  08:54 
+D: \Plugins                                SDGConfig.xml                                                                               2023-12-14  08:37 
+D:                                         PvcdiExportController.dll                                              1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         PvcdiFiller.dll                                                        1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         PvcdiImportController.dll                                              1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         PvcdiInterpreter.dll                                                   1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         PvcdiMigrator.exe                                                      1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         PvcdiMigratorNativeApi.dll                                             1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         Report.dll                                                             18.0.01104.000       2023-12-14  06:29 
+D: \Report                                 Daimler_Template.tmx                                                                        2022-12-02  10:14 
+D: \Report                                 FixStr.tmx                                                                                  2022-12-02  10:14 
+D: \Report                                 General Motors Confidential_Template.tmx                                                    2022-12-02  10:14 
+D: \Report                                 Neutral_Template.tmx                                                                        2022-12-02  10:14 
+D:                                         ReportFramework.dll                                                    4.0.2 2022-10-05     2022-11-28  11:00 
+D:                                         RequirementDialogNet.dll                                               18.0.01104.000       2023-12-14  06:29 
+D:                                         RequirementsIO.dll                                                     18.0.01104.000       2023-12-14  06:29 
+D:                                         RequirementsMapping.dll                                                1800.8.4             2023-12-14  06:29 
+D:                                         Resde-DE.dll                                                           18.0.01104.000       2023-12-14  06:29 
+D:                                         Resen-US.dll                                                           18.0.01104.000       2023-12-14  06:29 
+D:                                         Resja-JP.dll                                                           18.0.01100.000       2023-12-14  06:29 
+D:                                         RuleCheckerFramework.dll                                                                    2023-12-14  06:29 
+D:                                         SaveAsOldVersion.exe                                                   18.0.01104.000       2023-12-14  06:29 
+D:                                         shortcutConfig.json                                                                         2022-12-02  10:15 
+D:                                         ShortcutsLibrary.dll                                                   1.0.0.0              2023-12-14  06:29 
+D:                                         Specification_UpdateStateGroupAuthorization.pdf                                             2023-12-14  06:29 
+D:                                         SwcSync.dll                                                            1800.0.14 2023-12-13 2023-12-14  06:29 
+D:                                         SwcSyncGui.dll                                                         1800.0.14            2023-12-14  06:29 
+D:                                         User_Manual_Access_Rights_Matrix_Ruleset_CANdelaStudio-Plugin.pdf                           2023-12-14  06:29 
+D:                                         VeBDD.exe                                                                                  2022-11-28  11:00 
+D:                                         VecConv.dll                                                            2.7.20               2022-11-28  11:00 
+D:                                         VecConvExec.exe                                                        1.3.0.1              2022-11-28  11:00 
+D:                                         Vector.CANdela.DextAccess.Common.dll                                   1809.0.0             2023-12-14  06:29 
+D:                                         Vector.CANdela.DextAccess.dll                                          1809.0.0             2023-12-14  06:29 
+D:                                         Vector.CANdela.DextAccess.ErrorHandling.dll                            1809.0.0             2023-12-14  06:29 
+D:                                         Vector.CANdela.PvcdiMigratorCore.dll                                   1809.0.0             2023-12-14  06:29 
+D:                                         Vector.CANdela.SysdAccess.dll                                          16.0.1               2023-12-14  06:29 
+D:                                         Vector.CANdela.SysdAccess.ErrorHandling.dll                            16.0.1               2023-12-14  06:29 
+D:                                         Vector.DaVinci.Framework.Common.dll                                    16.0.1               2023-12-14  06:29 
+D:                                         Vector.ImageRenderer.dll                                               1.7.0.0              2020-07-23  04:48 
+D:                                         Vector.Images.dll                                                      1.528.0.0            2022-10-18  06:18 
+D:                                         Vector.SupportProvider.dll                                             2.0.0.0              2022-12-02  10:14 
+D:                                         VeCustomCrashHandling.dll                                                                  2022-11-28  11:00 
+D:                                         VeDimModel.dll                                                         1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         VeDimReader.dll                                                        1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         VeDimTools.dll                                                         1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         VeDimWriter.dll                                                        1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         VeLogging.dll                                                                              2022-11-28  11:00 
+D:                                         VeMDX50Model.dll                                                       1800.0.0 2022-10-19  2022-11-28  11:01 
+D:                                         VeMDX50Writer.dll                                                      1800.0.0 2022-10-19  2022-11-28  11:01 
+D:                                         VeMDXExportErrorHandling.dll                                           1800.0.0 2022-10-19  2022-11-28  11:01 
+D:                                         VeODX.dll                                                              12,0,1,0             2023-12-14  06:29 
+D:                                         VePvcdiModel.dll                                                       1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         VePvcdiReader.dll                                                      1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         VePvcdiTools.dll                                                       1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         VePvcdiWriter.dll                                                      1809.0.0 2023-12-13  2023-12-14  06:29 
+D:                                         xls2cdi.exe                                                            1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         xlsconv.dll                                                            1800.1.6 2023-12-13  2023-12-14  06:29 
+D:                                         XMLValidator.dll                                                       5.0.2                2022-11-28  11:00 
+D: Stored main window position:
+D:   X: -1929  Y: -138 Width: 1938  Height: 1168
+D: Display information for 2 screen(s):
+D:   Device Name:        \\.\DISPLAY1
+D:     Resolution:         Width=1920, Height=1080
+D:     Is Primary Screen
+D:     This screen does not match stored position.
+D:   Device Name:        \\.\DISPLAY2
+D:     Resolution:         Width=1920, Height=1200
+D:     This screen matches stored position partially.
+D: Set main window position to:
+D:   X: -1929  Y: -138 Width: 1938  Height: 1168
+D: Application uses screen:  \\.\DISPLAY2
+D:   Main window startup.
+D:   Creating main application window done.
+D:   Initializing log catcher for output window.
+D:   Log catcher for output window initialized.
+D: Initializing recent file list...
+D:   Creating recent file list done.
+D: Enabling DDE execute open done.
+D: Registering shell file types done.
+D: Show and update of main window done.
+D: Using default font 'Microsoft Sans Serif'.
+D: Shutting down CANdelaStudio...
+D:   writing actions
+D:   writing profile
+D:   freeing plug-ins
+D: Shutdown done.

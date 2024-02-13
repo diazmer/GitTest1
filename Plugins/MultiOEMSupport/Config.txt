@@ -1,0 +1,4 @@
+Variant=Common_Diagnostics
+ECU=NewCDD.cdd
+TargetVariant=Common_Diagnostics
+SourceVariant=Common_Diagnostics

@@ -1,0 +1,33 @@
+C:\Program Files\Vector CANdelaStudio 18\Bin\CANdelaStudio.exe
+
+CANdelaStudio.exe /i "C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Input\CTRLU_MBEAM_02.08.05.cdd" /plugin "Mercedes-Benz: Remove trailing blanks" /o "C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Output\CTRLU_MBEAM_02.08.05_merged.cdd" /g "C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Output\CLITrailingBlankslog.log"
+
+
+CANdelaStudio.exe /i "C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Input\CTRLU_MBEAM_02.08.05.cdd" /plugin "Mercedes-Benz: Remove trailing blanks" /g "C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Output\CLITrailingBlankslog.log"
+
+
+SET CMD=%CDS% /i %INPUTCDD% /plugin %PLUGIN% /o %OUTPUTCDD% /g %LOGFILE%
+
+
+CANdelaStudio.exe 
+/i "C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Input\CTRLU_MBEAM_02.08.05.cdd" 
+/plugin "Mercedes-Benz: Remove trailing blanks" 
+/o "C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Output\CTRLU_MBEAM_02.08.05_merged.cdd" 
+/g "C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Output\CLITrailingBlankslog.log"
+
+
+
+SET CMD="C:\Program Files\Vector CANdelaStudio 18\Bin\CANdelaStudio.exe" /i "C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Input\CTRLU_MBEAM_02.08.05.cdd" /plugin "Mercedes-Benz: Remove trailing blanks" /o "C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Output\CTRLU_MBEAM_02.08.05_merged.cdd" /g "C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Output\ScriptTrailingBlankslog.log"
+%CMD%
+pause
+
+SET CDS="C:\Program Files\Vector CANdelaStudio 18\Bin\CANdelaStudio.exe" 
+SET INPUTCDD="C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Input\CTRLU_MBEAM_02.08.05.cdd" 
+SET PLUGIN="Mercedes-Benz: Remove trailing blanks" 
+SET OUTPUTCDD="C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Output\CTRLU_MBEAM_02.08.05_merged.cdd" 
+SET LOGFILE="C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Output\ScriptTrailingBlankslog.log"
+
+:: Set parameters and execute the Plugin
+SET CMD=%CDS% /i %INPUTCDD% /plugin %PLUGIN% /o %OUTPUTCDD% /g %LOGFILE%
+%CMD%
+pause

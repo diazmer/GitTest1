@@ -1,0 +1,25 @@
+Export ODX-d
+%CDS% /e odx201 /i KWP-ExampleEcu.cdd /o MyODX.odx /v Variant_1_by_reference /x odx
+
+Create a new CDD from a specified template [CLI-R100-newEcu]:
+
+SET CDS="C:\Program Files\Vector CANdelaStudio 17\Bin\CANdelaStudio.exe"
+SET CDD="D:\Temp\Vector_UDS.cdd"
+SET LOGFILE="D:\Temp\Import.log"
+%CDS% /newEcu TestECU /r "C:\Users\Public\Documents\Vector\CANdelaStudio\17\Examples\Vector_UDS_2.2.0.cddt" /o %CDD%
+Import requirements from a CSV file and update diagnostic objects [CLI-R100-importRequirementsAndUpdate]:
+
+SET RQCSV="C:\Users\Public\Documents\Vector\CANdelaStudio\17\Examples\Import\SampleRequirements.csv"
+%CDS% /e importRequirementsAndUpdate /r %CDD% /i %RQCSV% /o "D:\Temp\WithRq.cdd" /g %LOGFILE%
+Run SWC Sync [CLI-R100-swcsync]:
+
+SET SWC="C:\Users\Public\Documents\Vector\CANdelaStudio\17\Examples\Import\Demo_SystemDescr_MyECU.arxml"
+%CDS% /e swcsync /r %CDD% /i %SWC% /o "D:\Temp\WithSWCSync.cdd" /g %LOGFILE%
+
+Export PDX from CDD [CLI-R100-odx]:
+
+%CDS% /e odx220 /x pdx /i %CDD% /o "D:\Temp\Test.pdx"
+
+Export DEXT from CDD [CLI-R100-dext]:
+
+%CDS% /e dext /i %CDD% /o "D:\Temp\Test.arxml"

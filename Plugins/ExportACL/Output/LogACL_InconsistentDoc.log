@@ -1,0 +1,48 @@
+﻿----------------------------------------------------------------
+Start of logging 2024-02-13 13:10:40 encoding='utf-8'
+----------------------------------------------------------------
+I: Writing log file 'C:\Temp\DiagDataPipeline\Plugins\ExportACL\Output\LogACL.log'
+D: Searching for registry key Software\Vector\CANdelaPersistors for global persistors path
+D:   registry key exists, value: 'C:\Program Files (x86)\Common Files\Vector CANdelaPersistors 20\Bin' (this directory exists)
+D:   global persistors version: 20.0.00100
+D: Detected dtd version 18.0.6
+D: VCANdelaPersistorImpl::GetFileVersion: DTD version '18.0.6' detected
+I: Loading 'C:\Temp\DiagDataPipeline\Plugins\ExportACL\Input\NewCDD.cdd'...
+I:   dtd version: file 18.0.6, program 18.0.6
+D: Document supports the languages (en-US)
+D: Document contains the uptodate languages (en-US)
+D: Template: Qualifier : DCS_UDS, SaveNo : 20, Label : 1.00.70, DPRS
+I:   template data loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   library variant 'MBC_FaultMemory_Event_Defaults' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'Common_Diagnostics' loaded
+D: Start loading requirement data model
+D: End loading requirement data model
+I: Document version: 00.00.01
+I: Done loading.
+I:   Logging turned on again
+I: Checking constraints...
+E: Identifying Feature "qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/DataRecord/Identification", Common Diagnostics:
+E:  Data type "HexDump 24 Bits" does not match with the corresponding data type "Unsigned Hex (3 Byte)" of identifying feature.
+W: Warning: DTC table in Diagnostic Instance qpath:/Common_Diagnostics/Development_Fault_Memory' has no DTC.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 16 bits.
+W: Inconsistencies detected.
+E: Error: data in document inconsistent.

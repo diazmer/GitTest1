@@ -1,0 +1,572 @@
+﻿----------------------------------------------------------------
+Start of logging 2024-02-13 13:32:30 encoding='utf-8'
+----------------------------------------------------------------
+I: Writing log file 'C:\Temp\DiagDataPipeline\Plugins\ExportACL\Output\LogACL.log'
+D: Searching for registry key Software\Vector\CANdelaPersistors for global persistors path
+D:   registry key exists, value: 'C:\Program Files (x86)\Common Files\Vector CANdelaPersistors 20\Bin' (this directory exists)
+D:   global persistors version: 20.0.00100
+D: Detected dtd version 18.0.6
+D: VCANdelaPersistorImpl::GetFileVersion: DTD version '18.0.6' detected
+I: Loading 'C:\Temp\DiagDataPipeline\Plugins\ExportACL\Input\CTRLU_MBEAM_02.08.05.cdd'...
+I:   dtd version: file 18.0.6, program 18.0.6
+D: Document supports the languages (en-US)
+D: Document contains the uptodate languages (en-US)
+D: Template: Qualifier : DCS_UDS, SaveNo : 20, Label : 1.00.70, DPRS
+I:   template data loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'Common_Diagnostics' loaded
+I:   variant 'Common_Boot' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R04_0' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R04_1' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R05_0' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R05_1' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R06_0' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+I:   variant 'R06_1' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R07_0' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R07_1' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R08_0' loaded
+D: Start loading requirement data model
+D: End loading requirement data model
+I: Document version: 02.08.05
+I: Done loading.
+I:   Logging turned on again
+I: Checking constraints...
+D: Linked Target Group and State: "Anybody".
+D: Linked Target Group and State: "Supplier".
+D: Linked Target Group and State: "Development_ENHANCED".
+D: Linked Target Group and State: "Production".
+D: Linked Target Group and State: "After_Sales_ENHANCED".
+D: Linked Target Group and State: "After_Sales_STANDARD".
+D: Linked Target Group and State: "After_Sales_BASIC".
+D: Linked Target Group and State: "Internal_Diagnostic_Test_Tool".
+D: Linked Target Group and State: "ePTI_Test_Tool".
+D: Service "Start" in Variant "Common Diagnostics" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "Common Diagnostics" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "Common Diagnostics" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R08.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R08.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R08.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+I: Using Access Rights Exporter 1800.3.1
+D: Checking validity of target group qualifier sets: Document checked and valid.
+D: Attribute 'Access_Rights_Plugin_Option' found,  plugin shall ignore services where the attribute is set to 'Ignore for access control list'. The plugin will abort if a service set to 'Ignore for access control list' is activated and not within a deactivated Diagnostic Instance.
+I: Checking consistency of document before executing AccessRightsExporter. This may take a while, please be patient...
+D: Linked Target Group and State: "Anybody".
+D: Linked Target Group and State: "Supplier".
+D: Linked Target Group and State: "Development_ENHANCED".
+D: Linked Target Group and State: "Production".
+D: Linked Target Group and State: "After_Sales_ENHANCED".
+D: Linked Target Group and State: "After_Sales_STANDARD".
+D: Linked Target Group and State: "After_Sales_BASIC".
+D: Linked Target Group and State: "Internal_Diagnostic_Test_Tool".
+D: Linked Target Group and State: "ePTI_Test_Tool".
+D: Service "Start" in Variant "Common Diagnostics" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "Common Diagnostics" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "Common Diagnostics" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R08.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R08.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R08.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+I: Document is consistent.
+D: UTC date time of Export: 2024-02-13 13:32:31+01:00 and corresponding generalized time: 20240213123231Z
+I: Using target directory 'C:\Temp\DiagDataPipeline\Plugins\ExportACL\Output'
+I: The following variants have been selected with command line parameter '-s=Common_Diagnostics':
+I:   variant qualifier 'Common_Diagnostics' --> filename: 'CTRLU_MBEAM_02.08.05_Common_Diagnostics.dat'
+D: Mapping of CANdelaStudio target group qualifiers to diagnostic user role:
+D:   'Anybody' --> %0000000000000001
+D:   'Supplier' --> %0000000000000010
+D:   'Development_ENHANCED' --> %0000000000000100
+D:   'Development_Enhanced' --> %0000000000000100
+D:   'Production' --> %0000000000001000
+D:   'After_Sales_ENHANCED' --> %0000000000010000
+D:   'After_Sales_Enhanced' --> %0000000000010000
+D:   'After_Sales_STANDARD' --> %0000000000100000
+D:   'After_Sales_Standard' --> %0000000000100000
+D:   'After_Sales_BASIC' --> %0000000001000000
+D:   'After_Sales_Basic' --> %0000000001000000
+D:   'Internal_Diagnostic_Test_Tool' --> %0000000010000000
+D:   'ePTI_Test_Tool' --> %0000000100000000
+D: Variant 'Common_Diagnostics'
+D: Checking definition of attribute 'ExportAllObdModesWithAccessRightsExporter'...
+D: Added default attribute value '3 = Use ECU attribute's setting'
+I: Variant enum default attribute 'ExportAllObdModesWithAccessRightsExporter' had missing values (the plugin completed the attribute to have 4 values, 0 = 'no', 1 = 'yes', 2 = 'yes+OBDonUDS', and default symbol 3 = 'Use ECU attribute's setting').
+I: The plugin corrected the variant enum default attribute 'ExportAllObdModesWithAccessRightsExporter' so that enum value 3 = 'Use ECU attribute's setting' is defined as default value of the default attribute (since it may only be locally overwritten for a variant. Use the ECU attribute for general setting). Please check the settings of the attributes for your ECU and the variants.
+D: Attribute 'ExportAllObdModesWithAccessRightsExporter' set to 'Use ECU attribute's setting', evaluating ECU attribute...
+D: Attribute 'ExportAllObdModesWithAccessRightsExporter' set to 'yes'
+D: Base variant has never variant identification pattern values.
+D:   DiagInstance 'Default'	Service 'Start'	 signature 0x10 0x01 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Programing'	Service 'Start'	 signature 0x10 0x02 0xFFFF 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Extended'	Service 'Start'	 signature 0x10 0x03 0xFFFF 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'HardReset'	Service 'Reset'	 signature 0x11 0x01 0xFFFF 		%0000001000111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'Export_All'
+D:   DiagInstance 'SoftReset'	Service 'Reset'	 signature 0x11 0x03 0xFFFF 		%0000001000111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'Export_All'
+D:   DiagInstance 'Authentication'	Service 'Verify_Certificate_Unidirectional'	 signature 0x29 0x01 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Authentication'	Service 'Proof_Of_Ownership'	 signature 0x29 0x03 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Authentication'	Service 'Transmit_Certificate'	 signature 0x29 0x04 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Authentication'	Service 'Deauthenticate'	 signature 0x29 0x00 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Authentication'	Service 'Authentication_Configuration'	 signature 0x29 0x08 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'EnableRxAndEnableTx'	Service 'Control'	 signature 0x28 0x00 0xFFFF 		%0000001000011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Export_All'
+D:   DiagInstance 'EnableRxAndDisableTx'	Service 'Control'	 signature 0x28 0x01 0xFFFF 		%0000001000011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Export_All'
+D:   DiagInstance 'Tester_Present'	Service 'Process'	 signature 0x3E 0x00 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'DTC_Setting_Mode_On'	Service 'Control'	 signature 0x85 0x01 0xFFFF 		%0000001000011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Export_All'
+D:   DiagInstance 'DTC_Setting_Mode_Off'	Service 'Control'	 signature 0x85 0x02 0xFFFF 		%0000001000011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Export_All'
+D:   DiagInstance 'Vehicle_Odometer_in_Low_Resolution'	Service 'Read'	 signature 0x22 0xFF 0x010A 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Current_Operating_Time'	Service 'Read'	 signature 0x22 0xFF 0x0133 		%0000001010111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'Reprogramming_Attempt_Counter'	Service 'Read'	 signature 0x22 0xFF 0x0100 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Diagnostic_Trace_Memory'	Service 'Read'	 signature 0x22 0xFF 0x0102 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Diagnostic_Trace_Memory'	Service 'Write'	 signature 0x2E 0xFF 0x0102 		%0000001000111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'Export_All'
+D:   DiagInstance 'Global_Time_Sync_Measured_Values'	Service 'Read'	 signature 0x22 0xFF 0x0107 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Root_CA_Certificate'	Service 'Read'	 signature 0x22 0xFF 0x0180 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Backend_CA_Certificate'	Service 'Read'	 signature 0x22 0xFF 0x0181 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Backend_CA_Certificate_Identification'	Service 'Read'	 signature 0x22 0xFF 0x0182 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Diagnostic_Authentication_Certificate_Identification'	Service 'Read'	 signature 0x22 0xFF 0x0184 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Access_Control_List_Version'	Service 'Read'	 signature 0x22 0xFF 0x0185 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Secured_System_Date_and_Time'	Service 'Read'	 signature 0x22 0xFF 0x0186 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Security_Event_Log'	Service 'Read'	 signature 0x22 0xFF 0x0187 		%0000001010000110 	'Supplier', 'Development_ENHANCED', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'SecOC_PDU_Data_IDs_and_Key_Checksum'	Service 'Read'	 signature 0x22 0xFF 0x0188 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'SecOC_Vehicle_Shared_Secret_Hash'	Service 'Read'	 signature 0x22 0xFF 0x0189 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'SecOC_Local_TickCount'	Service 'Read'	 signature 0x22 0xFF 0x018A 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Diagnostic_User_Role'	Service 'Read'	 signature 0x22 0xFF 0x018C 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Real_Time_Offset'	Service 'Read'	 signature 0x22 0xFF 0x018D 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'VIN_Status'	Service 'Read'	 signature 0x22 0xFF 0x018E 		%0000001000011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Export_All'
+D:   DiagInstance 'SecOC_PDU_Data_IDs_and_Key_CMACs'	Service 'Read'	 signature 0x22 0xFF 0x018F 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Security_Event_Log_Current_Counter_Values'	Service 'Read'	 signature 0x22 0xFF 0x0190 		%0000001010000110 	'Supplier', 'Development_ENHANCED', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'RandomNumber'	Service 'Read'	 signature 0x22 0xFF 0x0191 		%0000001000001110 	'Supplier', 'Development_ENHANCED', 'Production', 'Export_All'
+D:   DiagInstance 'Status_SSA_Pre_Compile_Switches'	Service 'Read'	 signature 0x22 0xFF 0x0197 		%0000001000001110 	'Supplier', 'Development_ENHANCED', 'Production', 'Export_All'
+D:   DiagInstance 'Trust_Model_Root_Replacement_Key'	Service 'Read'	 signature 0x22 0xFF 0x0198 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Trust_Model_Request_ephemeral_public_key'	Service 'Read'	 signature 0x22 0xFF 0x0199 		%0000001000011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Export_All'
+D:   DiagInstance 'Trust_model_ECU_CSR'	Service 'Read'	 signature 0x22 0xFF 0x019A 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Trust_model_ECU_certificate'	Service 'Read'	 signature 0x22 0xFF 0x019B 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Trust_model_Intermediate_CA_certificate'	Service 'Read'	 signature 0x22 0xFF 0x019C 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Trust_model_Backend_CA_certificate'	Service 'Read'	 signature 0x22 0xFF 0x019D 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Trust_model_Root_CA_certificate'	Service 'Read'	 signature 0x22 0xFF 0x019E 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Trust_model_full_chain_of_trust_certificates'	Service 'Read'	 signature 0x22 0xFF 0x019F 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Trust_Model_CSR_Supplier_Signature'	Service 'Read'	 signature 0x22 0xFF 0x01A2 		%0000001000011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Export_All'
+D:   DiagInstance 'Trust_Model_CSR_Supplier_Signature'	Service 'Write'	 signature 0x2E 0xFF 0x01A2 		%0000001000000010 	'Supplier', 'Export_All'
+D:   DiagInstance 'Task_Response_Time'	Service 'Read'	 signature 0x22 0xFF 0x01E0 		%0000001010001110 	'Supplier', 'Development_ENHANCED', 'Production', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'CPU_Load'	Service 'Read'	 signature 0x22 0xFF 0x01E1 		%0000001010001110 	'Supplier', 'Development_ENHANCED', 'Production', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'E2E_Timing'	Service 'Read'	 signature 0x22 0xFF 0x01E2 		%0000001010001110 	'Supplier', 'Development_ENHANCED', 'Production', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'Stack_Load'	Service 'Read'	 signature 0x22 0xFF 0x01E3 		%0000001010001110 	'Supplier', 'Development_ENHANCED', 'Production', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'Memory_Usage_Cycles'	Service 'Read'	 signature 0x22 0xFF 0x01E4 		%0000001010001110 	'Supplier', 'Development_ENHANCED', 'Production', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'Vedoc_Relevant_Information'	Service 'Read'	 signature 0x22 0xFF 0xF103 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Dump_of_Vedoc_Relevant_Information'	Service 'Read'	 signature 0x22 0xFF 0xF103 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+W:   Skipping DiagInstance 'Dump_of_Vedoc_Relevant_Information'	Service 'Read'	 with signature 0x22 0xFF 0xF103 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All' since signature is a duplicate in the variant. Conflicting DiagInstance: Vedoc_Relevant_Information
+D:   DiagInstance 'Read_Software_Fingerprint_s'	Service 'Read'	 signature 0x22 0xFF 0xF15B 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'ECU_Extract_Version'	Service 'Read'	 signature 0x22 0xFF 0xEF00 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Diagnostic_Extract_Version'	Service 'Read'	 signature 0x22 0xFF 0xEF01 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Standard_Application_SW_Package_Information'	Service 'Read'	 signature 0x22 0xFF 0xEF03 		%0000001010001110 	'Supplier', 'Development_ENHANCED', 'Production', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'SSA_Version_Information'	Service 'Read'	 signature 0x22 0xFF 0xEF04 		%0000001010001110 	'Supplier', 'Development_ENHANCED', 'Production', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'Minimum_Software_Version'	Service 'Read'	 signature 0x22 0xFF 0xEF05 		%0000001010011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'ActiveDiagnosticInformation'	Service 'Read'	 signature 0x22 0xFF 0xF100 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'ECU_Name'	Service 'Read'	 signature 0x22 0xFF 0xF104 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'DDS_Package_Release'	Service 'Read'	 signature 0x22 0xFF 0xF10D 		%0000001010000110 	'Supplier', 'Development_ENHANCED', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'MercedesCarGroupHardware'	Service 'Read'	 signature 0x22 0xFF 0xF111 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'MercedesCarGroupSoftware'	Service 'Read'	 signature 0x22 0xFF 0xF121 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Supported_configuration_mechanisms'	Service 'Read'	 signature 0x22 0xFF 0xF131 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'HardwareVersion'	Service 'Read'	 signature 0x22 0xFF 0xF150 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'SoftwareVersion'	Service 'Read'	 signature 0x22 0xFF 0xF151 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'BootSoftwareVersion'	Service 'Read'	 signature 0x22 0xFF 0xF153 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'HardwareSupplier'	Service 'Read'	 signature 0x22 0xFF 0xF154 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'SoftwareSupplier'	Service 'Read'	 signature 0x22 0xFF 0xF155 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'ECUSerialNumberDataIdentifier'	Service 'Read'	 signature 0x22 0xFF 0xF18C 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'VINDataIdentifier'	Service 'Read'	 signature 0x22 0xFF 0xF190 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'VINDataIdentifier'	Service 'Write'	 signature 0x2E 0xFF 0xF190 		%0000001000001110 	'Supplier', 'Development_ENHANCED', 'Production', 'Export_All'
+D:   DiagInstance 'FaultMem'	Service 'Clear'	 signature 0x14 0xFF 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'FaultMem'	Service 'ReportNbrOfDTCStatusMask'	 signature 0x19 0x01 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'FaultMem'	Service 'ReportDTCByStatusMask'	 signature 0x19 0x02 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'FaultMem'	Service 'ReportDTCSnapshotRecordByDTCNbr'	 signature 0x19 0x04 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'FaultMem'	Service 'ReportDTCExtendedDataRecordByDTCNumber'	 signature 0x19 0x06 0xFFFF 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'FaultMem'	Service 'ReportSupportedDTCs'	 signature 0x19 0x0A 0xFFFF 		%0000001110111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'FaultMem'	Service 'ReportFaultDetectionCounter'	 signature 0x19 0x14 0xFFFF 		%0000001110111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Check_Reprogramming_Preconditions'	Service 'Start'	 signature 0x31 0x01 0x0203 		%0000001000011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Export_All'
+D:   DiagInstance 'PreCheckProgrammingDependencies'	Service 'Start'	 signature 0x31 0x01 0x0207 		%0000001000011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Export_All'
+D:   DiagInstance 'Clear_Resource_Consumption_Data'	Service 'Start'	 signature 0x31 0x01 0x0211 		%0000001000000110 	'Supplier', 'Development_ENHANCED', 'Export_All'
+D:   DiagInstance 'Reset_VIN_Values'	Service 'Start'	 signature 0x31 0x01 0x0212 		%0000001000000110 	'Supplier', 'Development_ENHANCED', 'Export_All'
+D:   DiagInstance 'Authenticate_Diagnostic_User_or_Tester'	Service 'Start'	 signature 0x31 0x01 0x0260 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Enhance_Access_Rights'	Service 'Start'	 signature 0x31 0x01 0x0261 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Replace_Certificates'	Service 'Start'	 signature 0x31 0x01 0x0264 		%0000001000001000 	'Production', 'Export_All'
+D:   DiagInstance 'Synchronize_Secured_System_Date_and_Time'	Service 'Start'	 signature 0x31 0x01 0x0266 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Certificate_Self_Check'	Service 'Start'	 signature 0x31 0x01 0x0267 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Replace_Trust_model_Certificates'	Service 'Start'	 signature 0x31 0x01 0x0274 		%0000001000011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Export_All'
+D:   DiagInstance 'Update_Minimum_Software_Version'	Service 'Start'	 signature 0x31 0x01 0x0275 		%0000001010011110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'Replace_Trust_model_Root_Certificate'	Service 'Start'	 signature 0x31 0x01 0x0277 		%0000001000001000 	'Production', 'Export_All'
+D:   DiagInstance 'Trust_Model_SecOC_ECU_Shared_Secret_Distribution'	Service 'Start'	 signature 0x31 0x01 0x0279 		%0000001000001000 	'Production', 'Export_All'
+D:   DiagInstance 'Trust_Model_Generate_Key_Pair'	Service 'Start'	 signature 0x31 0x01 0x027B 		%0000001000000000 	'Export_All'
+D:   DiagInstance 'Inject_Seed'	Service 'Start'	 signature 0x31 0x01 0x027C 		%0000001000000000 	'Export_All'
+D:   DiagInstance 'Get_Certificate_Entry'	Service 'Start'	 signature 0x31 0x01 0x027D 		%0000001111111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D:   DiagInstance 'Synchronize_to_Non_volatile_Memory'	Service 'Start'	 signature 0x31 0x01 0x0245 		%0000001000111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'Export_All'
+D:   DiagInstance 'Synchronize_to_Non_volatile_Memory'	Service 'Stop'	 signature 0x31 0x02 0x0245 		%0000001000111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'Export_All'
+D:   DiagInstance 'Synchronize_to_Non_volatile_Memory'	Service 'RequestResults'	 signature 0x31 0x03 0x0245 		%0000001000111110 	'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'Export_All'
+D:   DiagInstance 'Status_of_Post_Production_Flag'	Service 'Start'	 signature 0x31 0x01 0x0268 		%0000001010010110 	'Supplier', 'Development_ENHANCED', 'After_Sales_ENHANCED', 'Internal_Diagnostic_Test_Tool', 'Export_All'
+D:   DiagInstance 'Status_of_Post_Production_Flag'	Service 'Stop'	 signature 0x31 0x02 0x0268 		%0000001000000000 	'Export_All'
+D:   DiagInstance 'Status_of_Post_Production_Flag'	Service 'RequestResults'	 signature 0x31 0x03 0x0268 		%0000001111111111 	'Anybody', 'Supplier', 'Development_ENHANCED', 'Production', 'After_Sales_ENHANCED', 'After_Sales_STANDARD', 'After_Sales_BASIC', 'Internal_Diagnostic_Test_Tool', 'ePTI_Test_Tool', 'Export_All'
+D: DumpServiceSignature2AccessRightsMap (number of services: 120)
+D:   Service 0x01 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x02 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x03 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x04 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x05 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x06 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x07 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x08 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x09 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x0A 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x0B 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x0C 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x0D 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x0E 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x0F 0xFF 0xFFFF	%1111111111111111
+D:   Service 0x10 0x01 0xFFFF	%0000000111111111
+D:   Service 0x10 0x02 0xFFFF	%0000000111111110
+D:   Service 0x10 0x03 0xFFFF	%0000000111111110
+D:   Service 0x11 0x01 0xFFFF	%0000000000111110
+D:   Service 0x11 0x03 0xFFFF	%0000000000111110
+D:   Service 0x14 0xFF 0xFFFF	%0000000111111111
+D:   Service 0x19 0x01 0xFFFF	%0000000111111111
+D:   Service 0x19 0x02 0xFFFF	%0000000111111111
+D:   Service 0x19 0x04 0xFFFF	%0000000111111111
+D:   Service 0x19 0x06 0xFFFF	%0000000111111111
+D:   Service 0x19 0x0A 0xFFFF	%0000000110111110
+D:   Service 0x19 0x14 0xFFFF	%0000000110111110
+D:   Service 0x22 0xFF 0x0100	%0000000111111110
+D:   Service 0x22 0xFF 0x0102	%0000000111111110
+D:   Service 0x22 0xFF 0x0107	%0000000111111111
+D:   Service 0x22 0xFF 0x010A	%0000000111111110
+D:   Service 0x22 0xFF 0x0133	%0000000010111110
+D:   Service 0x22 0xFF 0x0180	%0000000111111110
+D:   Service 0x22 0xFF 0x0181	%0000000111111110
+D:   Service 0x22 0xFF 0x0182	%0000000111111111
+D:   Service 0x22 0xFF 0x0184	%0000000111111111
+D:   Service 0x22 0xFF 0x0185	%0000000111111110
+D:   Service 0x22 0xFF 0x0186	%0000000111111111
+D:   Service 0x22 0xFF 0x0187	%0000000010000110
+D:   Service 0x22 0xFF 0x0188	%0000000111111111
+D:   Service 0x22 0xFF 0x0189	%0000000111111111
+D:   Service 0x22 0xFF 0x018A	%0000000111111111
+D:   Service 0x22 0xFF 0x018C	%0000000111111111
+D:   Service 0x22 0xFF 0x018D	%0000000111111111
+D:   Service 0x22 0xFF 0x018E	%0000000000011110
+D:   Service 0x22 0xFF 0x018F	%0000000111111111
+D:   Service 0x22 0xFF 0x0190	%0000000010000110
+D:   Service 0x22 0xFF 0x0191	%0000000000001110
+D:   Service 0x22 0xFF 0x0197	%0000000000001110
+D:   Service 0x22 0xFF 0x0198	%0000000111111110
+D:   Service 0x22 0xFF 0x0199	%0000000000011110
+D:   Service 0x22 0xFF 0x019A	%0000000111111111
+D:   Service 0x22 0xFF 0x019B	%0000000111111111
+D:   Service 0x22 0xFF 0x019C	%0000000111111110
+D:   Service 0x22 0xFF 0x019D	%0000000111111110
+D:   Service 0x22 0xFF 0x019E	%0000000111111110
+D:   Service 0x22 0xFF 0x019F	%0000000111111110
+D:   Service 0x22 0xFF 0x01A2	%0000000000011110
+D:   Service 0x22 0xFF 0x01E0	%0000000010001110
+D:   Service 0x22 0xFF 0x01E1	%0000000010001110
+D:   Service 0x22 0xFF 0x01E2	%0000000010001110
+D:   Service 0x22 0xFF 0x01E3	%0000000010001110
+D:   Service 0x22 0xFF 0x01E4	%0000000010001110
+D:   Service 0x22 0xFF 0xEF00	%0000000111111111
+D:   Service 0x22 0xFF 0xEF01	%0000000111111111
+D:   Service 0x22 0xFF 0xEF03	%0000000010001110
+D:   Service 0x22 0xFF 0xEF04	%0000000010001110
+D:   Service 0x22 0xFF 0xEF05	%0000000010011110
+D:   Service 0x22 0xFF 0xF100	%0000000111111111
+D:   Service 0x22 0xFF 0xF103	%0000000111111110
+D:   Service 0x22 0xFF 0xF104	%0000000111111111
+D:   Service 0x22 0xFF 0xF10D	%0000000010000110
+D:   Service 0x22 0xFF 0xF111	%0000000111111111
+D:   Service 0x22 0xFF 0xF121	%0000000111111111
+D:   Service 0x22 0xFF 0xF131	%0000000111111111
+D:   Service 0x22 0xFF 0xF150	%0000000111111111
+D:   Service 0x22 0xFF 0xF151	%0000000111111111
+D:   Service 0x22 0xFF 0xF153	%0000000111111110
+D:   Service 0x22 0xFF 0xF154	%0000000111111111
+D:   Service 0x22 0xFF 0xF155	%0000000111111111
+D:   Service 0x22 0xFF 0xF15B	%0000000111111110
+D:   Service 0x22 0xFF 0xF18C	%0000000111111110
+D:   Service 0x22 0xFF 0xF190	%0000000111111111
+D:   Service 0x28 0x00 0xFFFF	%0000000000011110
+D:   Service 0x28 0x01 0xFFFF	%0000000000011110
+D:   Service 0x29 0x00 0xFFFF	%0000000111111111
+D:   Service 0x29 0x01 0xFFFF	%0000000111111111
+D:   Service 0x29 0x03 0xFFFF	%0000000111111111
+D:   Service 0x29 0x04 0xFFFF	%0000000111111111
+D:   Service 0x29 0x08 0xFFFF	%0000000111111111
+D:   Service 0x2C 0x01 0xFFFF	%1111111111111111
+D:   Service 0x2C 0x03 0xFFFF	%1111111111111111
+D:   Service 0x2E 0xFF 0x0102	%0000000000111110
+D:   Service 0x2E 0xFF 0x01A2	%0000000000000010
+D:   Service 0x2E 0xFF 0xF190	%0000000000001110
+D:   Service 0x31 0x01 0x0203	%0000000000011110
+D:   Service 0x31 0x01 0x0207	%0000000000011110
+D:   Service 0x31 0x01 0x0211	%0000000000000110
+D:   Service 0x31 0x01 0x0212	%0000000000000110
+D:   Service 0x31 0x01 0x0245	%0000000000111110
+D:   Service 0x31 0x01 0x0260	%0000000111111111
+D:   Service 0x31 0x01 0x0261	%0000000111111110
+D:   Service 0x31 0x01 0x0264	%0000000000001000
+D:   Service 0x31 0x01 0x0266	%0000000111111111
+D:   Service 0x31 0x01 0x0267	%0000000111111111
+D:   Service 0x31 0x01 0x0268	%0000000010010110
+D:   Service 0x31 0x01 0x0274	%0000000000011110
+D:   Service 0x31 0x01 0x0275	%0000000010011110
+D:   Service 0x31 0x01 0x0277	%0000000000001000
+D:   Service 0x31 0x01 0x0279	%0000000000001000
+D:   Service 0x31 0x01 0x027B	%0000000000000000
+D:   Service 0x31 0x01 0x027C	%0000000000000000
+D:   Service 0x31 0x01 0x027D	%0000000111111110
+D:   Service 0x31 0x02 0x0245	%0000000000111110
+D:   Service 0x31 0x02 0x0268	%0000000000000000
+D:   Service 0x31 0x03 0x0245	%0000000000111110
+D:   Service 0x31 0x03 0x0268	%0000000111111111
+D:   Service 0x3E 0x00 0xFFFF	%0000000111111111
+D:   Service 0x85 0x01 0xFFFF	%0000000000011110
+D:   Service 0x85 0x02 0xFFFF	%0000000000011110
+I: In the ID Table 81 items (i.e. <= 65535) will be added. Hence use file format version 0x01.
+D: Calculated SHA2-512: 514EE0E7F5E74E0DFE728CCB90012B65F9FEDA2F9B4FC85D7F00E52221D72194259C96B468BB89C8D80F5EF9180BF0DA3738AA8E35E3DE3DA87634E71919E46D
+D: DumpGeneralTable:
+D:   0x00	0x01
+D:   0x01	20240213123231Z
+D:   0x10	02.08.05
+D:   0x18	0x0066
+D:   0x1A	0x0066
+D:   0x1C	0x00ED
+D:   0x1E	0x00000179
+D:   0x22	514EE0E7F5E74E0DFE728CCB90012B65F9FEDA2F9B4FC85D7F00E52221D72194259C96B468BB89C8D80F5EF9180BF0DA3738AA8E35E3DE3DA87634E71919E46D
+D:   0x62	0x00000257
+D: DumpVariantIdentificationPatternTable (number of items: 0):
+D: DumpServiceIdTable (number of items: 27):
+D:   0x00	0x01 0xFFFF %1111111111111111
+D:   0x01	0x02 0xFFFF %1111111111111111
+D:   0x02	0x03 0xFFFF %1111111111111111
+D:   0x03	0x04 0xFFFF %1111111111111111
+D:   0x04	0x05 0xFFFF %1111111111111111
+D:   0x05	0x06 0xFFFF %1111111111111111
+D:   0x06	0x07 0xFFFF %1111111111111111
+D:   0x07	0x08 0xFFFF %1111111111111111
+D:   0x08	0x09 0xFFFF %1111111111111111
+D:   0x09	0x0A 0xFFFF %1111111111111111
+D:   0x0A	0x0B 0xFFFF %1111111111111111
+D:   0x0B	0x0C 0xFFFF %1111111111111111
+D:   0x0C	0x0D 0xFFFF %1111111111111111
+D:   0x0D	0x0E 0xFFFF %1111111111111111
+D:   0x0E	0x0F 0xFFFF %1111111111111111
+D:   0x0F	0x10 0x0000 0x0002
+D:   0x10	0x11 0x0003 0x0004
+D:   0x11	0x14 0xFFFF %0000000111111111
+D:   0x12	0x19 0x0005 0x000A
+D:   0x13	0x22 0x0017 0x0017
+D:   0x14	0x28 0x000B 0x000C
+D:   0x15	0x29 0x000D 0x0011
+D:   0x16	0x2C 0x0012 0x0013
+D:   0x17	0x2E 0x0018 0x0018
+D:   0x18	0x31 0x0019 0x001B
+D:   0x19	0x3E 0x0014 0x0014
+D:   0x1A	0x85 0x0015 0x0016
+D: DumpSubFunctionTable (number of items: 28):
+D:   0x0000	0x01 0xFFFF %0000000111111111
+D:   0x0001	0x02 0xFFFF %0000000111111110
+D:   0x0002	0x03 0xFFFF %0000000111111110
+D:   0x0003	0x01 0xFFFF %0000000000111110
+D:   0x0004	0x03 0xFFFF %0000000000111110
+D:   0x0005	0x01 0xFFFF %0000000111111111
+D:   0x0006	0x02 0xFFFF %0000000111111111
+D:   0x0007	0x04 0xFFFF %0000000111111111
+D:   0x0008	0x06 0xFFFF %0000000111111111
+D:   0x0009	0x0A 0xFFFF %0000000110111110
+D:   0x000A	0x14 0xFFFF %0000000110111110
+D:   0x000B	0x00 0xFFFF %0000000000011110
+D:   0x000C	0x01 0xFFFF %0000000000011110
+D:   0x000D	0x00 0xFFFF %0000000111111111
+D:   0x000E	0x01 0xFFFF %0000000111111111
+D:   0x000F	0x03 0xFFFF %0000000111111111
+D:   0x0010	0x04 0xFFFF %0000000111111111
+D:   0x0011	0x08 0xFFFF %0000000111111111
+D:   0x0012	0x01 0xFFFF %1111111111111111
+D:   0x0013	0x03 0xFFFF %1111111111111111
+D:   0x0014	0x00 0xFFFF %0000000111111111
+D:   0x0015	0x01 0xFFFF %0000000000011110
+D:   0x0016	0x02 0xFFFF %0000000000011110
+D:   0x0017	0xFF 0x0000 0x0037
+D:   0x0018	0xFF 0x0038 0x003A
+D:   0x0019	0x01 0x003B 0x004C
+D:   0x001A	0x02 0x004D 0x004E
+D:   0x001B	0x03 0x004F 0x0050
+D: DumpIdTable (number of items: 81):
+D:   0x0000	0x0100 %0000000111111110
+D:   0x0001	0x0102 %0000000111111110
+D:   0x0002	0x0107 %0000000111111111
+D:   0x0003	0x010A %0000000111111110
+D:   0x0004	0x0133 %0000000010111110
+D:   0x0005	0x0180 %0000000111111110
+D:   0x0006	0x0181 %0000000111111110
+D:   0x0007	0x0182 %0000000111111111
+D:   0x0008	0x0184 %0000000111111111
+D:   0x0009	0x0185 %0000000111111110
+D:   0x000A	0x0186 %0000000111111111
+D:   0x000B	0x0187 %0000000010000110
+D:   0x000C	0x0188 %0000000111111111
+D:   0x000D	0x0189 %0000000111111111
+D:   0x000E	0x018A %0000000111111111
+D:   0x000F	0x018C %0000000111111111
+D:   0x0010	0x018D %0000000111111111
+D:   0x0011	0x018E %0000000000011110
+D:   0x0012	0x018F %0000000111111111
+D:   0x0013	0x0190 %0000000010000110
+D:   0x0014	0x0191 %0000000000001110
+D:   0x0015	0x0197 %0000000000001110
+D:   0x0016	0x0198 %0000000111111110
+D:   0x0017	0x0199 %0000000000011110
+D:   0x0018	0x019A %0000000111111111
+D:   0x0019	0x019B %0000000111111111
+D:   0x001A	0x019C %0000000111111110
+D:   0x001B	0x019D %0000000111111110
+D:   0x001C	0x019E %0000000111111110
+D:   0x001D	0x019F %0000000111111110
+D:   0x001E	0x01A2 %0000000000011110
+D:   0x001F	0x01E0 %0000000010001110
+D:   0x0020	0x01E1 %0000000010001110
+D:   0x0021	0x01E2 %0000000010001110
+D:   0x0022	0x01E3 %0000000010001110
+D:   0x0023	0x01E4 %0000000010001110
+D:   0x0024	0xEF00 %0000000111111111
+D:   0x0025	0xEF01 %0000000111111111
+D:   0x0026	0xEF03 %0000000010001110
+D:   0x0027	0xEF04 %0000000010001110
+D:   0x0028	0xEF05 %0000000010011110
+D:   0x0029	0xF100 %0000000111111111
+D:   0x002A	0xF103 %0000000111111110
+D:   0x002B	0xF104 %0000000111111111
+D:   0x002C	0xF10D %0000000010000110
+D:   0x002D	0xF111 %0000000111111111
+D:   0x002E	0xF121 %0000000111111111
+D:   0x002F	0xF131 %0000000111111111
+D:   0x0030	0xF150 %0000000111111111
+D:   0x0031	0xF151 %0000000111111111
+D:   0x0032	0xF153 %0000000111111110
+D:   0x0033	0xF154 %0000000111111111
+D:   0x0034	0xF155 %0000000111111111
+D:   0x0035	0xF15B %0000000111111110
+D:   0x0036	0xF18C %0000000111111110
+D:   0x0037	0xF190 %0000000111111111
+D:   0x0038	0x0102 %0000000000111110
+D:   0x0039	0x01A2 %0000000000000010
+D:   0x003A	0xF190 %0000000000001110
+D:   0x003B	0x0203 %0000000000011110
+D:   0x003C	0x0207 %0000000000011110
+D:   0x003D	0x0211 %0000000000000110
+D:   0x003E	0x0212 %0000000000000110
+D:   0x003F	0x0245 %0000000000111110
+D:   0x0040	0x0260 %0000000111111111
+D:   0x0041	0x0261 %0000000111111110
+D:   0x0042	0x0264 %0000000000001000
+D:   0x0043	0x0266 %0000000111111111
+D:   0x0044	0x0267 %0000000111111111
+D:   0x0045	0x0268 %0000000010010110
+D:   0x0046	0x0274 %0000000000011110
+D:   0x0047	0x0275 %0000000010011110
+D:   0x0048	0x0277 %0000000000001000
+D:   0x0049	0x0279 %0000000000001000
+D:   0x004A	0x027B %0000000000000000
+D:   0x004B	0x027C %0000000000000000
+D:   0x004C	0x027D %0000000111111110
+D:   0x004D	0x0245 %0000000000111110
+D:   0x004E	0x0268 %0000000000000000
+D:   0x004F	0x0245 %0000000000111110
+D:   0x0050	0x0268 %0000000111111111
+I: File 'C:\Temp\DiagDataPipeline\Plugins\ExportACL\Output\CTRLU_MBEAM_02.08.05_Common_Diagnostics.zip' successfully exported.
+W: 1 warning(s) occurred for variant 'Common_Diagnostics'
+I: Finally:
+W: For Variant 'Common_Diagnostics' 1 warnings(s) occurred. Details see above.
+I: Variant 'Common_Diagnostics' successfully exported.

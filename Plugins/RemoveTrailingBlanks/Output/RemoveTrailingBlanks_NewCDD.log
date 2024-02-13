@@ -1,0 +1,87 @@
+﻿----------------------------------------------------------------
+Start of logging 2024-02-09 14:10:32 encoding='utf-8'
+----------------------------------------------------------------
+D: 
+D:  #####     #    #     #                              #####                               
+D: #     #   # #   ##    # #####  ###### #        ##   #     # ##### #    # #####  #  ####  
+D: #        #   #  # #   # #    # #      #       #  #  #         #   #    # #    # # #    # 
+D: #       #     # #  #  # #    # #####  #      #    #  #####    #   #    # #    # # #    # 
+D: #       ####### #   # # #    # #      #      ######       #   #   #    # #    # # #    # 
+D: #     # #     # #    ## #    # #      #      #    # #     #   #   #    # #    # # #    # 
+D:  #####  #     # #     # #####  ###### ###### #    #  #####    #    ####  #####  #  ####  
+D: 
+I: Running C:\Program Files\Vector CANdelaStudio 18\Bin\CANdelaStudio.exe v18.0.1104.0
+I: Current directory is C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks
+I: Entering InitInstance...
+I: Entering basic initialization tasks...
+I:  Initialize CrashHandler.
+I:  Initialize Resource Provider.
+I: Basic initialization done.
+I: Entering command line parsing...
+I:   Parsed command line: shell command is 0
+I:   Processing of command line done.
+I: Command line parsing done.
+I: Entering setup of applicaton profile...
+I: Start searching for existing ini file: CANdelaStudio.ini
+I:   Found an existing ini file in default folder: C:\ProgramData\Vector\CANdelaStudio\18\CANdelaStudio.ini
+I:   File C:\ProgramData\Vector\CANdelaStudio\18\CANdelaStudio.ini exists with write permissions, will take this file.
+I: Start searching for existing ini file: Actions.ini
+I:   Found an existing ini file in default folder: C:\ProgramData\Vector\CANdelaStudio\18\Actions.ini
+I:   File C:\ProgramData\Vector\CANdelaStudio\18\Actions.ini exists with write permissions, will take this file.
+I:   Using GUI language de-DE from INI.
+I: Setup of application profile done.
+D: Initialize resource DLLs.
+I: Initialize Vector licensing...
+D: License: InitCallbacks
+D: Scanning VLC Licenses:
+D: Preferred License Type: none
+D: AS--.AE 
+D:   CANdelaStudio Pro 20 (55432, 55432000083) ReactDate:2025-01-13 ExpDate:- LicenseType: Device
+I: Vector licensing initialized successfully.
+I: The following edition is licensed: pro
+I: Version of installed DDM is 25.2.0
+I: Initializing Plug-in Manager...
+I: Plug-in 'Create DoIP Interface' successfully loaded
+I: Plug-in 'Create ISO10681 FlexRay Interface' successfully loaded
+I: Plug-in 'Create K-Line 5 Baud Initialization Interface' successfully loaded
+I: Plug-in 'Create K-Line Fast Initialization Interface' successfully loaded
+I: Plug-in 'Disable overlong functional CAN requests' successfully loaded
+I: Plug-in 'Enable Fixed Qualifier' successfully loaded
+I: Plug-in 'Enable ODX mode' successfully loaded
+I: Plug-in 'Manage MultiIdentity ECU' successfully loaded
+I: Plug-in 'Mercedes-Benz: Add PTI Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Add ZKB Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Assign Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Clean up projects (Nissan/Renault)' successfully loaded
+I: Plug-in 'Mercedes-Benz: Create Production Service List' successfully loaded
+I: Plug-in 'Mercedes-Benz: Create SDG Attribute' successfully loaded
+I: Plug-in 'Mercedes-Benz: Datenbereinigung VK Daimler Lead ECUs' successfully loaded
+I: Plug-in 'Mercedes-Benz: Enable DIAG-LAYER editing' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 220' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 220 Renault' successfully loaded
+I: Plug-in 'Mercedes-Benz: Import DTCs and environment data from ODX' successfully loaded
+I: Plug-in 'Mercedes-Benz: Job Replace' successfully loaded
+I: Plug-in 'Mercedes-Benz: PrepareODX 2.2.0' successfully loaded
+I: Plug-in 'Mercedes-Benz: Remove trailing blanks' successfully loaded
+I: Plug-in 'Mercedes-Benz: Set ExportAsTable attribute to '0'' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update FaultMemory service $19 $04 from DIDs' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update State Group 'Authorization' from target groups' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update State Group 'Authorization' from target groups (using legacy TargetGroup-Names)' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 202dc' successfully loaded
+I: Plug-in 'Mercedes-Benz: Access Rights Exporter' successfully loaded
+I: Plug-in 'Mercedes-Benz: Access Rights Matrix Ruleset' successfully loaded
+I: Plug-in 'Mercedes-Benz: DataObject SDG Exchange' successfully loaded
+I: Plug-in 'Mercedes-Benz: Remove Diogenes Properties' successfully loaded
+I: Plug-in 'Mercedes-Benz: Replace Target Group Qualifiers' successfully loaded
+I: Plug-in 'Mercedes-Benz: Service Target Group Export Import' successfully loaded
+I: Plug-in 'Mercedes-Benz: Set SDG Values' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update DTC Error Texts' successfully loaded
+I: Plug-in 'MultiOemSupportCmdLine' successfully loaded
+D: Initialize help system.
+D: Disclaimer dialog will be shown.
+D: Strictness of disclaimer dialog is LOW.
+D: Language of disclaimer dialog is German
+D: Shutting down CANdelaStudio...
+D:   writing profile
+D:   freeing plug-ins
+D: Shutdown done.
