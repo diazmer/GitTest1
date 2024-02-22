@@ -1,0 +1,4 @@
+InputCDD=NewCDD.cdd
+InputVariant=Common_Diagnostics
+SourceCDD=SourceCDD.cdd
+SourceVariant=Common_Diagnostics

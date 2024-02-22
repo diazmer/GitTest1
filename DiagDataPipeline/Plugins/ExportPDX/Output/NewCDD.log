@@ -1,0 +1,1387 @@
+﻿----------------------------------------------------------------
+Start of logging 2024-02-20 12:11:38 encoding='utf-8'
+----------------------------------------------------------------
+D: 
+D:  #####     #    #     #                              #####                               
+D: #     #   # #   ##    # #####  ###### #        ##   #     # ##### #    # #####  #  ####  
+D: #        #   #  # #   # #    # #      #       #  #  #         #   #    # #    # # #    # 
+D: #       #     # #  #  # #    # #####  #      #    #  #####    #   #    # #    # # #    # 
+D: #       ####### #   # # #    # #      #      ######       #   #   #    # #    # # #    # 
+D: #     # #     # #    ## #    # #      #      #    # #     #   #   #    # #    # # #    # 
+D:  #####  #     # #     # #####  ###### ###### #    #  #####    #    ####  #####  #  ####  
+D: 
+I: Running C:\Program Files\Vector CANdelaStudio 18\Bin\CANdelaStudio.exe v18.0.1104.0
+I: Current directory is C:\Temp\DiagDataPipeline\Plugins\ExportPDX
+I: Entering InitInstance...
+I: Entering basic initialization tasks...
+I:  Initialize CrashHandler.
+I:  Initialize Resource Provider.
+I: Basic initialization done.
+I: Entering command line parsing...
+I:   Parsed command line: shell command is 0
+I:   Processing of command line done.
+I: Command line parsing done.
+I: Command line mode activated.
+I: Entering setup of applicaton profile...
+I: Start searching for existing ini file: CANdelaStudio.ini
+I:   Found an existing ini file in default folder: C:\ProgramData\Vector\CANdelaStudio\18\CANdelaStudio.ini
+I:   File C:\ProgramData\Vector\CANdelaStudio\18\CANdelaStudio.ini exists with write permissions, will take this file.
+I: Start searching for existing ini file: Actions.ini
+I:   Found an existing ini file in default folder: C:\ProgramData\Vector\CANdelaStudio\18\Actions.ini
+I:   File C:\ProgramData\Vector\CANdelaStudio\18\Actions.ini exists with write permissions, will take this file.
+I:   Using GUI language de-DE from INI.
+I: Setup of application profile done.
+D: Initialize resource DLLs.
+I: Initialize Vector licensing...
+D: License: InitCallbacks
+D: Scanning VLC Licenses:
+D: Preferred License Type: none
+D: AS--.AE 
+D:   CANdelaStudio Pro 20 (55432, 55432000083) ReactDate:2025-01-13 ExpDate:- LicenseType: Device
+I: Vector licensing initialized successfully.
+I: The following edition is licensed: pro
+I: Version of installed DDM is 25.2.0
+I: Initializing Plug-in Manager...
+I: Plug-in 'Create DoIP Interface' successfully loaded
+I: Plug-in 'Create ISO10681 FlexRay Interface' successfully loaded
+I: Plug-in 'Create K-Line 5 Baud Initialization Interface' successfully loaded
+I: Plug-in 'Create K-Line Fast Initialization Interface' successfully loaded
+I: Plug-in 'Disable overlong functional CAN requests' successfully loaded
+I: Plug-in 'Enable Fixed Qualifier' successfully loaded
+I: Plug-in 'Enable ODX mode' successfully loaded
+I: Plug-in 'Manage MultiIdentity ECU' successfully loaded
+I: Plug-in 'Mercedes-Benz: Add PTI Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Add ZKB Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Assign Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Clean up projects (Nissan/Renault)' successfully loaded
+I: Plug-in 'Mercedes-Benz: Create Production Service List' successfully loaded
+I: Plug-in 'Mercedes-Benz: Create SDG Attribute' successfully loaded
+I: Plug-in 'Mercedes-Benz: Datenbereinigung VK Daimler Lead ECUs' successfully loaded
+I: Plug-in 'Mercedes-Benz: Enable DIAG-LAYER editing' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 220' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 220 Renault' successfully loaded
+I: Plug-in 'Mercedes-Benz: Import DTCs and environment data from ODX' successfully loaded
+I: Plug-in 'Mercedes-Benz: Job Replace' successfully loaded
+I: Plug-in 'Mercedes-Benz: PrepareODX 2.2.0' successfully loaded
+I: Plug-in 'Mercedes-Benz: Remove trailing blanks' successfully loaded
+I: Plug-in 'Mercedes-Benz: Set ExportAsTable attribute to '0'' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update FaultMemory service $19 $04 from DIDs' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update State Group 'Authorization' from target groups' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update State Group 'Authorization' from target groups (using legacy TargetGroup-Names)' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 202dc' successfully loaded
+I: Plug-in 'Mercedes-Benz: Access Rights Exporter' successfully loaded
+I: Plug-in 'Mercedes-Benz: Access Rights Matrix Ruleset' successfully loaded
+I: Plug-in 'Mercedes-Benz: DataObject SDG Exchange' successfully loaded
+I: Plug-in 'Mercedes-Benz: Remove Diogenes Properties' successfully loaded
+I: Plug-in 'Mercedes-Benz: Replace Target Group Qualifiers' successfully loaded
+I: Plug-in 'Mercedes-Benz: Service Target Group Export Import' successfully loaded
+I: Plug-in 'Mercedes-Benz: Set SDG Values' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update DTC Error Texts' successfully loaded
+I: Plug-in 'MultiOemSupportCmdLine' successfully loaded
+D: Initialize help system.
+D: Execution of command-line commands...
+D: Searching for registry key Software\Vector\CANdelaPersistors for global persistors path
+D:   registry key exists, value: 'C:\Program Files (x86)\Common Files\Vector CANdelaPersistors 20\Bin' (this directory exists)
+D:   global persistors version: 20.0.00100
+D: Detected dtd version 18.0.6
+D: VCANdelaPersistorImpl::GetFileVersion: DTD version '18.0.6' detected
+I: Loading 'C:\Temp\DiagDataPipeline\Plugins\ExportPDX\Input\NewCDD.cdd'...
+I:   dtd version: file 18.0.6, program 18.0.6
+D: Document supports the languages (en-US)
+D: Document contains the uptodate languages (en-US)
+D: Template: Qualifier : DCS_UDS, SaveNo : 20, Label : 1.00.70, DPRS
+I:   template data loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   library variant 'MBC_FaultMemory_Event_Defaults' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'Common_Diagnostics' loaded
+D: Start loading requirement data model
+D: End loading requirement data model
+I: Document version: 00.00.01
+I: Done loading.
+I:   Logging turned on again
+I: Checking consistency of document. This may take a while, please be patient...
+W: Warning: DTC table in Diagnostic Instance qpath:/Common_Diagnostics/Development_Fault_Memory' has no DTC.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 16 bits.
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqId
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTId
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqId
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqExtAddr
+D: ComParamMan: Unidentified ComParam CP_Baudrate
+D: ComParamMan: Unidentified ComParam CP_BlockSize
+D: ComParamMan: Unidentified ComParam CP_StMin
+D: ComParamMan: Unidentified ComParam CP_P2Max
+D: ComParamMan: Unidentified ComParam CP_P2Star
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Unidentified ComParam CP_Bs
+D: ComParamMan: Unidentified ComParam CP_Br
+D: ComParamMan: Unidentified ComParam CP_Cr
+D: ComParamMan: Unidentified ComParam CP_CanTransmissionTime
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC23Handling
+D: ComParamMan: Unidentified ComParam CP_RC23CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTId
+D: ComParamMan: Unidentified ComParam CP_StMinOverride
+D: ComParamMan: Unidentified ComParam CP_ModifyTiming
+D: ComParamMan: Unidentified ComParam CP_SamplesPerBit
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Unidentified ComParam CP_CANFDSyncJumpWidth
+D: ComParamMan: Unidentified ComParam CP_CANFDTxMaxDataLength
+D: ComParamMan: Unidentified ComParam CP_CANFDBitSamplePoint
+D: ComParamMan: Unidentified ComParam CanFdDataBaudrate
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RequestAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqId
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanPhysReqId' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqExtAddr
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanPhysReqExtAddr' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTId
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanRespUSDTId' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTExtAddr
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanRespUSDTExtAddr' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqId
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanFuncReqId' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqExtAddr
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanFuncReqExtAddr' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_Baudrate
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_Baudrate' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_BlockSize
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_BlockSize' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_StMin
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_StMin' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_Bs
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_Bs' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_Br
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_Br' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_Cr
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_Cr' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanTransmissionTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanTransmissionTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC23Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC23Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC23CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC23CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTExtAddr
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanRespUUDTExtAddr' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTId
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_CanRespUUDTId' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_StMinOverride
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_StMinOverride' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_ModifyTiming
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_ModifyTiming' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_SamplesPerBit
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_SamplesPerBit' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RequestAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+D: ComParamMan: Setting COM parameter 'BusType' to value 'FlexRay' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_P2Max
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam EcuAddress2
+D: ComParamMan: Unidentified ComParam PDUListReqPhys
+D: ComParamMan: Unidentified ComParam PDUListReqFunc
+D: ComParamMan: Unidentified ComParam PDUListRes
+D: ComParamMan: Unidentified ComParam FrFrameFillerByte
+D: ComParamMan: Unidentified ComParam AutoP2Handling
+D: ComParamMan: Unidentified ComParam RC21Handling
+D: ComParamMan: Unidentified ComParam RC21RequestTime
+D: ComParamMan: Unidentified ComParam RC21CompletionTimeout
+D: ComParamMan: Unidentified ComParam RC78Handling
+D: ComParamMan: Unidentified ComParam RC78CompletionTimeout
+D: ComParamMan: Setting COM parameter 'TransportProtocolType' to value 'ISO10681' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam ConnectionModePhys
+D: ComParamMan: Unidentified ComParam BufferSize
+D: ComParamMan: Unidentified ComParam BandwidthControl
+D: ComParamMan: Unidentified ComParam InterfaceNotRelevantForODX
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalEcuAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalFunctionalAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalGatewayAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalTesterAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Max' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Star' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21RequestTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RequestAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalEcuAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalFunctionalAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalGatewayAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalTesterAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Max' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Star' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21RequestTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RequestAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalEcuAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalFunctionalAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalGatewayAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalTesterAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Max' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Star' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21RequestTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RequestAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+I: Checking request length for services supporting functional addressing for normal addressing scheme.
+I: ...Done.
+I: Checking service prefixes in base variant "Common_Diagnostics" ... OK
+I: Checking service prefixes in library variant "MBC_FaultMemory_Event_Defaults" ... OK
+I: Document is consistent.
+I: No document language code specified. You can select one using command line parameter 'u', e.g. '/u en-US'. For now using first found up to date language 'en-US'.
+I: Checking consistency of document. This may take a while, please be patient...
+W: Warning: DTC table in Diagnostic Instance qpath:/Common_Diagnostics/Development_Fault_Memory' has no DTC.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 8 bits.
+W: Content of tab page "File Size" in "qpath:/Common_Diagnostics/File_Transfer":
+W:     Minimum size of data must be 24 bits. Current minimum size of data is 16 bits.
+I: Document is consistent.
+D: Switch to communication view...
+D: Switch to communication view... Success
+I: INFO 1048: Checking File availability.
+I: INFO 2002: Saving to ODX file 'C:\Temp\DiagDataPipeline\Plugins\ExportPDX\Output\NewCDD.pdx' ...
+I: INFO 3002: OutfileName 'C:\Temp\DiagDataPipeline\Plugins\ExportPDX\Output\NewCDD.pdx'.
+I: INFO 2003: Collecting data for ODX...
+D: ProcessComInterface: processing qpath://[ECUDEFATTR]CAN_INT
+D:   ProcessComInterfaceCategory: processing CAN_INT - COM.COM
+D:     adding communication parameter Addressing Scheme
+D:     adding communication parameter CAN-ID Type
+D:     adding communication parameter CP_CanPhysReqId
+D:     adding communication parameter CP_CanPhysReqExtAddr
+D:     adding communication parameter CP_CanRespUSDTId
+D:     adding communication parameter CP_CanRespUSDTExtAddr
+D:     adding communication parameter Functional Addressing Scheme
+D:     adding communication parameter Functional CAN-ID Type
+D:     adding communication parameter CP_CanFuncReqId
+D:     adding communication parameter CP_CanFuncReqExtAddr
+D:     adding communication parameter CP_Baudrate
+D:     adding communication parameter CP_BlockSize
+D:     adding communication parameter CP_TesterPresentHandling
+D:     adding communication parameter CP_TesterPresentAddrMode
+D:     adding communication parameter CP_TesterPresentReqRsp
+D:     adding communication parameter CP_TesterPresentSendType
+D:     adding communication parameter CP_TesterPresentMessage
+D:     adding communication parameter CP_TesterPresentExpPosResp
+D:     adding communication parameter CP_TesterPresentExpNegResp
+D:     adding communication parameter CP_RepeatReqCountApp
+D:     adding communication parameter CP_RC21Handling
+D:     adding communication parameter CP_RC23Handling
+D:     adding communication parameter CP_RC78Handling
+D:     adding communication parameter CP_CanRespUUDTExtAddr
+D:     adding communication parameter CP_CanRespUUDTId
+D:     adding communication parameter CP_ModifyTiming
+D:     adding communication parameter CP_SamplesPerBit
+D:     adding communication parameter CP_CANFDSyncJumpWidth
+D:     adding communication parameter CP_CANFDTxMaxDataLength
+D:     adding communication parameter CP_CANFDBitSamplePoint
+D:     adding communication parameter CP_CANFDBaudrate
+D:     adding communication parameter S3Server
+D:     adding communication parameter CP_RequestAddrMode
+D:   ProcessComInterfaceCategory: processing CAN_INT - COM.INIT
+D:   ProcessComInterfaceCategory: processing CAN_INT - COM.TIMING
+D:     adding communication parameter CP_StMin
+D:     adding communication parameter CP_P2Max
+D:     adding communication parameter CP_P2Star
+D:     adding communication parameter CP_P3Func
+D:     adding communication parameter CP_P3Phys
+D:     adding communication parameter CP_TesterPresentTime
+D:     adding communication parameter CP_Bs
+D:     adding communication parameter CP_Br
+D:     adding communication parameter CP_Cr
+D:     adding communication parameter CP_CanTransmissionTime
+D:     adding communication parameter CP_RC21CompletionTimeout
+D:     adding communication parameter CP_RC23CompletionTimeout
+D:     adding communication parameter CP_RC78CompletionTimeout
+D:     adding communication parameter CP_StMinOverride
+D:     adding communication parameter CP_P2Max_Ecu
+D:     adding communication parameter CP_P2Star_Ecu
+D: ProcessComInterface: processing qpath://[ECUDEFATTR]Ethernet_DoIP
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP - COM.COM
+D:     adding communication parameter Bus Type
+D:     adding communication parameter CP_DoIPLogicalEcuAddress
+D:     adding communication parameter CP_DoIPLogicalFunctionalAddress
+D:     adding communication parameter CP_DoIPLogicalGatewayAddress
+D:     adding communication parameter CP_DoIPLogicalTesterAddress
+D:     adding communication parameter CP_DoIPRoutingActivationType
+D:     adding communication parameter CP_RC21Handling
+D:     adding communication parameter CP_RC78Handling
+D:     adding communication parameter CP_RepeatReqCountApp
+D:     adding communication parameter CP_TesterPresentHandling
+D:     adding communication parameter CP_TesterPresentAddrMode
+D:     adding communication parameter CP_TesterPresentMessage
+D:     adding communication parameter CP_TesterPresentExpPosResp
+D:     adding communication parameter CP_TesterPresentExpNegResp
+D:     adding communication parameter CP_TesterPresentSendType
+D:     adding communication parameter CP_TesterPresentReqRsp
+D:     adding communication parameter S3Server
+D:     adding communication parameter CP_RequestAddrMode
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP - COM.INIT
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP - COM.TIMING
+D:     adding communication parameter CP_DoIPRoutingActivationTimeout
+D:     adding communication parameter CP_P3Func
+D:     adding communication parameter CP_P3Phys
+D:     adding communication parameter CP_P6Max
+D:     adding communication parameter CP_P6Star
+D:     adding communication parameter CP_RC21CompletionTimeout
+D:     adding communication parameter CP_RC21RequestTime
+D:     adding communication parameter CP_RC78CompletionTimeout
+D:     adding communication parameter CP_P2Max_Ecu
+D:     adding communication parameter CP_P2Star_Ecu
+D:     adding communication parameter CP_TesterPresentTime
+D:     adding communication parameter CP_TesterPresentTime_Ecu
+D: ProcessComInterface: processing qpath://[ECUDEFATTR]CAN_D
+D:   ProcessComInterfaceCategory: processing CAN_D - COM.COM
+D:     adding communication parameter Addressing Scheme
+D:     adding communication parameter CAN-ID Type
+D:     adding communication parameter CP_CanPhysReqId
+D:     adding communication parameter CP_CanPhysReqExtAddr
+D:     adding communication parameter CP_CanRespUSDTId
+D:     adding communication parameter CP_CanRespUSDTExtAddr
+D:     adding communication parameter Functional Addressing Scheme
+D:     adding communication parameter Functional CAN-ID Type
+D:     adding communication parameter CP_CanFuncReqId
+D:     adding communication parameter CP_CanFuncReqExtAddr
+D:     adding communication parameter CP_Baudrate
+D:     adding communication parameter CP_BlockSize
+D:     adding communication parameter CP_TesterPresentHandling
+D:     adding communication parameter CP_TesterPresentAddrMode
+D:     adding communication parameter CP_TesterPresentReqRsp
+D:     adding communication parameter CP_TesterPresentSendType
+D:     adding communication parameter CP_TesterPresentMessage
+D:     adding communication parameter CP_TesterPresentExpPosResp
+D:     adding communication parameter CP_TesterPresentExpNegResp
+D:     adding communication parameter CP_RepeatReqCountApp
+D:     adding communication parameter CP_RC21Handling
+D:     adding communication parameter CP_RC23Handling
+D:     adding communication parameter CP_RC78Handling
+D:     adding communication parameter CP_CanRespUUDTExtAddr
+D:     adding communication parameter CP_CanRespUUDTId
+D:     adding communication parameter CP_ModifyTiming
+D:     adding communication parameter CP_SamplesPerBit
+D:     adding communication parameter S3Server
+D:     adding communication parameter CP_RequestAddrMode
+D:   ProcessComInterfaceCategory: processing CAN_D - COM.INIT
+D:   ProcessComInterfaceCategory: processing CAN_D - COM.TIMING
+D:     adding communication parameter CP_StMin
+D:     adding communication parameter CP_P2Max
+D:     adding communication parameter CP_P2Star
+D:     adding communication parameter CP_P3Func
+D:     adding communication parameter CP_P3Phys
+D:     adding communication parameter CP_TesterPresentTime
+D:     adding communication parameter CP_Bs
+D:     adding communication parameter CP_Br
+D:     adding communication parameter CP_Cr
+D:     adding communication parameter CP_CanTransmissionTime
+D:     adding communication parameter CP_RC21CompletionTimeout
+D:     adding communication parameter CP_RC23CompletionTimeout
+D:     adding communication parameter CP_RC78CompletionTimeout
+D:     adding communication parameter CP_StMinOverride
+D:     adding communication parameter CP_P2Max_Ecu
+D:     adding communication parameter CP_P2Star_Ecu
+D: ProcessComInterface: processing qpath://[ECUDEFATTR]FlexRay_ISO
+D:   ProcessComInterfaceCategory: processing FlexRay_ISO - COM.COM
+D:     adding communication parameter BusType
+D:     adding communication parameter EcuAddress
+D:     adding communication parameter EcuAddress2
+D:     adding communication parameter BroadcastAddress
+D:     adding communication parameter TesterAddress
+D:     adding communication parameter PDUListReqPhys
+D:     adding communication parameter PDUListReqFunc
+D:     adding communication parameter PDUListRes
+D:     adding communication parameter FillerByteHandling
+D:     adding communication parameter FrFrameFillerByte
+D:     adding communication parameter AutoP2Handling
+D:     adding communication parameter RC21Handling
+D:     adding communication parameter RC78Handling
+D:     adding communication parameter TransportProtocolType
+D:     adding communication parameter ConnectionModePhys
+D:     adding communication parameter BufferSize
+D:     adding communication parameter BandwidthControl
+D:     adding communication parameter InterfaceNotRelevantForODX
+D:     adding communication parameter CP_RepeatReqCountApp
+D:   ProcessComInterfaceCategory: processing FlexRay_ISO - COM.INIT
+D:   ProcessComInterfaceCategory: processing FlexRay_ISO - COM.TIMING
+D:     adding communication parameter P2Client
+D:     adding communication parameter P2Server
+D:     adding communication parameter P2ExClient
+D:     adding communication parameter P2ExServer
+D:     adding communication parameter S3Client
+D:     adding communication parameter S3Server
+D:     adding communication parameter P3ClientPhys
+D:     adding communication parameter RC21RequestTime
+D:     adding communication parameter RC21CompletionTimeout
+D:     adding communication parameter RC78CompletionTimeout
+D:     adding communication parameter TimeoutAr
+D:     adding communication parameter TimeoutAs
+D:     adding communication parameter TimeBr
+D:     adding communication parameter TimeoutBs
+D:     adding communication parameter TimeoutCr
+D:     adding communication parameter TimeCs
+D: ProcessComInterface: processing qpath://[ECUDEFATTR]Ethernet_DoIP_DOBT
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP_DOBT - COM.COM
+D:     adding communication parameter Bus Type
+D:     adding communication parameter CP_DoIPLogicalEcuAddress
+D:     adding communication parameter CP_DoIPLogicalFunctionalAddress
+D:     adding communication parameter CP_DoIPLogicalGatewayAddress
+D:     adding communication parameter CP_DoIPLogicalTesterAddress
+D:     adding communication parameter CP_DoIPRoutingActivationType
+D:     adding communication parameter CP_RC21Handling
+D:     adding communication parameter CP_RC78Handling
+D:     adding communication parameter CP_RepeatReqCountApp
+D:     adding communication parameter CP_TesterPresentHandling
+D:     adding communication parameter CP_TesterPresentAddrMode
+D:     adding communication parameter CP_TesterPresentMessage
+D:     adding communication parameter CP_TesterPresentExpPosResp
+D:     adding communication parameter CP_TesterPresentExpNegResp
+D:     adding communication parameter CP_TesterPresentSendType
+D:     adding communication parameter CP_TesterPresentReqRsp
+D:     adding communication parameter S3Server
+D:     adding communication parameter CP_RequestAddrMode
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP_DOBT - COM.INIT
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP_DOBT - COM.TIMING
+D:     adding communication parameter CP_DoIPRoutingActivationTimeout
+D:     adding communication parameter CP_P3Func
+D:     adding communication parameter CP_P3Phys
+D:     adding communication parameter CP_P6Max
+D:     adding communication parameter CP_P6Star
+D:     adding communication parameter CP_RC21CompletionTimeout
+D:     adding communication parameter CP_RC21RequestTime
+D:     adding communication parameter CP_RC78CompletionTimeout
+D:     adding communication parameter CP_P2Max_Ecu
+D:     adding communication parameter CP_P2Star_Ecu
+D:     adding communication parameter CP_TesterPresentTime
+D:     adding communication parameter CP_TesterPresentTime_Ecu
+D: ProcessComInterface: processing qpath://[ECUDEFATTR]Ethernet_DoIP_2
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP_2 - COM.COM
+D:     adding communication parameter Bus Type
+D:     adding communication parameter CP_DoIPLogicalEcuAddress
+D:     adding communication parameter CP_DoIPLogicalFunctionalAddress
+D:     adding communication parameter CP_DoIPLogicalGatewayAddress
+D:     adding communication parameter CP_DoIPLogicalTesterAddress
+D:     adding communication parameter CP_DoIPRoutingActivationType
+D:     adding communication parameter CP_RC21Handling
+D:     adding communication parameter CP_RC78Handling
+D:     adding communication parameter CP_RepeatReqCountApp
+D:     adding communication parameter CP_TesterPresentHandling
+D:     adding communication parameter CP_TesterPresentAddrMode
+D:     adding communication parameter CP_TesterPresentMessage
+D:     adding communication parameter CP_TesterPresentExpPosResp
+D:     adding communication parameter CP_TesterPresentExpNegResp
+D:     adding communication parameter CP_TesterPresentSendType
+D:     adding communication parameter CP_TesterPresentReqRsp
+D:     adding communication parameter S3Server
+D:     adding communication parameter CP_RequestAddrMode
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP_2 - COM.INIT
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP_2 - COM.TIMING
+D:     adding communication parameter CP_DoIPRoutingActivationTimeout
+D:     adding communication parameter CP_P3Func
+D:     adding communication parameter CP_P3Phys
+D:     adding communication parameter CP_P6Max
+D:     adding communication parameter CP_P6Star
+D:     adding communication parameter CP_RC21CompletionTimeout
+D:     adding communication parameter CP_RC21RequestTime
+D:     adding communication parameter CP_RC78CompletionTimeout
+D:     adding communication parameter CP_P2Max_Ecu
+D:     adding communication parameter CP_P2Star_Ecu
+D:     adding communication parameter CP_TesterPresentTime
+D:     adding communication parameter CP_TesterPresentTime_Ecu
+D: ProcessComInterface: processing qpath://[ECUDEFATTR]Ethernet_DoIP_DOBT_2
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP_DOBT_2 - COM.COM
+D:     adding communication parameter Bus Type
+D:     adding communication parameter CP_DoIPLogicalEcuAddress
+D:     adding communication parameter CP_DoIPLogicalFunctionalAddress
+D:     adding communication parameter CP_DoIPLogicalGatewayAddress
+D:     adding communication parameter CP_DoIPLogicalTesterAddress
+D:     adding communication parameter CP_DoIPRoutingActivationType
+D:     adding communication parameter CP_RC21Handling
+D:     adding communication parameter CP_RC78Handling
+D:     adding communication parameter CP_RepeatReqCountApp
+D:     adding communication parameter CP_TesterPresentHandling
+D:     adding communication parameter CP_TesterPresentAddrMode
+D:     adding communication parameter CP_TesterPresentMessage
+D:     adding communication parameter CP_TesterPresentExpPosResp
+D:     adding communication parameter CP_TesterPresentExpNegResp
+D:     adding communication parameter CP_TesterPresentSendType
+D:     adding communication parameter CP_TesterPresentReqRsp
+D:     adding communication parameter S3Server
+D:     adding communication parameter CP_RequestAddrMode
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP_DOBT_2 - COM.INIT
+D:   ProcessComInterfaceCategory: processing Ethernet_DoIP_DOBT_2 - COM.TIMING
+D:     adding communication parameter CP_DoIPRoutingActivationTimeout
+D:     adding communication parameter CP_P3Func
+D:     adding communication parameter CP_P3Phys
+D:     adding communication parameter CP_P6Max
+D:     adding communication parameter CP_P6Star
+D:     adding communication parameter CP_RC21CompletionTimeout
+D:     adding communication parameter CP_RC21RequestTime
+D:     adding communication parameter CP_RC78CompletionTimeout
+D:     adding communication parameter CP_P2Max_Ecu
+D:     adding communication parameter CP_P2Star_Ecu
+D:     adding communication parameter CP_TesterPresentTime
+D:     adding communication parameter CP_TesterPresentTime_Ecu
+I: INFO 1025: Skipping Interface 'FlexRay_ISO' due to Attribute 'InterfaceNotRelevantForOdx'.
+D: Adding text map for Verify Certificate Unidirectional(000001F5B6529820)
+D: Adding text map for NEGATIVE RESPONSE CODES(000001F5B652B4D0)
+D: Adding text map for Lesen(000001F5B652B3C0)
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Adding text map for NEGATIVE RESPONSE CODES(000001F5B652A810)
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Adding text map for Read(000001F5B6529F90)
+D: Adding text map for Write(000001F5B6528FA0)
+D: Skipping deactivated diagnostic instance 'Memory'
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Adding text map for LocalTable(000001F5B6598670)
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Adding text map for RecordDataType(000001F5B64CA570)
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+W: WARNING 1033: The cases of the Multiplexer 'qpath:/Common_Diagnostics/FaultMem/[CONTENT]DTCSnapshotRecord' do not contain DataObjects at all. The Multiplexer cannot be exported to ODX. An Identity DOP is exported instead.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: No specific ExtendedDataRecords assigned for DTC '0x1'. All ExtendedDataRecords are used.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+W: WARNING 1033: The cases of the Multiplexer 'qpath:/Common_Diagnostics/FaultMem/[CONTENT]Multiplexer' do not contain DataObjects at all. The Multiplexer cannot be exported to ODX. An Identity DOP is exported instead.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Adding text map for NEGATIVE RESPONSE CODES(000001F5B652C190)
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Adding text map for Response Code(000001F5B652C2A0)
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Adding text map for ReportDTCSnapshotRecordByDTCNbr(000001F5B652BB30)
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Adding text map for Read E-E-Data(000001F5B652B1A0)
+D: Adding text map for RecordDataType(000001F5B64CB0B0)
+W: WARNING 1038: DTC Table 'qpath:/Common_Diagnostics/Development_Fault_Memory/DTCRecordUserDef/DTCRecord' in DiagInstance 'qpath:/Common_Diagnostics/Development_Fault_Memory' does not contain DTCs. Must be exported as identity DOP to ODX.
+W: WARNING 1033: The cases of the Multiplexer 'qpath:/Common_Diagnostics/Development_Fault_Memory/[CONTENT]DTCSnapshotRecordUserDef' do not contain DataObjects at all. The Multiplexer cannot be exported to ODX. An Identity DOP is exported instead.
+W: WARNING 1047: Selector 'qpath:/Common_Diagnostics/Development_Fault_Memory/DTCRecordUserDef' of  Multiplexer 'qpath:/Common_Diagnostics/Development_Fault_Memory/[CONTENT]DTCExtendedDataRecordNumberUserDef' does not contain entries. No TABLE  can be generated. An identical conversion is generated instead.
+W: WARNING 1033: The cases of the Multiplexer 'qpath:/Common_Diagnostics/Development_Fault_Memory/[CONTENT]SecuredDTCSnapshotRecordUserDef' do not contain DataObjects at all. The Multiplexer cannot be exported to ODX. An Identity DOP is exported instead.
+D: Adding text map for Control NR(000001F5B652F490)
+D: Adding text map for Start(000001F5B652ED20)
+D: Adding text map for Start(000001F5B652DA00)
+D: Adding text map for Stop(000001F5B652DB10)
+D: Adding text map for Download NR(000001F5B652F160)
+D: Adding text map for Request Transfer Exit NR(000001F5B652E6C0)
+D: Adding text map for Transfer Data(000001F5B652E280)
+D: Skipping deactivated diagnostic instance 'LIN Services (Minimum)'
+D: Skipping deactivated diagnostic instance 'LinkControl'
+D: Adding text map for OBDRecordDataType(000001F5B5B3BE90)
+I: INFO 1006: Saving data...
+I: INFO 3000: ADDITIONAL-AUDIENCE 'Anybody' created in 'ESD_FGL_UDS'.
+I: INFO 3000: ADDITIONAL-AUDIENCE 'Supplier' created in 'ESD_FGL_UDS'.
+I: INFO 3000: ADDITIONAL-AUDIENCE 'Development_ENHANCED' created in 'ESD_FGL_UDS'.
+I: INFO 3000: ADDITIONAL-AUDIENCE 'Production' created in 'ESD_FGL_UDS'.
+I: INFO 3000: ADDITIONAL-AUDIENCE 'After_Sales_ENHANCED' created in 'ESD_FGL_UDS'.
+I: INFO 3000: ADDITIONAL-AUDIENCE 'After_Sales_STANDARD' created in 'ESD_FGL_UDS'.
+I: INFO 3000: ADDITIONAL-AUDIENCE 'After_Sales_BASIC' created in 'ESD_FGL_UDS'.
+I: INFO 3000: ADDITIONAL-AUDIENCE 'Internal_Diagnostic_Test_Tool' created in 'ESD_FGL_UDS'.
+I: INFO 3000: ADDITIONAL-AUDIENCE 'ePTI_Test_Tool' created in 'ESD_FGL_UDS'.
+I: INFO 3000: ADDITIONAL-AUDIENCE 'Export_All' created in 'ESD_FGL_UDS'.
+I: INFO 1025: Skipping Interface 'FlexRay_ISO' due to Attribute 'InterfaceNotRelevantForOdx'.
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqId
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTId
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqId
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqExtAddr
+D: ComParamMan: Unidentified ComParam CP_Baudrate
+D: ComParamMan: Unidentified ComParam CP_BlockSize
+D: ComParamMan: Unidentified ComParam CP_StMin
+D: ComParamMan: Unidentified ComParam CP_P2Max
+D: ComParamMan: Unidentified ComParam CP_P2Star
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Unidentified ComParam CP_Bs
+D: ComParamMan: Unidentified ComParam CP_Br
+D: ComParamMan: Unidentified ComParam CP_Cr
+D: ComParamMan: Unidentified ComParam CP_CanTransmissionTime
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC23Handling
+D: ComParamMan: Unidentified ComParam CP_RC23CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTId
+D: ComParamMan: Unidentified ComParam CP_StMinOverride
+D: ComParamMan: Unidentified ComParam CP_ModifyTiming
+D: ComParamMan: Unidentified ComParam CP_SamplesPerBit
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Unidentified ComParam CP_CANFDSyncJumpWidth
+D: ComParamMan: Unidentified ComParam CP_CANFDTxMaxDataLength
+D: ComParamMan: Unidentified ComParam CP_CANFDBitSamplePoint
+D: ComParamMan: Unidentified ComParam CanFdDataBaudrate
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+W: WARNING 1045: Could not map communication parameter 'CAN_INT.SendRespPendOnTransToBoot' to odx COMPARAM-SPEC. Communication parameter was skipped.
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+W: WARNING 1045: Could not map communication parameter 'Ethernet_DoIP.SendRespPendOnTransToBoot' to odx COMPARAM-SPEC. Communication parameter was skipped.
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqId
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTId
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqId
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqExtAddr
+D: ComParamMan: Unidentified ComParam CP_Baudrate
+D: ComParamMan: Unidentified ComParam CP_BlockSize
+D: ComParamMan: Unidentified ComParam CP_StMin
+D: ComParamMan: Unidentified ComParam CP_P2Max
+D: ComParamMan: Unidentified ComParam CP_P2Star
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Unidentified ComParam CP_Bs
+D: ComParamMan: Unidentified ComParam CP_Br
+D: ComParamMan: Unidentified ComParam CP_Cr
+D: ComParamMan: Unidentified ComParam CP_CanTransmissionTime
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC23Handling
+D: ComParamMan: Unidentified ComParam CP_RC23CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTId
+D: ComParamMan: Unidentified ComParam CP_StMinOverride
+D: ComParamMan: Unidentified ComParam CP_ModifyTiming
+D: ComParamMan: Unidentified ComParam CP_SamplesPerBit
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+W: WARNING 1045: Could not map communication parameter 'CAN_D.SendRespPendOnTransToBoot' to odx COMPARAM-SPEC. Communication parameter was skipped.
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+W: WARNING 1045: Could not map communication parameter 'Ethernet_DoIP_DOBT.SendRespPendOnTransToBoot' to odx COMPARAM-SPEC. Communication parameter was skipped.
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+W: WARNING 1045: Could not map communication parameter 'Ethernet_DoIP_2.SendRespPendOnTransToBoot' to odx COMPARAM-SPEC. Communication parameter was skipped.
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Unidentified ComParam CP_RequestAddrMode
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+W: WARNING 1045: Could not map communication parameter 'Ethernet_DoIP_DOBT_2.SendRespPendOnTransToBoot' to odx COMPARAM-SPEC. Communication parameter was skipped.
+I: INFO 1018: Skipping generation of COMPARAM-REF for 'ISO_15765_2.CP_CanFuncReqFormat' for CANdela-Parameter 'CAN_INT.CanIdTypeFunc'. The COMPARAM is already overwritten.
+I: INFO 1018: Skipping generation of COMPARAM-REF for 'ISO_15765_2.CP_CanFuncReqFormat' for CANdela-Parameter 'CAN_D.CanIdTypeFunc'. The COMPARAM is already overwritten.
+W: WARNING 4129: Data object 'qpath://[DATATYPE]FlashKeyInfos/hybridDownloadUri' follows data object with variable length.
+W: WARNING 4129: Data object 'qpath://[DATATYPE]FlashKeyInfos/flashKey' follows data object with variable length.
+W: WARNING 1014: Value table data type 'qpath://[DATATYPE]DTCExtendedDataRecordNumbers_All_except_FF_Common_Diagnostics_Fault_Memory' does not contain value pairs. Must be exported as identity DOP to ODX.
+W: WARNING 1014: Value table data type 'qpath://[DATATYPE]DTCExtendedDataRecordNumbers_All_except_FF_Common_Diagnostics_Development_Fault_Memory' does not contain value pairs. Must be exported as identity DOP to ODX.
+W: WARNING 1033: The cases of the Multiplexer 'qpath:/Common_Diagnostics/FaultMem/[CONTENT]DTCSnapshotRecord' do not contain DataObjects at all. The Multiplexer cannot be exported to ODX. An Identity DOP is exported instead.
+W: WARNING 1033: The cases of the Multiplexer 'qpath:/Common_Diagnostics/FaultMem/[CONTENT]Multiplexer' do not contain DataObjects at all. The Multiplexer cannot be exported to ODX. An Identity DOP is exported instead.
+W: WARNING 1033: The cases of the Multiplexer 'qpath:/Common_Diagnostics/Development_Fault_Memory/[CONTENT]DTCSnapshotRecordUserDef' do not contain DataObjects at all. The Multiplexer cannot be exported to ODX. An Identity DOP is exported instead.
+W: WARNING 1014: Value table data type 'qpath://[DATATYPE]TextTable_DTCRecord' does not contain value pairs. Must be exported as identity DOP to ODX.
+W: WARNING 1033: The cases of the Multiplexer 'qpath:/Common_Diagnostics/Development_Fault_Memory/[CONTENT]SecuredDTCSnapshotRecordUserDef' do not contain DataObjects at all. The Multiplexer cannot be exported to ODX. An Identity DOP is exported instead.
+I: INFO 1010: Variant 'Common Diagnostics'.
+I: INFO 1011: Class 'Session'.
+D: Skipping deactivated job container 'CeBAS Functions VSM'
+I: INFO 1011: Class 'Ecu Reset'.
+I: INFO 1011: Class 'Security Access'.
+D: Processing Authentication_Verify_Certificate_Unidirectional
+D: Processing Authentication_Verify_Certificate_Bidirectional
+D: Processing Authentication_Proof_Of_Ownership
+D: Processing Authentication_Transmit_Certificate
+D: Processing Authentication_Deauthenticate
+D: Processing Authentication_Authentication_Configuration
+I: INFO 1011: Class 'Communication Control'.
+D: Processing TesterPresent
+I: INFO 1011: Class 'Control DTC Setting'.
+I: INFO 1011: Class 'Present Values'.
+D: Processing New_Present_Values_1_Read
+I: INFO 1011: Class 'Stored Data'.
+D: Processing New_Stored_Data_1_Read
+I: INFO 1011: Class 'Identification'.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Processing ActiveDiagnosticInformation_Read
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/ActiveDiagnosticInformation/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Processing HardwareSupplier_Read
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/Ident/HardwareSupplier/[SERVICE]Read is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+I: INFO 1011: Class 'Variant Coding'.
+D: Processing New_Variant_Coding_1_Read
+D: Processing New_Variant_Coding_1_Write
+D: Skipping deactivated diagnostic instance 'Memory'
+I: INFO 1011: Class 'Dynamically Define Identifier'.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Processing FaultMem_ClearGroup
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Value 'PROTOCOL' of Attribute 'DIAG_LAYER' at qpath:/Common_Diagnostics/FaultMem/[SERVICE]Clear is not yet supported by ODX-Export. Service is exported to the BaseVariant.
+D: Processing FaultMem_ReportNbrOfDTCStatusMask
+D: Processing FaultMem_ReportDTCByStatusMask
+D: Processing FaultMem_ReportDTCSnapshotRecordByDTCNbr
+D: Processing FaultMem_ReportDTCExtendedDataByDTCNbr
+D: Processing FaultMem_ReportSupportedDTCs
+D: Processing FaultMem_ReportFaultDetectionCounter
+D: Processing FaultMem_ReportDTCWithPermanentStatus
+D: Processing FaultMem_Read_E_E_Data
+D: Processing Development_Fault_Memory_ReportDTCByStatusMask
+D: Processing Development_Fault_Memory_ReportDTCSnapshotRecordByDtcNbr
+D: Processing Development_Fault_Memory_ReportDTCExtendedDataRecordByDtcNbr
+D: Processing Development_Fault_Memory_Read_E_E_Data
+I: INFO 1011: Class 'IO-Control'.
+D: Processing New_IO_Control_1_Control
+D: Processing New_IO_Control_1_ReturnControl
+D: Processing New_IO_Control_1_ControlStatus
+D: Processing New_IO_Control_1_Reset
+D: Processing New_IO_Control_1_Freeze
+I: INFO 1011: Class 'Routine Control'.
+D: Processing Neu_Routine_Control_Start
+I: INFO 1011: Class 'Synchronous Routine'.
+D: Processing Neu_Synchronous_Routine_Start
+I: INFO 1011: Class 'Asynchronous Routine'.
+D: Processing Neu_Asynchronous_Routine_Start
+D: Processing Neu_Asynchronous_Routine_Stop
+D: Processing Neu_Asynchronous_Routine_RequestResults
+D: Processing RequestDownload
+D: Processing RequestUpload
+D: Processing RequestTransferExit
+D: Processing TransferData
+D: Processing File_Transfer_Add
+D: Processing File_Transfer_Delete
+D: Processing File_Transfer_Replace
+D: Processing File_Transfer_Read
+D: Processing File_Transfer_Read_Dir
+D: Processing File_Transfer_Transmit
+D: Processing File_Transfer_Stop
+D: Processing File_Transfer_Resume
+D: Processing SAR_Data_Request_Upload
+D: Processing SAR_Data_Transfer_Exit
+D: Processing Erase_SAR_Memory_Start
+D: Processing SAR_Data_Transfer
+D: Skipping deactivated diagnostic instance 'LIN Services (Minimum)'
+D: Skipping deactivated diagnostic instance 'LinkControl'
+W: WARNING 1081: Warnings occurred. Please see details above.
+I: INFO 1035: Packing exported Files to Pdx-Archive...
+I: INFO 1036: Pdx creation successfull.
+I: INFO 2004: Done saving.
+I: INFO 2005: Exported the following files:
+I: INFO 2001:  'ESD_FGL_UDS.odx-d'
+I: INFO 2001:  'IEEE_802_3.odx-cs'
+I: INFO 2001:  'ISO_11898_2_DWCAN.odx-cs'
+I: INFO 2001:  'ISO_11898_2_DWCAN_ISO22900_2_2.odx-cs'
+I: INFO 2001:  'ISO_11898_3_DWFTCAN.odx-cs'
+I: INFO 2001:  'ISO_13400_2.odx-cs'
+I: INFO 2001:  'ISO_14229_5.odx-cs'
+I: INFO 2001:  'ISO_14229_5_on_ISO_13400_2.odx-c'
+I: INFO 2001:  'ISO_15765_2.odx-cs'
+I: INFO 2001:  'ISO_15765_2_ISO22900_2_2.odx-cs'
+I: INFO 2001:  'ISO_15765_3.odx-cs'
+I: INFO 2001:  'ISO_15765_3_on_ISO_15765_2.odx-c'
+I: INFO 2001:  'ISO_15765_3_on_ISO_15765_2_ISO22900_2_2.odx-c'
+I: INFO 2001:  'New_CDD.odx-d'
+I: INFO 2001:  'SAE_J2411_SWCAN.odx-cs'
+I: INFO 2006: '0' errors occurred, '21' warnings occurred during ODXExport.
+D: Shutting down CANdelaStudio...
+D:   writing profile
+D:   freeing plug-ins
+D: Shutdown done.

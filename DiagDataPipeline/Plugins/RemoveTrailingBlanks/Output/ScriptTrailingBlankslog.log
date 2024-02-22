@@ -1,0 +1,538 @@
+﻿----------------------------------------------------------------
+Start of logging 2024-02-12 13:44:40 encoding='utf-8'
+----------------------------------------------------------------
+D: 
+D:  #####     #    #     #                              #####                               
+D: #     #   # #   ##    # #####  ###### #        ##   #     # ##### #    # #####  #  ####  
+D: #        #   #  # #   # #    # #      #       #  #  #         #   #    # #    # # #    # 
+D: #       #     # #  #  # #    # #####  #      #    #  #####    #   #    # #    # # #    # 
+D: #       ####### #   # # #    # #      #      ######       #   #   #    # #    # # #    # 
+D: #     # #     # #    ## #    # #      #      #    # #     #   #   #    # #    # # #    # 
+D:  #####  #     # #     # #####  ###### ###### #    #  #####    #    ####  #####  #  ####  
+D: 
+I: Running C:\Program Files\Vector CANdelaStudio 18\Bin\CANdelaStudio.exe v18.0.1104.0
+I: Current directory is C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks
+I: Entering InitInstance...
+I: Entering basic initialization tasks...
+I:  Initialize CrashHandler.
+I:  Initialize Resource Provider.
+I: Basic initialization done.
+I: Entering command line parsing...
+I:   Parsed command line: shell command is 0
+I:   Processing of command line done.
+I: Command line parsing done.
+I: Command line mode activated.
+I: Entering setup of applicaton profile...
+I: Start searching for existing ini file: CANdelaStudio.ini
+I:   Found an existing ini file in default folder: C:\ProgramData\Vector\CANdelaStudio\18\CANdelaStudio.ini
+I:   File C:\ProgramData\Vector\CANdelaStudio\18\CANdelaStudio.ini exists with write permissions, will take this file.
+I: Start searching for existing ini file: Actions.ini
+I:   Found an existing ini file in default folder: C:\ProgramData\Vector\CANdelaStudio\18\Actions.ini
+I:   File C:\ProgramData\Vector\CANdelaStudio\18\Actions.ini exists with write permissions, will take this file.
+I:   Using GUI language de-DE from INI.
+I: Setup of application profile done.
+D: Initialize resource DLLs.
+I: Initialize Vector licensing...
+D: License: InitCallbacks
+D: Scanning VLC Licenses:
+D: Preferred License Type: none
+D: AS--.AE 
+D:   CANdelaStudio Pro 20 (55432, 55432000083) ReactDate:2025-01-13 ExpDate:- LicenseType: Device
+I: Vector licensing initialized successfully.
+I: The following edition is licensed: pro
+I: Version of installed DDM is 25.2.0
+I: Initializing Plug-in Manager...
+I: Plug-in 'Create DoIP Interface' successfully loaded
+I: Plug-in 'Create ISO10681 FlexRay Interface' successfully loaded
+I: Plug-in 'Create K-Line 5 Baud Initialization Interface' successfully loaded
+I: Plug-in 'Create K-Line Fast Initialization Interface' successfully loaded
+I: Plug-in 'Disable overlong functional CAN requests' successfully loaded
+I: Plug-in 'Enable Fixed Qualifier' successfully loaded
+I: Plug-in 'Enable ODX mode' successfully loaded
+I: Plug-in 'Manage MultiIdentity ECU' successfully loaded
+I: Plug-in 'Mercedes-Benz: Add PTI Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Add ZKB Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Assign Target Group' successfully loaded
+I: Plug-in 'Mercedes-Benz: Clean up projects (Nissan/Renault)' successfully loaded
+I: Plug-in 'Mercedes-Benz: Create Production Service List' successfully loaded
+I: Plug-in 'Mercedes-Benz: Create SDG Attribute' successfully loaded
+I: Plug-in 'Mercedes-Benz: Datenbereinigung VK Daimler Lead ECUs' successfully loaded
+I: Plug-in 'Mercedes-Benz: Enable DIAG-LAYER editing' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 220' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 220 Renault' successfully loaded
+I: Plug-in 'Mercedes-Benz: Import DTCs and environment data from ODX' successfully loaded
+I: Plug-in 'Mercedes-Benz: Job Replace' successfully loaded
+I: Plug-in 'Mercedes-Benz: PrepareODX 2.2.0' successfully loaded
+I: Plug-in 'Mercedes-Benz: Remove trailing blanks' successfully loaded
+I: Plug-in 'Mercedes-Benz: Set ExportAsTable attribute to '0'' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update FaultMemory service $19 $04 from DIDs' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update State Group 'Authorization' from target groups' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update State Group 'Authorization' from target groups (using legacy TargetGroup-Names)' successfully loaded
+I: Plug-in 'Mercedes-Benz ODXE Import 202dc' successfully loaded
+I: Plug-in 'Mercedes-Benz: Access Rights Exporter' successfully loaded
+I: Plug-in 'Mercedes-Benz: Access Rights Matrix Ruleset' successfully loaded
+I: Plug-in 'Mercedes-Benz: DataObject SDG Exchange' successfully loaded
+I: Plug-in 'Mercedes-Benz: Remove Diogenes Properties' successfully loaded
+I: Plug-in 'Mercedes-Benz: Replace Target Group Qualifiers' successfully loaded
+I: Plug-in 'Mercedes-Benz: Service Target Group Export Import' successfully loaded
+I: Plug-in 'Mercedes-Benz: Set SDG Values' successfully loaded
+I: Plug-in 'Mercedes-Benz: Update DTC Error Texts' successfully loaded
+I: Plug-in 'MultiOemSupportCmdLine' successfully loaded
+D: Initialize help system.
+D: Execution of command-line commands...
+D: Warning: unsupported iniparam
+D: Searching for registry key Software\Vector\CANdelaPersistors for global persistors path
+D:   registry key exists, value: 'C:\Program Files (x86)\Common Files\Vector CANdelaPersistors 20\Bin' (this directory exists)
+D:   global persistors version: 20.0.00100
+D: Detected dtd version 18.0.6
+D: VCANdelaPersistorImpl::GetFileVersion: DTD version '18.0.6' detected
+I: Loading 'C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Input\CTRLU_MBEAM_02.08.05.cdd'...
+I:   dtd version: file 18.0.6, program 18.0.6
+D: Document supports the languages (en-US)
+D: Document contains the uptodate languages (en-US)
+D: Template: Qualifier : DCS_UDS, SaveNo : 20, Label : 1.00.70, DPRS
+I:   template data loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'Common_Diagnostics' loaded
+I:   variant 'Common_Boot' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R04_0' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R04_1' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R05_0' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R05_1' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R06_0' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+I:   variant 'R06_1' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R07_0' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R07_1' loaded
+D: Loaded Snapshot records and data
+D: Loaded Extended data
+D: Start loading event data model
+I:   variant 'R08_0' loaded
+D: Start loading requirement data model
+D: End loading requirement data model
+I: Document version: 02.08.05
+I: Done loading.
+I:   Logging turned on again
+I: Checking consistency of document. This may take a while, please be patient...
+D: Linked Target Group and State: "Anybody".
+D: Linked Target Group and State: "Supplier".
+D: Linked Target Group and State: "Development_ENHANCED".
+D: Linked Target Group and State: "Production".
+D: Linked Target Group and State: "After_Sales_ENHANCED".
+D: Linked Target Group and State: "After_Sales_STANDARD".
+D: Linked Target Group and State: "After_Sales_BASIC".
+D: Linked Target Group and State: "Internal_Diagnostic_Test_Tool".
+D: Linked Target Group and State: "ePTI_Test_Tool".
+D: Service "Start" in Variant "Common Diagnostics" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "Common Diagnostics" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "Common Diagnostics" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R04.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R04.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R05.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R05.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R06.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R06.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R07.1" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R08.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Start" in Variant "R08.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: Service "Stop" in Variant "R08.0" is not executable in any state of state group "Authorization".  Services and jobs must be at least executable in one state of each state group.
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqId
+D: ComParamMan: Unidentified ComParam CP_CanPhysReqExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTId
+D: ComParamMan: Unidentified ComParam CP_CanRespUSDTExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqId
+D: ComParamMan: Unidentified ComParam CP_CanFuncReqExtAddr
+D: ComParamMan: Unidentified ComParam CP_Baudrate
+D: ComParamMan: Unidentified ComParam CP_BlockSize
+D: ComParamMan: Unidentified ComParam CP_StMin
+D: ComParamMan: Unidentified ComParam CP_P2Max
+D: ComParamMan: Unidentified ComParam CP_P2Star
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Unidentified ComParam CP_Bs
+D: ComParamMan: Unidentified ComParam CP_Br
+D: ComParamMan: Unidentified ComParam CP_Cr
+D: ComParamMan: Unidentified ComParam CP_CanTransmissionTime
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC23Handling
+D: ComParamMan: Unidentified ComParam CP_RC23CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTExtAddr
+D: ComParamMan: Unidentified ComParam CP_CanRespUUDTId
+D: ComParamMan: Unidentified ComParam CP_StMinOverride
+D: ComParamMan: Unidentified ComParam CP_ModifyTiming
+D: ComParamMan: Unidentified ComParam CP_SamplesPerBit
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Unidentified ComParam CP_CANFDSyncJumpWidth
+D: ComParamMan: Unidentified ComParam CP_CANFDTxMaxDataLength
+D: ComParamMan: Unidentified ComParam CP_CANFDBitSamplePoint
+D: ComParamMan: Unidentified ComParam CanFdDataBaudrate
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+D: ComParamMan: Setting COM parameter 'BusType' to value 'Ethernet' failed. Invalid value!
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalEcuAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalEcuAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalFunctionalAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalFunctionalAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalGatewayAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalGatewayAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPLogicalTesterAddress
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPLogicalTesterAddress' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_DoIPRoutingActivationType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_DoIPRoutingActivationType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Func
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Func' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P3Phys
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P3Phys' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Max
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Max' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P6Star
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P6Star' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC21RequestTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC21RequestTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78Handling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78Handling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RC78CompletionTimeout
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RC78CompletionTimeout' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_RepeatReqCountApp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_RepeatReqCountApp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Max_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Max_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_P2Star_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_P2Star_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentHandling
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentHandling' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentTime_Ecu
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentTime_Ecu' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentAddrMode
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentAddrMode' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentMessage
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentMessage' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpPosResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpPosResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentExpNegResp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentExpNegResp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentSendType
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentSendType' into ComParamCollection
+D: ComParamMan: Unidentified ComParam CP_TesterPresentReqRsp
+D: ComParamMan: Trying to insert already existent communication parameter 'CP_TesterPresentReqRsp' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticConnectionRef
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticConnectionRef' into ComParamCollection
+D: ComParamMan: Unidentified ComParam DiagnosticProtocolPriority
+D: ComParamMan: Trying to insert already existent communication parameter 'DiagnosticProtocolPriority' into ComParamCollection
+D: ComParamMan: Unidentified ComParam SendRespPendOnTransToBoot
+D: ComParamMan: Trying to insert already existent communication parameter 'SendRespPendOnTransToBoot' into ComParamCollection
+I: Checking request length for services supporting functional addressing for normal addressing scheme.
+I: ...Done.
+I: Checking service prefixes in base variant "Common_Diagnostics" ... OK
+I: Checking service prefixes in extended variant "Common_Boot" ... OK
+I: Checking service prefixes in extended variant "R04_0" ... OK
+I: Checking service prefixes in extended variant "R04_1" ... OK
+I: Checking service prefixes in extended variant "R05_0" ... OK
+I: Checking service prefixes in extended variant "R05_1" ... OK
+I: Checking service prefixes in extended variant "R06_0" ... OK
+I: Checking service prefixes in extended variant "R06_1" ... OK
+I: Checking service prefixes in extended variant "R07_0" ... OK
+I: Checking service prefixes in extended variant "R07_1" ... OK
+I: Checking service prefixes in extended variant "R08_0" ... OK
+I: Document is consistent.
+D: PluginManager: executing plug-in 'Mercedes-Benz: Remove trailing blanks/Mercedes-Benz: Remove trailing blanks' on active document.
+I: Plugin: 'Mercedes-Benz: Remove trailing blanks' invoked
+W: Plugin: Can't modifying name from 'Autosar ' to 'Autosar 1' at qualified 'qpath://[ATTRCATEGORY]COM.AUTOSAR' as the names would no longer be unique.
+I: Plugin: Modifying name from 'R04.1  ExtendedRecords_01_FF' to 'R04.1 ExtendedRecords_01_FF' at qualified 'qpath://[DATATYPE]R04_1_ExtendedRecords_01_FF'.
+I: Plugin: Modifying name from 'R05.0   ExtendedRecords_01_FF' to 'R05.0 ExtendedRecords_01_FF' at qualified 'qpath://[DATATYPE]R05_0_ExtendedRecords_01_FF'.
+I: Plugin: Modifying name from 'R05.1    ExtendedRecords_01_FF' to 'R05.1 ExtendedRecords_01_FF' at qualified 'qpath://[DATATYPE]R05_1_ExtendedRecords_01_FF'.
+I: Plugin: Modifying name from 'R06.0     ExtendedRecords_01_FF' to 'R06.0 ExtendedRecords_01_FF' at qualified 'qpath://[DATATYPE]R06_0_ExtendedRecords_01_FF'.
+I: Plugin: Modifying name from 'R06.1      ExtendedRecords_01_FF' to 'R06.1 ExtendedRecords_01_FF' at qualified 'qpath://[DATATYPE]R06_1_ExtendedRecords_01_FF'.
+I: Plugin: Modifying name from 'R07.0       ExtendedRecords_01_FF' to 'R07.0 ExtendedRecords_01_FF' at qualified 'qpath://[DATATYPE]R07_0_ExtendedRecords_01_FF'.
+I: Plugin: Modifying name from 'R07.1        ExtendedRecords_01_FF' to 'R07.1 ExtendedRecords_01_FF' at qualified 'qpath://[DATATYPE]R07_1_ExtendedRecords_01_FF'.
+I: Plugin: Modifying name from 'R08.0         ExtendedRecords_01_FF' to 'R08.0 ExtendedRecords_01_FF' at qualified 'qpath://[DATATYPE]R08_0_ExtendedRecords_01_FF'.
+W: Plugin: Can't modifying name from 'Autosar ' to 'Autosar 1' at qualified 'qpath://[ATTRCATEGORY]COM.AUTOSAR' as the names would no longer be unique.
+W: Plugin: Can't modify translatable string from 'Autosar ' to 'Autosar'. The namspace would not be unique.
+I: Plugin: Modifying translatable string from 'Functional description (and image) of ECU
+
+The Central Control Panel (CTRLU_MBEAM, in german language "Zentrales Bedienfeld", "ZBF") is used for direct access to certain functions or menus in the central display.
+For this purpose, it has mechanical switches. When one of the switches is pressed the signal for the operator's request is sent to the central display via CAN bus.
+The ZBF also has a scroll wheel for volume adjustment and mute.
+In the middle of the control panel are the mechanical button for the hazard warning lights and the indicator light for the Anti-theft alarm system.
+
+The Hazard Warning Switch contact (HWS) will have 3 wires to bodycontroller like in car line MMA.
+The backlight illumination is supplied from Body-Controller.
+
+The VTA-LED is hardwired connected to and supplied from EIS component. 
+
+The button functions and the symbols which are displayed below are not the final ones.
+
+
+
+[C:\Users\felzeeb\Downloads\Unbenannt.png,Unbenannt.png]
+
+Relevant diagnostic services for Initial operation of ECU (e.g calibration,...)
+
+
+Active Diagnostic Information
+Supplier CTRLU_MBEAM: Kostal
+
+ActiveDiagnosticInformation_Read: Diagnostic Request PDU: 0x22 F1 00
+- positive Response PDU: 0x62 F1 00 aa xx yy zz
+
+Byte #3: aa - ECU Software Mode = 0x00-Aplication, 0x01-BootMode
+Byte #4: xx - Active Diagnostic Variant - 0x0B (CTRLU_MBeam)
+Byte #5: yy - Active Diagnostic Version = incremected with every new diag-Variant
+Byte #6: zz - Active Diagnostic Session = 0x01-DefaultSession, 0x02-ProgrammingSession, 0x03-ExtendedSession
+
+Active Diagnostic Variant table overview for middle Byte #4 (xx) for ECU Adress 0x1193:
+
+CTRLU223 - 0x03
+CTRLU214 - 0x05
+CTRLU_MMA - 0x0A
+CTRLU_MBEAM - 0x0B
+
+
+Architecture
+STAR 3.5
+Vector SLP
+HEADUNIT1-CAN 500 / 1000
+AUTOSAR 20.11
+
+CAN-Identifiers
+
+ECU Nr. 193h
+ECU Eth. Adress: 0x1193
+DoIP Ethernet gateway: CEIC_M - 0x110A
+CAN_ID - Request/Response - Functional:
+ExtETH 0x18E19388/..80 - 0x18EEF888
+IntETH 0x18E1938D/..85 - 0x18EF0D8D
+
+------------------------------------------------------------------------------------------------------------------------
+
+Used abbreviations (e.g for Functions/Systems which are used as prefixes in diagnostic instances)
+
+
+Flashlayout:
+logicalBlock blockId="1" blockType="Bootloader" jobName="WVC_FlashBootLoader" ofrCapable="false" targetBlockId="0"
+logicalBlock blockId="1" blockType="Application" jobName="WVC_Application" ofrCapable="false"
+' to 'Functional description (and image) of ECU
+
+The Central Control Panel (CTRLU_MBEAM, in german language "Zentrales Bedienfeld", "ZBF") is used for direct access to certain functions or menus in the central display.
+For this purpose, it has mechanical switches. When one of the switches is pressed the signal for the operator's request is sent to the central display via CAN bus.
+The ZBF also has a scroll wheel for volume adjustment and mute.
+In the middle of the control panel are the mechanical button for the hazard warning lights and the indicator light for the Anti-theft alarm system.
+
+The Hazard Warning Switch contact (HWS) will have 3 wires to bodycontroller like in car line MMA.
+The backlight illumination is supplied from Body-Controller.
+
+The VTA-LED is hardwired connected to and supplied from EIS component. 
+
+The button functions and the symbols which are displayed below are not the final ones.
+
+
+
+[C:\Users\felzeeb\Downloads\Unbenannt.png,Unbenannt.png]
+
+Relevant diagnostic services for Initial operation of ECU (e.g calibration,...)
+
+
+Active Diagnostic Information
+Supplier CTRLU_MBEAM: Kostal
+
+ActiveDiagnosticInformation_Read: Diagnostic Request PDU: 0x22 F1 00
+- positive Response PDU: 0x62 F1 00 aa xx yy zz
+
+Byte #3: aa - ECU Software Mode = 0x00-Aplication, 0x01-BootMode
+Byte #4: xx - Active Diagnostic Variant - 0x0B (CTRLU_MBeam)
+Byte #5: yy - Active Diagnostic Version = incremected with every new diag-Variant
+Byte #6: zz - Active Diagnostic Session = 0x01-DefaultSession, 0x02-ProgrammingSession, 0x03-ExtendedSession
+
+Active Diagnostic Variant table overview for middle Byte #4 (xx) for ECU Adress 0x1193:
+
+CTRLU223 - 0x03
+CTRLU214 - 0x05
+CTRLU_MMA - 0x0A
+CTRLU_MBEAM - 0x0B
+
+
+Architecture
+STAR 3.5
+Vector SLP
+HEADUNIT1-CAN 500 / 1000
+AUTOSAR 20.11
+
+CAN-Identifiers
+
+ECU Nr. 193h
+ECU Eth. Adress: 0x1193
+DoIP Ethernet gateway: CEIC_M - 0x110A
+CAN_ID - Request/Response - Functional:
+ExtETH 0x18E19388/..80 - 0x18EEF888
+IntETH 0x18E1938D/..85 - 0x18EF0D8D
+
+------------------------------------------------------------------------------------------------------------------------
+
+Used abbreviations (e.g for Functions/Systems which are used as prefixes in diagnostic instances)
+
+
+Flashlayout:
+logicalBlock blockId="1" blockType="Bootloader" jobName="WVC_FlashBootLoader" ofrCapable="false" targetBlockId="0"
+logicalBlock blockId="1" blockType="Application" jobName="WVC_Application" ofrCapable="false"'.
+I: Plugin: Modifying translatable string from 'Volume scroll wheel actuated once? ' to 'Volume scroll wheel actuated once?'.
+I: Plugin: Modifying translatable string from 'Volume scroll wheel actuated once? ' to 'Volume scroll wheel actuated once?'.
+I: Plugin: Modifying translatable string from 'Volume scroll wheel actuated once? ' to 'Volume scroll wheel actuated once?'.
+I: Plug-in 'Mercedes-Benz: Remove trailing blanks' successfully executed.
+D: Searching for registry key Software\Vector\CANdelaPersistors for global persistors path
+D:   registry key exists, value: 'C:\Program Files (x86)\Common Files\Vector CANdelaPersistors 20\Bin' (this directory exists)
+D:   global persistors version: 20.0.00100
+I: Saving 'C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Output\CTRLU_MBEAM_02.08.05_merged.cdd'...
+I:   variant Common_Diagnostics
+D: Saving event data of diagnostic instance "Fault Memory"
+D: Saving event data of diagnostic instance "Development Fault Memory"
+I:   variant Common_Boot
+I:   variant R04_0
+D: Saving event data of diagnostic instance "Fault Memory"
+I:   variant R04_1
+D: Saving event data of diagnostic instance "Fault Memory"
+I:   variant R05_0
+D: Saving event data of diagnostic instance "Fault Memory"
+I:   variant R05_1
+D: Saving event data of diagnostic instance "Fault Memory"
+I:   variant R06_0
+D: Saving event data of diagnostic instance "Fault Memory"
+I:   variant R06_1
+I:   variant R07_0
+D: Saving event data of diagnostic instance "Fault Memory"
+I:   variant R07_1
+D: Saving event data of diagnostic instance "Fault Memory"
+I:   variant R08_0
+D: Saving event data of diagnostic instance "Fault Memory"
+D:  Saving requirements...
+D:  Done saving requirements.
+I: Done saving.
+I: Document 'C:\Temp\DiagDatenPipeline\Plugins\RemoveTrailingBlanks\Output\CTRLU_MBEAM_02.08.05_merged.cdd' has successfully been saved.
+D: Shutting down CANdelaStudio...
+D:   writing profile
+D:   freeing plug-ins
+D: Shutdown done.

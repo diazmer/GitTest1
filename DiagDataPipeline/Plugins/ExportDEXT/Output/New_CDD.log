@@ -1,0 +1,1630 @@
+﻿[12:17:14] Info   ----> Process of diagnostic specification
+[12:17:14] Info   Using MD5 for authentication
+[12:17:14] Info   Using CANdela Template 'DSUDS MB.OS 2.0 Template 23.42.01'
+[12:17:14] Info   Calling Application 'CANdelaStudio 18.0.1104'
+[12:17:14] Info   Change Version '00.00.01'
+[12:17:14] Info   CDD-File (Version: 18, ASR-FM: true)
+[12:17:14] Info   DDM-Version:   25.2.0 (Release)
+[12:17:14] Info   Import-Method: Direct-CDD (AsrFM)
+[12:17:14] Info   Importing Cdd-File: 'C:\Temp\DiagDataPipeline\Plugins\ExportDEXT\Input\NewCDD.cdd', ECU: 'New_CDD', variant: 'Common_Diagnostics'
+[12:17:14] Info   Importing CDD file (DCM Part): 'C:\Temp\DiagDataPipeline\Plugins\ExportDEXT\Input\NewCDD.cdd', ECU: 'New_CDD', variant: 'Common_Diagnostics'
+[12:17:15] Debug  [DTLCORE] Attached Logger: LogLevel [DEBUG]
+[12:17:15] Debug  [DTLCORE] Date/Time Tue Feb 20 12:17:15 2024
+
+[12:17:15] Debug  [DTLCORE] System Codepage [1252] Name []
+[12:17:15] Debug  [DTLCORE] Active Codepage [1252]
+[12:17:15] Debug  [DTLCORE] DTL [11.2.1 (11.2.1)] [64-Bit]
+[12:17:15] Debug  [DTLCORE] Working DIR [C:\Program Files (x86)\Common Files\Vector\DiagnosticDataModifier]
+[12:17:15] Debug  [DTLCORE] Windows version: 6.2 [Build: 9200] [Platform: 2]
+[12:17:15] Debug  ODX2DDM Version:11.2:1:0
+[12:17:15] Debug  [DTLCORE] DTL global switches: Reset To Defaults
+[12:17:15] Debug  [DTLCORE] No Vector.ini found
+[12:17:15] Debug  [DTLCORE] Setting global switch: LoadServiceDescriptions: [true]
+[12:17:15] Debug  [DTLCORE] Setting global switch: FlattenFixedIterative: [false]
+[12:17:15] Debug  [DTLCORE] Setting global switch: DisableCommunicationView: [true]
+[12:17:15] Debug  [DTLUTILS] 
+[12:17:15] Debug  [DTLUTILS] --> Loading Database: C:\Temp\DiagDataPipeline\Plugins\ExportDEXT\Input\NewCDD.cdd
+[12:17:15] Debug  [DTLCOM] No Vector.ini found
+[12:17:15] Debug  [MDL] Load Options: LoadValidation [Validate Continue on Error] LoadBehavior [Load Shared] RememberOriginalElements [true] SupportAdditionalTextTableInfo [true] Odx/CDD Compatibility mode [true]Use OdxReader [false]
+[12:17:15] Debug  [DTLUTILS] Using DLL [C:\Program Files (x86)\Common Files\Vector\DiagnosticDataModifier\VDBuilderCdl.dll] Version [11.2.1]
+[12:17:15] Debug  Searching for registry key Software\Vector\CANdelaPersistors for global persistors path
+[12:17:15] Debug    registry key exists, value: 'C:\Program Files (x86)\Common Files\Vector CANdelaPersistors 20\Bin' (this directory exists)
+[12:17:15] Debug    global persistors version: 20.0.00100
+[12:17:15] Debug  [DTLCDL] Persistor [18.0.11]
+[12:17:15] Debug  Detected dtd version 18.0.6
+[12:17:15] Debug  VCANdelaPersistorImpl::GetFileVersion: DTD version '18.0.6' detected
+[12:17:15] Debug  Loading 'C:\Temp\DiagDataPipeline\Plugins\ExportDEXT\Input\NewCDD.cdd'...
+[12:17:15] Debug  persistor load settings:
+[12:17:15] Debug   CheckIdentifierForUniquenessForOldFiles:              no
+[12:17:15] Debug   CheckNameIsValid:                                     no
+[12:17:15] Debug   DeleteAuthorizationStateGroupForOldDaimlerDocuments:  no
+[12:17:15] Debug   FixInvalidShortcutNameForOldFiles:                    no
+[12:17:15] Debug   SkipAttachmentAndPictures:                            yes
+[12:17:15] Debug   SkipAutosarFaultMemoryMigration:                      yes
+[12:17:15] Debug   ValidateDiagClassTemplates:                           no
+[12:17:15] Debug  Skipping all pictures and attachments since loading read-only.
+[12:17:15] Debug    dtd version: file 18.0.6, program 18.0.11
+[12:17:15] Debug  Document supports the languages (en-US)
+[12:17:15] Debug  Document contains the uptodate languages (en-US)
+[12:17:15] Debug  Template: Qualifier : DCS_UDS, SaveNo : 20, Label : 1.00.70, DPRS
+[12:17:15] Debug    template data loaded
+[12:17:15] Debug  Loaded Snapshot records and data
+[12:17:15] Debug  Loaded Extended data
+[12:17:15] Debug  Start loading event data model
+[12:17:15] Debug  Loaded Snapshot records and data
+[12:17:15] Debug  Loaded Extended data
+[12:17:15] Debug  Start loading event data model
+[12:17:15] Debug    library variant 'MBC_FaultMemory_Event_Defaults' loaded
+[12:17:15] Debug  Loaded Snapshot records and data
+[12:17:15] Debug  Loaded Extended data
+[12:17:15] Debug  Start loading event data model
+[12:17:15] Debug  Loaded Snapshot records and data
+[12:17:15] Debug  Loaded Extended data
+[12:17:15] Debug  Start loading event data model
+[12:17:15] Debug    variant 'Common_Diagnostics' loaded
+[12:17:15] Debug  Start loading requirement data model
+[12:17:15] Debug  End loading requirement data model
+[12:17:15] Debug  Document version: 00.00.01
+[12:17:15] Debug  Done loading.
+[12:17:15] Debug    Logging turned on again
+[12:17:15] Debug  Detected dtd version 18.0.6
+[12:17:15] Debug  VCANdelaPersistorImpl::GetFileVersion: DTD version '18.0.6' detected
+[12:17:15] Debug  [DTLCDL] Communication view disabled. Some Fault Memory Elements may not be correct
+[12:17:15] Debug  [MDL] Set protocol standard to [UDS]. Choice based on [UDS specified in CDD]. Is ambiguous? [0]
+[12:17:15] Debug  [DTLUTILS] LOADER: Database added to cache [C:\Temp\DiagDataPipeline\Plugins\ExportDEXT\Input\NewCDD.cdd_1da5b42b3e9344]
+[12:17:15] Debug  [DTLUTILS] Done Loading Database
+[12:17:15] Info   Selecting ECU 'New_CDD'  Variant 'Common_Diagnostics'.
+[12:17:15] Debug  [MDL]   INIT ECU New_CDD
+[12:17:15] Debug  [DTLCORE] Setting global switch: SupportAdditionalTextTableInfo: [true]
+[12:17:15] Debug  [MDL] Init Variant [Common_Diagnostics]
+[12:17:15] Debug  [DTLCDL] CANdelaCore 17 compatibility. Inserted packet [Active_Diagnostic_Information] in [RDBI_PR]
+[12:17:15] Debug  [DTLCDL] CANdelaCore 17 compatibility. Inserted packet [Hardware_Supplier_Identification] in [RDBI_PR]
+[12:17:15] Debug  [DTLCDL] Service deactivated Verify_Certificate_Bidirectional
+[12:17:15] Debug  [DTLCDL] Service deactivated ReportDTCWithPermanentStatus
+[12:17:15] Warn   [DTLUSECASE] DESC: 'RecordDataType: no valid DTC found' C: 'Creating Dummy DTC for consistency' TL: 'RecordDataType' ML: 'qpath:/Common_Diagnostics/Development_Fault_Memory/DTCRecordUserDef/DTCRecord/[DATATYPE]RecordDataType']
+[12:17:15] Debug  [DTLCDL] Service deactivated Upload
+[12:17:15] Debug  [DTLCDL] Service deactivated Add
+[12:17:15] Debug  [DTLCDL] Service deactivated Delete
+[12:17:15] Debug  [DTLCDL] Service deactivated Replace
+[12:17:15] Debug  [DTLCDL] Service deactivated Read_Dir
+[12:17:15] Debug  [DTLCDL] Service deactivated Resume
+[12:17:15] Warn   [DID] SERVICE [19] //New_CDD/Common_Diagnostics/FaultMem_ReportDTCSnapshotRecordByDTCNbr: No DIDs could be determined
+[12:17:15] Debug  VUDSDiagnosticUtility
+[12:17:15] Debug  VObdDiagnosticUtility
+[12:17:15] Info   Selecting Manufacturer 'Daimler'.
+[12:17:15] Info   'Daimler' was selected and 'Daimler' was detected.
+[12:17:15] Debug  'Daimler' was selected and 'Daimler' was detected.
+[12:17:15] Info   Importing Database information.
+[12:17:15] Debug  Importing ECU: New_CDD
+[12:17:15] Info   ----> Importing Variants
+[12:17:15] Info   <---- Importing Variants
+[12:17:15] Info   ----> Importing StateGroups
+[12:17:15] Info   Importing StateMachine information.
+[12:17:15] Info   <---- Importing StateGroups
+[12:17:15] Info   ----> Importing Services
+[12:17:15] Debug  [PARAM] ExtractException: Param [Authentication_Return_Parameter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Authentication_Return_Parameter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [CertificateEvaluationId] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [CertificateEvaluationId] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [CertificateEvaluationId] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [CertificateEvaluationId] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Data_Format_Identifier] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Data_Format_Identifier] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Data_Format_Identifier] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Data_Format_Identifier] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Data_Format_Identifier] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Data_Format_Identifier] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [Block_Sequence_Counter] has no data set
+[12:17:15] Info   Importing Service '14'.
+[12:17:15] Info   Importing Service '1901'.
+[12:17:15] Info   Importing Service '1902'.
+[12:17:15] Info   Importing Service '1904'.
+[12:17:15] Info   Importing Service '1906'.
+[12:17:15] Info   Importing Service '190A'.
+[12:17:15] Info   Importing Service '1914'.
+[12:17:15] Info   Importing Service '1917'.
+[12:17:15] Info   Importing Service '1918'.
+[12:17:15] Info   Importing Service '1919'.
+[12:17:15] Info   Importing Service '220100'.
+[12:17:15] Info   Importing Service '220101'.
+[12:17:15] Info   Importing Service '220102'.
+[12:17:15] Info   Importing Service '220103'.
+[12:17:15] Info   Importing Service '22F100'.
+[12:17:15] Info   Importing Service '22F154'.
+[12:17:15] Info   Importing Service '2900'.
+[12:17:15] Info   Importing Service '2901'.
+[12:17:15] Info   Importing Service '2903'.
+[12:17:15] Info   Importing Service '2904'.
+[12:17:15] Info   Importing Service '2908'.
+[12:17:15] Info   Importing Service '2E0103'.
+[12:17:15] Info   Importing Service '2F010200'.
+[12:17:15] Info   Importing Service '2F010201'.
+[12:17:15] Info   Importing Service '2F010202'.
+[12:17:15] Info   Importing Service '2F010203'.
+[12:17:15] Info   Importing Service '31010201'.
+[12:17:15] Info   Importing Service '31010202'.
+[12:17:15] Info   Importing Service '31010230'.
+[12:17:15] Info   Importing Service '31010241'.
+[12:17:15] Info   Importing Service '31010241'.
+[12:17:15] Warn   Service 0x31010241 declared multiple times.
+[12:17:15] Info   Importing Service '31010242'.
+[12:17:15] Info   Importing Service '31020202'.
+[12:17:15] Info   Importing Service '31030202'.
+[12:17:15] Info   Importing Service '34'.
+[12:17:15] Info   Importing Service '35003101'.
+[12:17:15] Info   Importing Service '35003102'.
+[12:17:15] Info   Importing Service '35003103'.
+[12:17:15] Info   Importing Service '35003104'.
+[12:17:15] Info   Importing Service '35003105'.
+[12:17:15] Info   Importing Service '35003106'.
+[12:17:15] Info   Importing Service '35003107'.
+[12:17:15] Info   Importing Service '35003108'.
+[12:17:15] Info   Importing Service '35003109'.
+[12:17:15] Info   Importing Service '3500310A'.
+[12:17:15] Info   Importing Service '36'.
+[12:17:15] Info   Importing Service '36'.
+[12:17:15] Warn   Service 0x36 declared multiple times.
+[12:17:15] Info   Importing Service '36'.
+[12:17:15] Warn   Service 0x36 declared multiple times.
+[12:17:15] Info   Importing Service '37'.
+[12:17:15] Info   Importing Service '37'.
+[12:17:15] Warn   Service 0x37 declared multiple times.
+[12:17:15] Info   Importing Service '37'.
+[12:17:15] Warn   Service 0x37 declared multiple times.
+[12:17:15] Info   Importing Service '38'.
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Debug  [PARAM] ExtractException: Param [File_Size] has no data set
+[12:17:15] Info   Importing Service '3E00'.
+[12:17:15] Info   <---- Importing Services
+[12:17:15] Info   ----> Importing EnvironmentalConditions
+[12:17:15] Info   <---- Importing EnvironmentalConditions
+[12:17:15] Info   ----> Importing FreezeFrame
+[12:17:15] Debug  validvalue cache hit=0 miss=0
+[12:17:15] Info   <---- Importing FreezeFrame
+[12:17:15] Info   ----> Importing DiagSettings
+[12:17:15] Info   Importing DiagSettings
+[12:17:15] Debug  [DTLCDL] Parsing ComParams for Interface [CAN_INT]
+[12:17:15] Debug  [DTLCDL] Parsing ComParams for Interface [Ethernet_DoIP]
+[12:17:15] Debug  [DTLCDL] Parsing ComParams for Interface [CAN_D]
+[12:17:15] Debug  [DTLCDL] Parsing ComParams for Interface [FlexRay_ISO]
+[12:17:15] Warn   [DTLCOM] In ComInterface Ethernet_DoIP, both ComParam names S3Server and CP_TesterPresentTime_Ecu map to the same normalized qualifier S3Server. Ignoring the second one.
+[12:17:15] Debug  [DTLCDL] Parsing ComParams for Interface [Ethernet_DoIP_DOBT]
+[12:17:15] Warn   [DTLCOM] In ComInterface Ethernet_DoIP_DOBT, both ComParam names S3Server and CP_TesterPresentTime_Ecu map to the same normalized qualifier S3Server. Ignoring the second one.
+[12:17:15] Debug  [DTLCDL] Parsing ComParams for Interface [Ethernet_DoIP_2]
+[12:17:15] Warn   [DTLCOM] In ComInterface Ethernet_DoIP_2, both ComParam names S3Server and CP_TesterPresentTime_Ecu map to the same normalized qualifier S3Server. Ignoring the second one.
+[12:17:15] Debug  [DTLCDL] Parsing ComParams for Interface [Ethernet_DoIP_DOBT_2]
+[12:17:15] Warn   [DTLCOM] In ComInterface Ethernet_DoIP_DOBT_2, both ComParam names S3Server and CP_TesterPresentTime_Ecu map to the same normalized qualifier S3Server. Ignoring the second one.
+[12:17:15] Debug  [DTLCOM] INTERFACE {CAN_INT}
+[12:17:15] Debug  [DTLCOM]  CPS  [AddressingScheme         ] [Normal                   ] (AddrScheme               ) 'Normal                   '
+[12:17:15] Debug  [DTLCOM]  CPS  [AddressingSchemeFunc     ] [Normal                   ] (AddrSchemeFunc           ) 'Normal                   '
+[12:17:15] Debug  [DTLCOM]  CPS  [AutoP2Handling           ] [Disabled                 ] (CP_ModifyTiming          ) 'Disabled                 '
+[12:17:15] Debug  [DTLCOM]  CPS  [Baudrate                 ] [500000 (0x7A120)         ] (CP_Baudrate              )
+[12:17:15] Debug  [DTLCOM]  CPS  [BlockSize                ] [8 (0x8)                  ] (CP_BlockSize             )
+[12:17:15] Debug  [DTLCOM]  CPS  [BroadcastAddress         ] [0x00 (0x0)               ] (CP_CanFuncReqExtAddr     )
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_CanRespUUDTExtAddr    ] [0x00 (0x0)               ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_RequestAddrMode       ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_SamplesPerBit         ] [1-Sample                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentAddrMode ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpNegResp] [7F3E                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpPosResp] [7E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentHandling ] [Enabled                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentMessage  ] [3E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentReqRsp   ] [Response expected        ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentSendType ] [On idle                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CanFdBitSamplePoint      ] [75 (0x4B)                ] (CP_CANFDBitSamplePoint   )
+[12:17:15] Debug  [DTLCOM]  CPS  [CanFdDataBaudrate        ] [4000000 (0x3D0900)       ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CanFdMaxDlc              ] [TX_DL = 8, Classic CAN   ] (CP_CANFDTxMaxDataLength  )
+[12:17:15] Debug  [DTLCOM]  CPS  [CanFdSyncJumpWidth       ] [16 (0x10)                ] (CP_CANFDSyncJumpWidth    )
+[12:17:15] Debug  [DTLCOM]  CPS  [CanIdType                ] [29-Bit                   ] '29-Bit                   '
+[12:17:15] Debug  [DTLCOM]  CPS  [CanIdTypeFunc            ] [29-Bit                   ] '29-Bit                   '
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticConnectionRef  ] [                         ]
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticProtocolPriority] [4 (0x4)                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [EcuAddress               ] [0x00 (0x0)               ] (CP_CanPhysReqExtAddr     )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2Client                 ] [2100 (0x834)             ] (CP_P2Max                 )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2ExClient               ] [4500 (0x1194)            ] (CP_P2Star                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2ExServer               ] [2000 (0x7D0)             ] (CP_P2Star_Ecu            )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2Server                 ] [20 (0x14)                ] (CP_P2Max_Ecu             )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientFunc             ] [150 (0x96)               ] (CP_P3Func                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientPhys             ] [150 (0x96)               ] (CP_P3Phys                )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21CompletionTimeout    ] [10000 (0x2710)           ] (CP_RC21CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21Handling             ] [Enabled                  ] (CP_RC21Handling          ) 'Continue until RC21 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RC23CompletionTimeout    ] [10000 (0x2710)           ] (CP_RC23CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC23Handling             ] [Disabled                 ] (CP_RC23Handling          )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78CompletionTimeout    ] [60000 (0xEA60)           ] (CP_RC78CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78Handling             ] [Enabled                  ] (CP_RC78Handling          ) 'Continue until RC78 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RepeatRequestCount       ] [2 (0x2)                  ] (CP_RepeatReqCountApp     )
+[12:17:15] Debug  [DTLCOM]  CPS  [ReqCanIdFunc             ] [0x18EEF888 (0x18EEF888)  ] (CP_CanFuncReqId          )
+[12:17:15] Debug  [DTLCOM]  CPS  [ReqCanIdPhys             ] [0x00 (0x0)               ] (CP_CanPhysReqId          )
+[12:17:15] Debug  [DTLCOM]  CPS  [ResCanId                 ] [0x00 (0x0)               ] (CP_CanRespUSDTId         )
+[12:17:15] Debug  [DTLCOM]  CPS  [ResCanIdUudt             ] [0xFFFFFFFF (0xFFFFFFFF)  ] (CP_CanRespUUDTId         )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Client                 ] [2000 (0x7D0)             ] (CP_TesterPresentTime     )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Server                 ] [19000 (0x4A38)           ]
+[12:17:15] Debug  [DTLCOM]  CPS  [SendRespPendOnTransToBoot] [NULL                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [StMin                    ] [0 (0x0)                  ] (CP_StMin                 )
+[12:17:15] Debug  [DTLCOM]  CPS  [StMinOverride            ] [0xFFFFFFFF (0xFFFFFFFF)  ] (CP_StMinOverride         )
+[12:17:15] Debug  [DTLCOM]  CPS  [TesterAddress            ] [0x00 (0x0)               ] (CP_CanRespUSDTExtAddr    )
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeBr                   ] [0 (0x0)                  ] (CP_Br                    )
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeoutBs                ] [2100 (0x834)             ] (CP_Bs                    )
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeoutCr                ] [2000 (0x7D0)             ] (CP_Cr                    )
+[12:17:15] Debug  [DTLCOM]  CPS  [TransmissionTime         ] [0 (0x0)                  ] (CP_CanTransmissionTime   )
+[12:17:15] Debug  [DTLCOM] INTERFACE {Ethernet_DoIP}
+[12:17:15] Debug  [DTLCOM]  CPS  [BroadcastAddress         ] [0xEEF8 (0xEEF8)          ] (CP_DoIPLogicalFunctionalAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [BusType                  ] [ETHERNET                 ] 'Ethernet                 '
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_DoIPRoutingActivationTimeout] [1000 (0x3E8)             ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_RequestAddrMode       ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentAddrMode ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpNegResp] [7F3E                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpPosResp] [7E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentHandling ] [Enabled                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentMessage  ] [3E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentReqRsp   ] [Response expected        ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentSendType ] [On idle                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticConnectionRef  ] [                         ]
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticProtocolPriority] [2 (0x2)                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalEcuAddress        ] [0x01 (0x1)               ] (CP_DoIPLogicalEcuAddress )
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalGatewayAddress    ] [0x02 (0x2)               ] (CP_DoIPLogicalGatewayAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalTesterAddress     ] [0x0EF8 (0xEF8)           ] (CP_DoIPLogicalTesterAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [P2ExServer               ] [2000 (0x7D0)             ] (CP_P2Star_Ecu            )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2Server                 ] [20 (0x14)                ] (CP_P2Max_Ecu             )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientFunc             ] [150 (0x96)               ] (CP_P3Func                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientPhys             ] [150 (0x96)               ] (CP_P3Phys                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P6Client                 ] [4500 (0x1194)            ] (CP_P6Max                 )
+[12:17:15] Debug  [DTLCOM]  CPS  [P6ExClient               ] [6500 (0x1964)            ] (CP_P6Star                )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21CompletionTimeout    ] [1300 (0x514)             ] (CP_RC21CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21Handling             ] [Enabled                  ] (CP_RC21Handling          ) 'Continue until RC21 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21RequestTime          ] [200 (0xC8)               ] (CP_RC21RequestTime       )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78CompletionTimeout    ] [60000 (0xEA60)           ] (CP_RC78CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78Handling             ] [Enabled                  ] (CP_RC78Handling          ) 'Continue until RC78 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RepeatRequestCount       ] [2 (0x2)                  ] (CP_RepeatReqCountApp     )
+[12:17:15] Debug  [DTLCOM]  CPS  [RoutingActivationType    ] [0 (0x0)                  ] (CP_DoIPRoutingActivationType)
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Client                 ] [2000 (0x7D0)             ] (CP_TesterPresentTime     )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Server                 ] [19000 (0x4A38)           ] (CP_TesterPresentTime_Ecu )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Server                 ] [19000 (0x4A38)           ]
+[12:17:15] Debug  [DTLCOM]  CPS  [SendRespPendOnTransToBoot] [NULL                     ]
+[12:17:15] Debug  [DTLCOM] INTERFACE {CAN_D}
+[12:17:15] Debug  [DTLCOM]  CPS  [AddressingScheme         ] [Normal                   ] (AddrScheme               ) 'Normal                   '
+[12:17:15] Debug  [DTLCOM]  CPS  [AddressingSchemeFunc     ] [Normal                   ] (AddrSchemeFunc           ) 'Normal                   '
+[12:17:15] Debug  [DTLCOM]  CPS  [AutoP2Handling           ] [Disabled                 ] (CP_ModifyTiming          ) 'Disabled                 '
+[12:17:15] Debug  [DTLCOM]  CPS  [Baudrate                 ] [500000 (0x7A120)         ] (CP_Baudrate              )
+[12:17:15] Debug  [DTLCOM]  CPS  [BlockSize                ] [8 (0x8)                  ] (CP_BlockSize             )
+[12:17:15] Debug  [DTLCOM]  CPS  [BroadcastAddress         ] [0x00 (0x0)               ] (CP_CanFuncReqExtAddr     )
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_CanRespUUDTExtAddr    ] [0x00 (0x0)               ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_RequestAddrMode       ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_SamplesPerBit         ] [1-Sample                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentAddrMode ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpNegResp] [7F3E                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpPosResp] [7E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentHandling ] [Enabled                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentMessage  ] [3E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentReqRsp   ] [Response expected        ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentSendType ] [On idle                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CanIdType                ] [11-Bit                   ] '11-Bit                   '
+[12:17:15] Debug  [DTLCOM]  CPS  [CanIdTypeFunc            ] [11-Bit                   ] '11-Bit                   '
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticConnectionRef  ] [                         ]
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticProtocolPriority] [3 (0x3)                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [EcuAddress               ] [0x00 (0x0)               ] (CP_CanPhysReqExtAddr     )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2Client                 ] [2100 (0x834)             ] (CP_P2Max                 )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2ExClient               ] [4500 (0x1194)            ] (CP_P2Star                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2ExServer               ] [2000 (0x7D0)             ] (CP_P2Star_Ecu            )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2Server                 ] [20 (0x14)                ] (CP_P2Max_Ecu             )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientFunc             ] [150 (0x96)               ] (CP_P3Func                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientPhys             ] [150 (0x96)               ] (CP_P3Phys                )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21CompletionTimeout    ] [10000 (0x2710)           ] (CP_RC21CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21Handling             ] [Enabled                  ] (CP_RC21Handling          ) 'Continue until RC21 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RC23CompletionTimeout    ] [10000 (0x2710)           ] (CP_RC23CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC23Handling             ] [Continue until RC23 timeout] (CP_RC23Handling          )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78CompletionTimeout    ] [60000 (0xEA60)           ] (CP_RC78CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78Handling             ] [Enabled                  ] (CP_RC78Handling          ) 'Continue until RC78 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RepeatRequestCount       ] [2 (0x2)                  ] (CP_RepeatReqCountApp     )
+[12:17:15] Debug  [DTLCOM]  CPS  [ReqCanIdFunc             ] [0x0441 (0x441)           ] (CP_CanFuncReqId          )
+[12:17:15] Debug  [DTLCOM]  CPS  [ReqCanIdPhys             ] [0x00 (0x0)               ] (CP_CanPhysReqId          )
+[12:17:15] Debug  [DTLCOM]  CPS  [ResCanId                 ] [0x00 (0x0)               ] (CP_CanRespUSDTId         )
+[12:17:15] Debug  [DTLCOM]  CPS  [ResCanIdUudt             ] [0xFFFFFFFF (0xFFFFFFFF)  ] (CP_CanRespUUDTId         )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Client                 ] [2000 (0x7D0)             ] (CP_TesterPresentTime     )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Server                 ] [19000 (0x4A38)           ]
+[12:17:15] Debug  [DTLCOM]  CPS  [SendRespPendOnTransToBoot] [NULL                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [StMin                    ] [0 (0x0)                  ] (CP_StMin                 )
+[12:17:15] Debug  [DTLCOM]  CPS  [StMinOverride            ] [0xFFFFFFFF (0xFFFFFFFF)  ] (CP_StMinOverride         )
+[12:17:15] Debug  [DTLCOM]  CPS  [TesterAddress            ] [0x00 (0x0)               ] (CP_CanRespUSDTExtAddr    )
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeBr                   ] [0 (0x0)                  ] (CP_Br                    )
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeoutBs                ] [2100 (0x834)             ] (CP_Bs                    )
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeoutCr                ] [2000 (0x7D0)             ] (CP_Cr                    )
+[12:17:15] Debug  [DTLCOM]  CPS  [TransmissionTime         ] [0 (0x0)                  ] (CP_CanTransmissionTime   )
+[12:17:15] Debug  [DTLCOM] INTERFACE {FlexRay_ISO}
+[12:17:15] Debug  [DTLCOM]  CPS  [AutoP2Handling           ] [Enabled                  ] 'Enabled                  '
+[12:17:15] Debug  [DTLCOM]  CPS  [BandwithControl          ] [0 (0x0)                  ] (BandwidthControl         )
+[12:17:15] Debug  [DTLCOM]  CPS  [BroadcastAddress         ] [0xEEF8 (0xEEF8)          ]
+[12:17:15] Debug  [DTLCOM]  CPS  [BufferSize               ] [0 (0x0)                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [BusType                  ] [FLEXRAY                  ] 'FlexRay                  '
+[12:17:15] Debug  [DTLCOM]  CPS  [ConnectionModePhys       ] [1 (0x1)                  ] 'UnAckUnicast             '
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticConnectionRef  ] [                         ]
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticProtocolPriority] [4 (0x4)                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [EcuAddress               ] [0x4444 (0x4444)          ]
+[12:17:15] Debug  [DTLCOM]  CPS  [EcuAddress2              ] [0x00 (0x0)               ]
+[12:17:15] Debug  [DTLCOM]  CPS  [FillerByteHandling       ] [1 (0x1)                  ] 'true                     '
+[12:17:15] Debug  [DTLCOM]  CPS  [FrFrameFillerByte        ] [0x00 (0x0)               ]
+[12:17:15] Debug  [DTLCOM]  CPS  [InterfaceNotRelevantForODX] [TRUE                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [P2Client                 ] [150 (0x96)               ] (CP_P2Max                 )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2ExClient               ] [2000 (0x7D0)             ] (CP_P2Star                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2ExServer               ] [1950 (0x79E)             ] (CP_P2Star_Ecu            )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2Server                 ] [100 (0x64)               ] (CP_P2Max_Ecu             )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientPhys             ] [100 (0x64)               ] (CP_P3Phys                )
+[12:17:15] Debug  [DTLCOM]  CPS  [PduListReqFunc           ] [DIAG_RQ_GLOBAL_1_ST3,DIAG_RQ_GLOBAL_2_ST3,DIAG_RQ_GLOBAL_3_ST3,DIAG_RQ_GLOBAL_4_ST3,DIAG_RQ_GLOBAL_5_ST3,DIAG_RQ_GLOBAL_6_ST3,DIAG_RQ_GLOBAL_7_ST3,DIAG_RQ_GLOBAL_8_ST3] (PDUListReqFunc           )
+[12:17:15] Debug  [DTLCOM]  CPS  [PduListReqPhys           ] [DIAG_RQ_GLOBAL_1_ST3,DIAG_RQ_GLOBAL_2_ST3,DIAG_RQ_GLOBAL_3_ST3,DIAG_RQ_GLOBAL_4_ST3,DIAG_RQ_GLOBAL_5_ST3,DIAG_RQ_GLOBAL_6_ST3,DIAG_RQ_GLOBAL_7_ST3,DIAG_RQ_GLOBAL_8_ST3] (PDUListReqPhys           )
+[12:17:15] Debug  [DTLCOM]  CPS  [PduListRes               ] [                         ] (PDUListRes               )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21CompletionTimeout    ] [100 (0x64)               ]
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21Handling             ] [Disabled                 ] 'Disabled                 '
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21RequestTime          ] [10 (0xA)                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78CompletionTimeout    ] [30000 (0x7530)           ]
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78Handling             ] [EnabledUnlimited         ] 'EnabledUnlimited         '
+[12:17:15] Debug  [DTLCOM]  CPS  [RepeatRequestCount       ] [2 (0x2)                  ] (CP_RepeatReqCountApp     )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Client                 ] [4000 (0xFA0)             ] (CP_TesterPresentTime     )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Server                 ] [19000 (0x4A38)           ] (CP_TesterPresentTime_Ecu )
+[12:17:15] Debug  [DTLCOM]  CPS  [SendRespPendOnTransToBoot] [NULL                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [TesterAddress            ] [0x0EF8 (0xEF8)           ]
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeBr                   ] [5 (0x5)                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeCs                   ] [5 (0x5)                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeoutAr                ] [50 (0x32)                ]
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeoutAs                ] [50 (0x32)                ]
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeoutBs                ] [2100 (0x834)             ]
+[12:17:15] Debug  [DTLCOM]  CPS  [TimeoutCr                ] [350 (0x15E)              ]
+[12:17:15] Debug  [DTLCOM]  CPS  [TransportProtocolType    ] [ISO10681-2               ] 'ISO10681                 '
+[12:17:15] Debug  [DTLCOM] INTERFACE {Ethernet_DoIP_DOBT}
+[12:17:15] Debug  [DTLCOM]  CPS  [BroadcastAddress         ] [0xEF0D (0xEF0D)          ] (CP_DoIPLogicalFunctionalAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [BusType                  ] [ETHERNET                 ] 'Ethernet                 '
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_DoIPRoutingActivationTimeout] [1000 (0x3E8)             ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_RequestAddrMode       ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentAddrMode ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpNegResp] [7F3E                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpPosResp] [7E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentHandling ] [Enabled                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentMessage  ] [3E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentReqRsp   ] [Response expected        ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentSendType ] [On idle                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticConnectionRef  ] [                         ]
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticProtocolPriority] [5 (0x5)                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalEcuAddress        ] [0x01 (0x1)               ] (CP_DoIPLogicalEcuAddress )
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalGatewayAddress    ] [0x01 (0x1)               ] (CP_DoIPLogicalGatewayAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalTesterAddress     ] [0x0F0D (0xF0D)           ] (CP_DoIPLogicalTesterAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [P2ExServer               ] [2000 (0x7D0)             ] (CP_P2Star_Ecu            )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2Server                 ] [20 (0x14)                ] (CP_P2Max_Ecu             )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientFunc             ] [150 (0x96)               ] (CP_P3Func                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientPhys             ] [150 (0x96)               ] (CP_P3Phys                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P6Client                 ] [4500 (0x1194)            ] (CP_P6Max                 )
+[12:17:15] Debug  [DTLCOM]  CPS  [P6ExClient               ] [6500 (0x1964)            ] (CP_P6Star                )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21CompletionTimeout    ] [1300 (0x514)             ] (CP_RC21CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21Handling             ] [Enabled                  ] (CP_RC21Handling          ) 'Continue until RC21 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21RequestTime          ] [200 (0xC8)               ] (CP_RC21RequestTime       )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78CompletionTimeout    ] [60000 (0xEA60)           ] (CP_RC78CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78Handling             ] [Enabled                  ] (CP_RC78Handling          ) 'Continue until RC78 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RepeatRequestCount       ] [2 (0x2)                  ] (CP_RepeatReqCountApp     )
+[12:17:15] Debug  [DTLCOM]  CPS  [RoutingActivationType    ] [0 (0x0)                  ] (CP_DoIPRoutingActivationType)
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Client                 ] [2000 (0x7D0)             ] (CP_TesterPresentTime     )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Server                 ] [19000 (0x4A38)           ] (CP_TesterPresentTime_Ecu )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Server                 ] [19000 (0x4A38)           ]
+[12:17:15] Debug  [DTLCOM]  CPS  [SendRespPendOnTransToBoot] [NULL                     ]
+[12:17:15] Debug  [DTLCOM] INTERFACE {Ethernet_DoIP_2}
+[12:17:15] Debug  [DTLCOM]  CPS  [BroadcastAddress         ] [0xEEF8 (0xEEF8)          ] (CP_DoIPLogicalFunctionalAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [BusType                  ] [ETHERNET                 ] 'Ethernet                 '
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_DoIPRoutingActivationTimeout] [1000 (0x3E8)             ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_RequestAddrMode       ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentAddrMode ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpNegResp] [7F3E                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpPosResp] [7E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentHandling ] [Enabled                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentMessage  ] [3E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentReqRsp   ] [Response expected        ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentSendType ] [On idle                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticConnectionRef  ] [                         ]
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticProtocolPriority] [2 (0x2)                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalEcuAddress        ] [0x01 (0x1)               ] (CP_DoIPLogicalEcuAddress )
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalGatewayAddress    ] [0x02 (0x2)               ] (CP_DoIPLogicalGatewayAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalTesterAddress     ] [0x0EF8 (0xEF8)           ] (CP_DoIPLogicalTesterAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [P2ExServer               ] [2000 (0x7D0)             ] (CP_P2Star_Ecu            )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2Server                 ] [20 (0x14)                ] (CP_P2Max_Ecu             )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientFunc             ] [150 (0x96)               ] (CP_P3Func                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientPhys             ] [150 (0x96)               ] (CP_P3Phys                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P6Client                 ] [4500 (0x1194)            ] (CP_P6Max                 )
+[12:17:15] Debug  [DTLCOM]  CPS  [P6ExClient               ] [6500 (0x1964)            ] (CP_P6Star                )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21CompletionTimeout    ] [1300 (0x514)             ] (CP_RC21CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21Handling             ] [Enabled                  ] (CP_RC21Handling          ) 'Continue until RC21 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21RequestTime          ] [200 (0xC8)               ] (CP_RC21RequestTime       )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78CompletionTimeout    ] [60000 (0xEA60)           ] (CP_RC78CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78Handling             ] [Enabled                  ] (CP_RC78Handling          ) 'Continue until RC78 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RepeatRequestCount       ] [2 (0x2)                  ] (CP_RepeatReqCountApp     )
+[12:17:15] Debug  [DTLCOM]  CPS  [RoutingActivationType    ] [0 (0x0)                  ] (CP_DoIPRoutingActivationType)
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Client                 ] [2000 (0x7D0)             ] (CP_TesterPresentTime     )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Server                 ] [19000 (0x4A38)           ] (CP_TesterPresentTime_Ecu )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Server                 ] [19000 (0x4A38)           ]
+[12:17:15] Debug  [DTLCOM]  CPS  [SendRespPendOnTransToBoot] [NULL                     ]
+[12:17:15] Debug  [DTLCOM] INTERFACE {Ethernet_DoIP_DOBT_2}
+[12:17:15] Debug  [DTLCOM]  CPS  [BroadcastAddress         ] [0xEF0D (0xEF0D)          ] (CP_DoIPLogicalFunctionalAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [BusType                  ] [ETHERNET                 ] 'Ethernet                 '
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_DoIPRoutingActivationTimeout] [1000 (0x3E8)             ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_RequestAddrMode       ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentAddrMode ] [Physical                 ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpNegResp] [7F3E                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentExpPosResp] [7E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentHandling ] [Enabled                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentMessage  ] [3E00                     ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentReqRsp   ] [Response expected        ]
+[12:17:15] Debug  [DTLCOM]  CPS  [CP_TesterPresentSendType ] [On idle                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticConnectionRef  ] [                         ]
+[12:17:15] Debug  [DTLCOM]  CPS  [DiagnosticProtocolPriority] [5 (0x5)                  ]
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalEcuAddress        ] [0x01 (0x1)               ] (CP_DoIPLogicalEcuAddress )
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalGatewayAddress    ] [0x01 (0x1)               ] (CP_DoIPLogicalGatewayAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [LogicalTesterAddress     ] [0x0F0D (0xF0D)           ] (CP_DoIPLogicalTesterAddress)
+[12:17:15] Debug  [DTLCOM]  CPS  [P2ExServer               ] [2000 (0x7D0)             ] (CP_P2Star_Ecu            )
+[12:17:15] Debug  [DTLCOM]  CPS  [P2Server                 ] [20 (0x14)                ] (CP_P2Max_Ecu             )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientFunc             ] [150 (0x96)               ] (CP_P3Func                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P3ClientPhys             ] [150 (0x96)               ] (CP_P3Phys                )
+[12:17:15] Debug  [DTLCOM]  CPS  [P6Client                 ] [4500 (0x1194)            ] (CP_P6Max                 )
+[12:17:15] Debug  [DTLCOM]  CPS  [P6ExClient               ] [6500 (0x1964)            ] (CP_P6Star                )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21CompletionTimeout    ] [1300 (0x514)             ] (CP_RC21CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21Handling             ] [Enabled                  ] (CP_RC21Handling          ) 'Continue until RC21 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RC21RequestTime          ] [200 (0xC8)               ] (CP_RC21RequestTime       )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78CompletionTimeout    ] [60000 (0xEA60)           ] (CP_RC78CompletionTimeout )
+[12:17:15] Debug  [DTLCOM]  CPS  [RC78Handling             ] [Enabled                  ] (CP_RC78Handling          ) 'Continue until RC78 timeout'
+[12:17:15] Debug  [DTLCOM]  CPS  [RepeatRequestCount       ] [2 (0x2)                  ] (CP_RepeatReqCountApp     )
+[12:17:15] Debug  [DTLCOM]  CPS  [RoutingActivationType    ] [0 (0x0)                  ] (CP_DoIPRoutingActivationType)
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Client                 ] [2000 (0x7D0)             ] (CP_TesterPresentTime     )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Server                 ] [19000 (0x4A38)           ] (CP_TesterPresentTime_Ecu )
+[12:17:15] Debug  [DTLCOM]  CPS  [S3Server                 ] [19000 (0x4A38)           ]
+[12:17:15] Debug  [DTLCOM]  CPS  [SendRespPendOnTransToBoot] [NULL                     ]
+[12:17:15] Info   <---- Importing DiagSettings
+[12:17:15] Info   ----> Importing DataCompProps
+[12:17:15] Info   <---- Importing DataCompProps
+[12:17:15] Info   ----> Direct Import Cdd-File (AsrFM)
+[12:17:15] Info   Dame Ecu: New_CDD  Variant: Common_Diagnostics
+[12:17:15] Info   <---- Finished Direct Importing CDD-File
+[12:17:15] Debug  [DTLUTILS] LOADER: Closing cached database [C:\Temp\DiagDataPipeline\Plugins\ExportDEXT\Input\NewCDD.cdd_1da5b42b3e9344] [RefCount 0]
+[12:17:15] Debug  [DTLUTILS] LOADER: Unloading cached database [C:\Temp\DiagDataPipeline\Plugins\ExportDEXT\Input\NewCDD.cdd_1da5b42b3e9344] [RefCount 0]
+[12:17:15] Debug  [DTLUTILS] <-- Unloading Database: C:\Temp\DiagDataPipeline\Plugins\ExportDEXT\Input\NewCDD.cdd
+[12:17:15] Debug  [MDL] Deinit Variant [Common_Diagnostics]
+[12:17:15] Info   <<<<<<<<<<<<< CDD-Import finished after 1.234
+[12:17:15] Info   Shaping imported model for diagnostic OEM 'Daimler'
+[12:17:15] Info    - Used Diagnostic OEM:  Daimler
+[12:17:15] Info    - OBD2-Support   (DCM): true
+[12:17:15] Info    - OBD2-Support   (DEM): true
+[12:17:15] Info    - Event-Import:         true
+[12:17:15] Info    - Direct-CDD-Import:    true
+[12:17:15] Info    - Direct-CDD-Scope:     AsrFM
+[12:17:15] Info    - Microsar:             true
+[12:17:15] Info    - Dext-Export:          true
+[12:17:15] Info    - Autosar-Platform:     classic
+[12:17:15] Info    - Autosar-Version:      v4.4.0
+[12:17:15] Info   >>>>>>>>>>>>> SHAPING preparation >>>>>>>>>>>>>
+[12:17:15] Info   <<<<<<<<<<<<< SHAPING ready after 0.031s (31ms) <<<<<<<<<<<<<
+[12:17:15] Info   >>>>>>>>>>>>> SHAPING started >>>>>>>>>>>>>
+[12:17:15] Info   >>>>>>>>>>>>> ShapingStep ServiceSelection >>>>>>>>>>>>>
+[12:17:15] Info   <<<<<<<<<<<<< ShapingStep ServiceSelection (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:15] Info   >>>>>>>>>>>>> ShapingStep DataPreparation >>>>>>>>>>>>>
+[12:17:15] Info   * Shape Data Comp Collections
+[12:17:15] Info   * Shape Compu-Methods
+[12:17:15] Info   * Fix Unsigned Boolean
+[12:17:15] Info   * Convert XInt24/XInt64 to Byte-Array
+[12:17:15] Info   * Set Compu-Scale Symbols
+[12:17:15] Debug  At DOP 'Authentication_Return_Parameter' 
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_0_Request_accepted'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_1_General_reject'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_2_Authentication_Configuration_A'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_3_Authentication_Configuration_A'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_4_Authentication_Configuration_A'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_16_DeAuthentication_successful'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_17_Certificate_verified_Ownership'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_18_Ownership_verified_Authenticat'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_19_Certificate_verified'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_32_Certificate_verification_faile'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_33_Certificate_verification_faile'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_34_Certificate_verification_faile'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_35_Certificate_verification_faile'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_36_Certificate_verification_faile'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_37_Certificate_verification_faile'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_38_Certificate_verification_faile'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_39_Certificate_verification_faile'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_48_Ownership_verification_failed'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_49_Challenge_calculation_failed'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_50_Setting_access_rights_failed'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_51_Session_key_creationderivation'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_52_Configuration_data_usage_faile'
+[12:17:15] Debug    - Set compu-scale symbol 'Authentication_Return_Parameter_65_DeAuthentication_failed'
+[12:17:15] Debug  At DOP 'ConfirmedDTC' 
+[12:17:15] Debug    - Set compu-scale symbol 'ConfirmedDTC_0_false'
+[12:17:15] Debug    - Set compu-scale symbol 'ConfirmedDTC_1_true'
+[12:17:15] Debug  At DOP 'DTC_Format_Identifier_1Byte' 
+[12:17:15] Debug    - Set compu-scale symbol 'DTC_Format_Identifier_1Byte_0_SAE_J2012_ISO150316_DTC_Format'
+[12:17:15] Debug    - Set compu-scale symbol 'DTC_Format_Identifier_1Byte_1_ISO142291_DTC_Format'
+[12:17:15] Debug    - Set compu-scale symbol 'DTC_Format_Identifier_1Byte_2_SAEJ193973_DTC_Format'
+[12:17:15] Debug    - Set compu-scale symbol 'DTC_Format_Identifier_1Byte_3_ISO119924_DTC_Format'
+[12:17:15] Debug    - Set compu-scale symbol 'DTC_Format_Identifier_1Byte_4_SAE_J2012_ISO271452_DTC_Format'
+[12:17:15] Debug  At DOP 'GroupOfDTC' 
+[12:17:15] Debug    - Set compu-scale symbol 'GroupOfDTC_16777215_All_Groups'
+[12:17:15] Debug    - Set compu-scale symbol 'GroupOfDTC_1_My_DTC_Test1'
+[12:17:15] Debug  At DOP 'Memory_Selector' 
+[12:17:15] Debug    - Set compu-scale symbol 'Memory_Selector_16_Development_Fault_Memory'
+[12:17:15] Debug  At DOP 'PendingDTC' 
+[12:17:15] Debug    - Set compu-scale symbol 'PendingDTC_0_false'
+[12:17:15] Debug    - Set compu-scale symbol 'PendingDTC_1_true'
+[12:17:15] Debug  At DOP 'RecordDataType' 
+[12:17:15] Debug    - Set compu-scale symbol 'RecordDataType_1_My_DTC_Test1'
+[12:17:15] Debug  At DOP 'RecordDataType' 
+[12:17:15] Debug    - Set compu-scale symbol 'RecordDataType_1_Example_DTC'
+[12:17:15] Debug  At DOP 'SAR_Data_Length_3Byte' 
+[12:17:15] Debug    - Set compu-scale symbol 'SAR_Data_Length_3Byte_0_Block_1_10_each_tbd_Byte'
+[12:17:15] Debug  At DOP 'Session_Type_7Bit' 
+[12:17:15] Debug    - Set compu-scale symbol 'Session_Type_7Bit_1_Default'
+[12:17:15] Debug    - Set compu-scale symbol 'Session_Type_7Bit_2_Programming'
+[12:17:15] Debug    - Set compu-scale symbol 'Session_Type_7Bit_3_Extended'
+[12:17:15] Debug    - Set compu-scale symbol 'Session_Type_7Bit_4_Safety_System_Diagnostic_Sessi'
+[12:17:15] Debug    - Set compu-scale symbol 'Session_Type_7Bit_66_Update'
+[12:17:15] Debug    - Set compu-scale symbol 'Session_Type_7Bit_73_StandBy'
+[12:17:15] Debug  At DOP 'SupplierList' 
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_0_Reserved'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_1_Becker'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_2_Blaupunkt'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_3_Bosch'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_4_MB'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_5_HuF'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_6_Kammerer'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_7_Kostal'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_8_Siemens'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_9_Stribel'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_10_MicroHeat'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_11_JATCO'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_12_Cummins'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_13_ZF_Lenksysteme'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_14_Nidec_Motors_Actuators'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_15_ST_Daewoo_Science_Technology_D'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_16_SWF'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_17_VDO'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_18_Webasto'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_19_Dornier'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_20_TEG'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_21_Hella'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_22_Lucas'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_23_GKR'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_24_MBB'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_25_Motometer'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_26_Daimler'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_27_Sanden'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_28_IEE'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_29_ASK'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_30_UShin'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_31_Volkswagen'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_32_Borg'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_33_Temic'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_34_Teves'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_35_BorgWarner'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_36_MED_SPA'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_37_DENSO'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_38_ZF'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_39_TRW'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_40_Dunlop'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_41_LUK'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_42_Hyundai_Autonet'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_43_Freightliner'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_44_TAKATAPETRI'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_45_Haldex'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_46_Hirschmann'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_47_e2v_Technology'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_48_Magneti_Marelli'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_49_DODUCO'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_50_Alpine'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_51_AMC_AEG_Mobile_Com'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_52_Bose'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_53_Dasa'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_54_Motorola'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_55_Nokia'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_56_Panasonic'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_57_APAG'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_58_Rialtosoft'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_59_Applicom'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_60_Conti_Temic'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_61_Cherry'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_62_TI_Automotive'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_63_Kongsberg_Automotive'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_64_Delphi'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_65_Alfmeier'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_66_Sidler'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_67_Marquardt'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_68_Wehrle'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_69_megamos'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_70_ADC'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_71_BERU'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_72_Valeo'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_73_Magna'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_74_Allison'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_75_Isringhausen'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_76_Grammer'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_77_Funkwerk_Dabendorf'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_78_HellaBehr'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_79_Pollak'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_80_AKG'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_81_Automotive_Lighting'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_82_TAG'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_83_UNITED_PARTS'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_84_catem'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_85_Alge'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_86_Pierburg'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_87_Brusa'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_88_Ecostar'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_89_XCELLSIS'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_90_Wabco_Automotive'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_91_Voith'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_92_Knorr'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_93_TVI'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_94_Stoneridge'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_95_Telma'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_96_STW'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_97_Koyo'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_98_Eberspcher'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_99_ADVICS'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_100_OMRON'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_101_Mitsubishi_Heavy_Industry'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_102_Methode'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_103_UNISIAJECS'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_104_UNISIA_JKC_Steering_Systems'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_105_AISIN'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_106_Zexel_Valeo'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_107_Schrader'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_108_Ballard'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_109_Alcoa_Fujikura'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_110_Transtron'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_111_Iteris'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_112_SFT'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_113_Kiekert_AG'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_114_Behr'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_115_MB_Lenkungen'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_116_Sachs_Automotive'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_117_Peiker'
+[12:17:15] Debug    - Set compu-scale symbol 'SupplierList_118_Petri'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_119_Autoliv'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_120_Thien_electronic'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_121_Siemens_VDO'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_122_Dornier_Consulting_GmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_123_Alps'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_124_PREH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_125_Hitachi_Unisia'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_126_Hitachi'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_127_Reserved'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_128_Huntsville'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_129_Yazaki'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_130_Lear'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_131_Johnson_Controls'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_132_Harman_Becker'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_133_Mitsubishi_Electric'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_134_Tokico_USA_Inc'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_135_Nippon_Seiki_NS_Intl_USA'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_136_Inalfa'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_137_Nippon_Seiki'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_138_GHSP'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_139_Vector'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_140_Gentex'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_141_Visteon'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_142_Tochigi_Fuji'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_143_Chrysler'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_144_May_and_Scofield'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_145_MercedesBenz_Hamburg_Plant'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_146_AISIN_AW'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_147_TOYODA_MACHINE_WORKS'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_148_SolectronInvotronics'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_149_Kicker'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_150_American_Axle_Company'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_151_GETRAG_Magna_Transmission_Syst'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_152_Promate'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_153_ArvinMeritor'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_154_Autometer'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_155_Valeo_Sylvania'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_156_Cobasys'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_157_Helbako'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_158_Continental'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_159_Reserved'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_160_Reserved_by_MMC'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_161_Reserved_by_MCCSMART'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_162_FUSO'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_163_Autokabel'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_164_Hyundai_Mobis'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_165_Festo'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_166_Schmidhauser'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_167_Sphere_DesignGmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_168_Deutsche_Accumotive_GmbH_Co_KG'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_169_BRC_Gas_Equipment'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_170_Delta_Energy_Systems'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_171_A123_Systems'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_172_Mercedes_AMG'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_173_Huber_Automotive_AG'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_174_Witte_Velbert'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_175_MetaSystem'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_176_MACOM'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_177_TBK_Tokai_Bussan_Corp'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_178_DDC'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_179_3Soft'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_180_MBTech'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_181_ETA'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_182_Ssangyong'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_183_Paragon'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_184_ThyssenKrupp'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_185_Hoerbiger'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_186_Bang_and_Olufsen'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_187_Hughes'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_188_Flextronics'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_189_Spheros'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_190_Kster_ACS'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_191_Kromberg_und_Schubert'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_192_SB_LiMotive'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_193_MAGNA_ECar_Systems_GmbH_Co_OG'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_194_SK_innovation'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_195_Renault'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_196_Bury'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_197_Digades'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_198_Claas'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_199_Widmaier'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_200_Garmin'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_201_Liebherr'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_202_LAWO'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_203_Poclain_Hydraulics_Industry'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_204_Tesla'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_205_Daimler_Plant_Mannheim'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_206_Ametek_VIS'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_207_Phoenix_International'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_208_Magna_Reman'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_209_IHI'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_210_Bitron'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_211_Navis'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_212_Casco_Schoeller_GmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_213_Tokyo_RD'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_214_Ortem'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_215_BHTC'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_216_Bergstrom'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_217_Daimler_TSS'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_218_LG_Electronics'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_219_AML'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_220_Toyota_Industries_Corporation'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_221_JTEKT'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_222_Samsung_SDI'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_223_ITK_Engineering_AG'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_224_Kristronics'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_225_RaPa_RauschPausch'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_226_AKASOL_GmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_227_Gigatronik_Austria'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_228_Westfalia_Automotive'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_229_MekraLang_GmbH_Co_KG'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_230_Keboda_Technology_Co_Ltd'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_231_Valeo_eAutomotive'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_232_Elektrobit'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_233_BEG'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_234_Hofer'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_235_Laird_GmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_236_AAM'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_237_FMCP'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_238_MBRDI'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_239_Veoneer'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_240_XTRONIC_GmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_241_Japan_Radio_Co_Ltd'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_242_Aptiv'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_243_BCS_Automotive_Interface_Solut'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_244_CATL'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_245_Brose'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_246_Munich_Electrification'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_247_BBAC'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_248_Ficosa'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_249_MB_AMG_HPP'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_250_CES'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_251_Semikron'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_252_Tyco'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_253_MELECS'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_254_Thonburi_Energy_Storage_Manufa'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_255_Farasis'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_256_Valmet'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_257_Garrett_Advancing_Motion'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_258_IMI'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_259_Daimler_Reman_075'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_260_BECOM_Electronics'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_261_Daimler_Reman_688'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_262_Molex'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_263_ELDOR'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_264_Blue_Solutions'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_265_Inmotion_Technologies'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_266_Eaton'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_267_Sonceboz'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_268_Daimler_Plant_Jawor'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_269_MOBASE_ELECTRONICS'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_270_MBition'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_271_Akebono_Brake_Industry_Co_Ltd'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_272_Alpitronic'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_273_MercedesBenz_Plant_Untertuerkh'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_274_Vitesco_Technologies'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_275_Cojali_SL'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_276_Alphe'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_277_KOITO_MANUFACTURING_CO_LTD_JP'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_278_EVE'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_279_Drxlmaier'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_280_Grupo_Antolin'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_281_SVI_Austria_GmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_282_Luminar_Technologies_Inc'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_283_MercedesBenz_Plant_Tuscaloosa'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_284_DANA'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_285_RAFI_GmbH_CoKG'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_286_Weber_Hydraulik_GmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_287_Wuerth'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_288_Hanon_Systems'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_289_FuDi_Battery'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_290_SII_Technologies_GmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_291_Daimler_Plant_Sindelfingen'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_292_Qinghai_FinDreams_Battery_Co_L'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_293_Camel'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_294_GSYuasa'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_295_MAHLE_GmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_296_REBO_Lighting_Electronics_GmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_297_AKKA_Austria_GmbH'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_298_WOORY_Industrial_Co_Ltd'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_299_SaintGobain_Sekurit'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_300_BYD_Electric_Bus_and_Truck_Hun'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_301_Daimler_Greater_China_ltd'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_302_Schaeffler'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_303_Reserved'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_28670_Reserved_for_CVD_CDS_approach'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_28672_Reserved'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_32768_Reserved_for_CVD_CDS_approach'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_61438_After_Market_Supplier'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_61439_Unidentified'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_61440_Reserved'
+[12:17:16] Debug    - Set compu-scale symbol 'SupplierList_65535_Not_programmed'
+[12:17:16] Debug  At DOP 'TestFailed' 
+[12:17:16] Debug    - Set compu-scale symbol 'TestFailed_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'TestFailed_1_true'
+[12:17:16] Debug  At DOP 'TestFailedSinceLastClear' 
+[12:17:16] Debug    - Set compu-scale symbol 'TestFailedSinceLastClear_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'TestFailedSinceLastClear_1_true'
+[12:17:16] Debug  At DOP 'TestFailedThisOperationCycle' 
+[12:17:16] Debug    - Set compu-scale symbol 'TestFailedThisOperationCycle_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'TestFailedThisOperationCycle_1_true'
+[12:17:16] Debug  At DOP 'TestNotCompletedSinceLastClear' 
+[12:17:16] Debug    - Set compu-scale symbol 'TestNotCompletedSinceLastClear_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'TestNotCompletedSinceLastClear_1_true'
+[12:17:16] Debug  At DOP 'TestNotCompletedThisOperationCycle' 
+[12:17:16] Debug    - Set compu-scale symbol 'TestNotCompletedThisOperationCycle_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'TestNotCompletedThisOperationCycle_1_true'
+[12:17:16] Debug  At DOP 'WarningIndicatorRequested' 
+[12:17:16] Debug    - Set compu-scale symbol 'WarningIndicatorRequested_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'WarningIndicatorRequested_1_true'
+[12:17:16] Debug  At DOP 'routineInfo' 
+[12:17:16] Debug    - Set compu-scale symbol 'routineInfo_0_Routine_succesfully_completed'
+[12:17:16] Debug    - Set compu-scale symbol 'routineInfo_1_Routine_in_progress'
+[12:17:16] Debug    - Set compu-scale symbol 'routineInfo_2_Routine_stopped_without_result'
+[12:17:16] Debug    - Set compu-scale symbol 'routineInfo_255_Not_supported'
+[12:17:16] Debug  At DOP 'BitTableDT_001' 
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_TestFailed_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_TestFailed_1_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_TestFailedThisOperationCycle_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_TestFailedThisOperationCycle_2_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_PendingDTC_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_PendingDTC_4_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_ConfirmedDTC_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_ConfirmedDTC_8_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_TestNotCompletedSinceLastClear_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_TestNotCompletedSinceLastClear_16_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_TestFailedSinceLastClear_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_TestFailedSinceLastClear_32_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_TestNotCompletedThisOperationCycle_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_TestNotCompletedThisOperationCycle_64_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_WarningIndicatorRequested_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_001_WarningIndicatorRequested_128_true'
+[12:17:16] Debug  At DOP 'BitTableDT_002' 
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_002_TestFailed_1Bit_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_002_TestFailed_1Bit_1_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_002_ConfirmedDTC_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_002_ConfirmedDTC_8_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_002_TestNotCompletedSinceLastClear_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_002_TestNotCompletedSinceLastClear_16_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_002_TestFailedSinceLastClear_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_002_TestFailedSinceLastClear_32_true'
+[12:17:16] Debug  At DOP 'BitTableDT_003' 
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_003_TestFailed_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_003_TestFailed_1_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_003_ConfirmedDTC_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_003_ConfirmedDTC_8_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_003_TestNotCompletedSinceLastClear_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_003_TestNotCompletedSinceLastClear_16_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_003_TestFailedSinceLastClear_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_003_TestFailedSinceLastClear_32_true'
+[12:17:16] Debug  At DOP 'BitTableDT_004' 
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_004_TestFailed_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_004_TestFailed_1_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_004_ConfirmedDTC_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_004_ConfirmedDTC_8_true'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_004_TestFailedSinceLastClear_0_false'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_004_TestFailedSinceLastClear_32_true'
+[12:17:16] Debug  At DOP 'BitTableDT_005' 
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_005_Active_Diagnostic_Session_1_Default'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_005_Active_Diagnostic_Session_2_Programming'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_005_Active_Diagnostic_Session_3_Extended'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_005_Active_Diagnostic_Session_4_Safety_System_Diagnostic_Sessi'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_005_Active_Diagnostic_Session_66_Update'
+[12:17:16] Debug    - Set compu-scale symbol 'BitTableDT_005_Active_Diagnostic_Session_73_StandBy'
+[12:17:16] Debug  At Ecu 
+[12:17:16] Debug    - Set ecu attribute CSYMBOL_FORMAT to '{Q}_{S}_{V}'
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep DataPreparation (completed in 0.094s (94ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep DataPreparation1 >>>>>>>>>>>>>
+[12:17:16] Info   At Ecu 'New_CDD' Obd2 (any): true WwhObd (any): false [ObdRequirement is Null] 
+[12:17:16] Info     - Set ecu property 'ObdRequirement' to 'Obd2'
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep DataPreparation1 (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep DataPreparation2 >>>>>>>>>>>>>
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep DataPreparation2 (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep ServiceDefinition >>>>>>>>>>>>>
+[12:17:16] Info   * Looking for duplicated services
+[12:17:16] Info   * Destroying duplicated services 
+[12:17:16] Info     - Service 0x19 - 'FaultMem_ReportNbrOfDTCStatusMask deleted - cause: duplicate
+[12:17:16] Info   At Ecu 'New_CDD' 
+[12:17:16] Info     - Set ecu property 'MaxNumNrc78' to '30'
+[12:17:16] Info   At Connection 'CAN_INT' 
+[12:17:16] Info     - Set 'priority' to '4'
+[12:17:16] Info   At Connection 'Ethernet_DoIP' 
+[12:17:16] Info     - Set 'priority' to '2'
+[12:17:16] Info   At Connection 'CAN_D' 
+[12:17:16] Info     - Set 'priority' to '3'
+[12:17:16] Info   At Connection 'FlexRay_ISO' 
+[12:17:16] Info     - Set 'priority' to '4'
+[12:17:16] Info   At Connection 'Ethernet_DoIP_DOBT' 
+[12:17:16] Info     - Set 'priority' to '5'
+[12:17:16] Info   At Connection 'Ethernet_DoIP_2' 
+[12:17:16] Info     - Set 'priority' to '2'
+[12:17:16] Info   At Connection 'Ethernet_DoIP_DOBT_2' 
+[12:17:16] Info     - Set 'priority' to '5'
+[12:17:16] Debug  At Service 0x14 SubService Request 
+[12:17:16] Debug    - Shape PC: 0x14 FaultMem_ClearGroup REQ  Rule: [][n]
+[12:17:16] WARN   At Service 0x34 SubService 
+[12:17:16] WARN     - Service 'RequestDownload' has no ALFID
+[12:17:16] Info   At Service 0x35 SubService 0x0 
+[12:17:16] Info     - Set 'tansfer ALFID' to '0x31'
+[12:17:16] Debug  At Service 0x19 SubService 0x2 Request 
+[12:17:16] Debug    - Shape PC: 0x19 0x2 FaultMem_ReportDTCByStatusMask REQ  Rule: [[sf:1]][n]?
+[12:17:16] Debug  At Service 0x19 SubService 0x1 Request 
+[12:17:16] Debug    - Shape PC: 0x19 0x1 FaultMem_ReportNbrOfDTCStatusMask REQ  Rule: [[sf:1]][n]?
+[12:17:16] Debug  At Service 0x19 SubService 0x4 Request 
+[12:17:16] Debug    - Shape PC: 0x19 0x4 FaultMem_ReportDTCSnapshotRecordByDTCNbr REQ  Rule: [[sf:1]][n]?
+[12:17:16] Debug  At Service 0x19 SubService 0x6 Request 
+[12:17:16] Debug    - Shape PC: 0x19 0x6 FaultMem_ReportDTCExtendedDataByDTCNbr REQ  Rule: [[sf:1]][n]?
+[12:17:16] Debug  At Service 0x19 SubService 0xa Request 
+[12:17:16] Debug    - Shape PC: 0x19 0xa FaultMem_ReportSupportedDTCs REQ  Rule: [[sf:1]][n]?
+[12:17:16] Debug  At Service 0x19 SubService 0x14 Request 
+[12:17:16] Debug    - Shape PC: 0x19 0x14 FaultMem_ReportFaultDetectionCounter REQ  Rule: [[sf:1]][n]?
+[12:17:16] Debug  At Service 0x19 SubService 0x17 Request 
+[12:17:16] Debug    - Shape PC: 0x19 0x17 Development_Fault_Memory_ReportDTCByStatusMask REQ  Rule: [[sf:1]][n]?
+[12:17:16] Debug  At Service 0x19 SubService 0x17 
+[12:17:16] Debug    - Share Protocol for sub service 'Development_Fault_Memory_ReportDTCByStatusMask' not possible
+[12:17:16] Debug  At Service 0x19 SubService 0x18 Request 
+[12:17:16] Debug    - Shape PC: 0x19 0x18 Development_Fault_Memory_ReportDTCSnapshotRecordByDtcNbr REQ  Rule: [[sf:1]][n]?
+[12:17:16] Debug  At Service 0x19 SubService 0x18 
+[12:17:16] Debug    - Share Protocol for sub service 'Development_Fault_Memory_ReportDTCSnapshotRecordByDtcNbr' not possible
+[12:17:16] Debug  At Service 0x19 SubService 0x19 Request 
+[12:17:16] Debug    - Shape PC: 0x19 0x19 Development_Fault_Memory_ReportDTCExtendedDataRecordByDtcNbr REQ  Rule: [[sf:1]][n]?
+[12:17:16] Debug  At Service 0x19 SubService 0x19 
+[12:17:16] Debug    - Share Protocol for sub service 'Development_Fault_Memory_ReportDTCExtendedDataRecordByDtcNbr' not possible
+[12:17:16] Debug  At Service 0x19 SubService 0x2 Response 
+[12:17:16] Debug    - Shape PC: 0x19 0x2 FaultMem_ReportDTCByStatusMask POS  Rule: [[sf:1]][]?
+[12:17:16] Debug  At Service 0x19 SubService 0x1 Response 
+[12:17:16] Debug    - Shape PC: 0x19 0x1 FaultMem_ReportNbrOfDTCStatusMask POS  Rule: [[sf:1]][]?
+[12:17:16] Debug  At Service 0x19 SubService 0x4 Response 
+[12:17:16] Debug    - Shape PC: 0x19 0x4 FaultMem_ReportDTCSnapshotRecordByDTCNbr POS  Rule: [[sf:1]][]?
+[12:17:16] Debug  At Service 0x19 SubService 0x6 Response 
+[12:17:16] Debug    - Shape PC: 0x19 0x6 FaultMem_ReportDTCExtendedDataByDTCNbr POS  Rule: [[sf:1]][]?
+[12:17:16] Debug  At Service 0x19 SubService 0xa Response 
+[12:17:16] Debug    - Shape PC: 0x19 0xa FaultMem_ReportSupportedDTCs POS  Rule: [[sf:1]][]?
+[12:17:16] Debug  At Service 0x19 SubService 0x14 Response 
+[12:17:16] Debug    - Shape PC: 0x19 0x14 FaultMem_ReportFaultDetectionCounter POS  Rule: [[sf:1]][]?
+[12:17:16] Info   At Service 0x22 
+[12:17:16] Info     - Combination of subservices changed from unsupported  to supported
+[12:17:16] Debug  At Service 0x22 SubService 0x100 Request 
+[12:17:16] Debug    - Shape PC: 0x22 0x100 New_Stored_Data_1_Read REQ  Rule: [[id:2]]
+[12:17:16] Debug  At Service 0x22 SubService 0x100 Response 
+[12:17:16] Debug    - Shape PC: 0x22 0x100 New_Stored_Data_1_Read POS  Rule: [[id:2]][]
+[12:17:16] Debug  At Service 0x22 SubService 0x101 Request 
+[12:17:16] Debug    - Shape PC: 0x22 0x101 New_Present_Values_1_Read REQ  Rule: [[id:2]]
+[12:17:16] Debug  At Service 0x22 SubService 0x101 Response 
+[12:17:16] Debug    - Shape PC: 0x22 0x101 New_Present_Values_1_Read POS  Rule: [[id:2]][]
+[12:17:16] Debug  At Service 0x22 SubService 0x102 Request 
+[12:17:16] Debug    - Shape PC: 0x22 0x102 New_IO_Control_1_ControlStatus REQ  Rule: [[id:2]]
+[12:17:16] Debug  At Service 0x22 SubService 0x102 Response 
+[12:17:16] Debug    - Shape PC: 0x22 0x102 New_IO_Control_1_ControlStatus POS  Rule: [[id:2]][]
+[12:17:16] Debug  At Service 0x22 SubService 0x103 Request 
+[12:17:16] Debug    - Shape PC: 0x22 0x103 New_Variant_Coding_1_Read REQ  Rule: [[id:2]]
+[12:17:16] Debug  At Service 0x22 SubService 0x103 Response 
+[12:17:16] Debug    - Shape PC: 0x22 0x103 New_Variant_Coding_1_Read POS  Rule: [[id:2]][]
+[12:17:16] Debug  At Service 0x22 SubService 0xf100 Request 
+[12:17:16] Debug    - Shape PC: 0x22 0xf100 ActiveDiagnosticInformation_Read REQ  Rule: [[id:2]]
+[12:17:16] Debug  At Service 0x22 SubService 0xf100 Response 
+[12:17:16] Debug    - Shape PC: 0x22 0xf100 ActiveDiagnosticInformation_Read POS  Rule: [[id:2]][]
+[12:17:16] Debug  At Service 0x22 SubService 0xf154 Request 
+[12:17:16] Debug    - Shape PC: 0x22 0xf154 HardwareSupplier_Read REQ  Rule: [[id:2]]
+[12:17:16] Debug  At Service 0x22 SubService 0xf154 Response 
+[12:17:16] Debug    - Shape PC: 0x22 0xf154 HardwareSupplier_Read POS  Rule: [[id:2]][]
+[12:17:16] Debug  At Service 0x29 SubService 0x4 Request 
+[12:17:16] Debug    - Shape PC: 0x29 0x4 Authentication_Transmit_Certificate REQ  Rule: [[sf:1][id:2]?][]?
+[12:17:16] Debug  At Service 0x29 SubService 0x0 Response 
+[12:17:16] Debug    - Shape PC: 0x29 0x0 Authentication_Deauthenticate POS  Rule: [[sf:1]][]?
+[12:17:16] Debug  At Service 0x29 SubService 0x1 Response 
+[12:17:16] Debug    - Shape PC: 0x29 0x1 Authentication_Verify_Certificate_Unidirectional POS  Rule: [[sf:1]][]?
+[12:17:16] Debug  At Service 0x29 SubService 0x3 Response 
+[12:17:16] Debug    - Shape PC: 0x29 0x3 Authentication_Proof_Of_Ownership POS  Rule: [[sf:1]][]?
+[12:17:16] Debug  At Service 0x29 SubService 0x4 Response 
+[12:17:16] Debug    - Shape PC: 0x29 0x4 Authentication_Transmit_Certificate POS  Rule: [[sf:1]][]?
+[12:17:16] Debug  At Service 0x29 SubService 0x8 Response 
+[12:17:16] Debug    - Shape PC: 0x29 0x8 Authentication_Authentication_Configuration POS  Rule: [[sf:1]][]?
+[12:17:16] Debug  At Service 0x2e SubService 0x103 Request 
+[12:17:16] Debug    - Shape PC: 0x2e 0x103 New_Variant_Coding_1_Write REQ  Rule: [[id:2]][]
+[12:17:16] Debug  At Service 0x2e SubService 0x103 Response 
+[12:17:16] Debug    - Shape PC: 0x2e 0x103 New_Variant_Coding_1_Write POS  Rule: [[id:2]]
+[12:17:16] Debug  At Service 0x2f SubService 0x102 Request 
+[12:17:16] Debug    - Shape PC: 0x2f 0x102 0x0 New_IO_Control_1_ReturnControl REQ  Rule: [[id:2][id:1]][]?
+[12:17:16] Debug  At Service 0x2f SubService 0x102 Response 
+[12:17:16] Debug    - Shape PC: 0x2f 0x102 0x0 New_IO_Control_1_ReturnControl POS  Rule: [[id:2][id:1]][]?
+[12:17:16] Debug  At Service 0x2f SubService 0x102 Request 
+[12:17:16] Debug    - Shape PC: 0x2f 0x102 0x1 New_IO_Control_1_Reset REQ  Rule: [[id:2][id:1]][]?
+[12:17:16] Debug  At Service 0x2f SubService 0x102 Response 
+[12:17:16] Debug    - Shape PC: 0x2f 0x102 0x1 New_IO_Control_1_Reset POS  Rule: [[id:2][id:1]][]?
+[12:17:16] Debug  At Service 0x2f SubService 0x102 Request 
+[12:17:16] Debug    - Shape PC: 0x2f 0x102 0x2 New_IO_Control_1_Freeze REQ  Rule: [[id:2][id:1]][]?
+[12:17:16] Debug  At Service 0x2f SubService 0x102 Response 
+[12:17:16] Debug    - Shape PC: 0x2f 0x102 0x2 New_IO_Control_1_Freeze POS  Rule: [[id:2][id:1]][]?
+[12:17:16] Debug  At Service 0x2f SubService 0x102 Request 
+[12:17:16] Debug    - Shape PC: 0x2f 0x102 0x3 New_IO_Control_1_Control REQ  Rule: [[id:2][id:1]][]?
+[12:17:16] Debug  At Service 0x2f SubService 0x102 Response 
+[12:17:16] Debug    - Shape PC: 0x2f 0x102 0x3 New_IO_Control_1_Control POS  Rule: [[id:2][id:1]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Request 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x201 Neu_Synchronous_Routine_Start REQ  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Response 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x201 Neu_Synchronous_Routine_Start POS  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Request 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x202 Neu_Asynchronous_Routine_Start REQ  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Response 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x202 Neu_Asynchronous_Routine_Start POS  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Request 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x230 Neu_Routine_Control_Start REQ  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Response 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x230 Neu_Routine_Control_Start POS  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Request 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x241 Development_Fault_Memory_Read_E_E_Data REQ  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Response 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x241 Development_Fault_Memory_Read_E_E_Data POS  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Request 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x241 FaultMem_Read_E_E_Data REQ  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Response 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x241 FaultMem_Read_E_E_Data POS  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Request 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x242 Erase_SAR_Memory_Start REQ  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x1 Response 
+[12:17:16] Debug    - Shape PC: 0x31 0x1 0x242 Erase_SAR_Memory_Start POS  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x2 Request 
+[12:17:16] Debug    - Shape PC: 0x31 0x2 0x202 Neu_Asynchronous_Routine_Stop REQ  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x2 Response 
+[12:17:16] Debug    - Shape PC: 0x31 0x2 0x202 Neu_Asynchronous_Routine_Stop POS  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x3 Request 
+[12:17:16] Debug    - Shape PC: 0x31 0x3 0x202 Neu_Asynchronous_Routine_RequestResults REQ  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x31 SubService 0x3 Response 
+[12:17:16] Debug    - Shape PC: 0x31 0x3 0x202 Neu_Asynchronous_Routine_RequestResults POS  Rule: [[sf:1][id:2]][]?
+[12:17:16] Debug  At Service 0x3e SubService 0x0 Request 
+[12:17:16] Debug    - Shape PC: 0x3e 0x0 TesterPresent REQ  Rule: [[sf:1]]
+[12:17:16] Debug  At Service 0x3e SubService 0x0 Response 
+[12:17:16] Debug    - Shape PC: 0x3e 0x0 TesterPresent POS  Rule: [[sf:1]]
+[12:17:16] Debug  At Ecu 
+[12:17:16] Debug    - Service: 0x19 FaultMem_ReportDTCByStatusMask has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x14 FaultMem_ClearGroup has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x22 New_Stored_Data_1_Read has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x29 Authentication_Deauthenticate has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x2E New_Variant_Coding_1_Write has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x2F New_IO_Control_1_ReturnControl has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x31 Neu_Synchronous_Routine_Start has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x34 RequestDownload has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x35 SAR_Data_Request_Upload has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x36 File_Transfer_Transmit has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x37 File_Transfer_Stop has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x38 File_Transfer_Read has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Debug    - Service: 0x3E TesterPresent has activity status: true but has at least one sub-services with status active: true
+[12:17:16] Info   * Looking for duplicate sub-services
+[12:17:16] WARN     - Merged with 0x31 0x1 0x241 - 'FaultMem_Read_E_E_Data'
+[12:17:16] WARN     - Merged with 0x36 - 'SAR_Data_Transfer'
+[12:17:16] WARN     - Merged with 0x36 - 'TransferData'
+[12:17:16] WARN     - Merged with 0x36 - 'TransferData'
+[12:17:16] WARN     - Merged with 0x37 - 'RequestTransferExit'
+[12:17:16] WARN     - Merged with 0x37 - 'SAR_Data_Transfer_Exit'
+[12:17:16] WARN     - Merged with 0x37 - 'SAR_Data_Transfer_Exit'
+[12:17:16] Info     - Sub-Service 0x36 - 'TransferData' deleted - cause: duplicate2
+[12:17:16] Info     - Sub-Service 0x36 - 'SAR_Data_Transfer' deleted - cause: duplicate2
+[12:17:16] Info     - Sub-Service 0x37 - 'RequestTransferExit' deleted - cause: duplicate2
+[12:17:16] Info     - Sub-Service 0x37 - 'SAR_Data_Transfer_Exit' deleted - cause: duplicate2
+[12:17:16] Info     - Sub-Service 0x31 - 'FaultMem_Read_E_E_Data' deleted - cause: duplicate2
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep ServiceDefinition (completed in 0.031s (31ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep DataDefinition >>>>>>>>>>>>>
+[12:17:16] Info   At Ecu 
+[12:17:16] Info     - Service: '0x2e 0x103 New_Variant_Coding_1_Write' shared data components linked to Service: '0x22 0x103 New_Variant_Coding_1_Read' !!!
+[12:17:16] Info   * Combine Pid Parameters
+[12:17:16] Info   * Building Service Dids
+[12:17:16] Info   * Building Routines
+[12:17:16] Info     - Routine 'Neu_Synchronous_Routine' created
+[12:17:16] Info     - Routine 'Neu_Asynchronous_Routine' created
+[12:17:16] Info     - Routine 'Neu_Routine_Control' created
+[12:17:16] Info     - Routine 'Development_Fault_Memory' created
+[12:17:16] Info     - Routine 'SAR' created
+[12:17:16] Info   * Shape Routine Parameter Names
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep DataDefinition (completed in 0.015s (15ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep DataIdentifier >>>>>>>>>>>>>
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep DataIdentifier (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep Service >>>>>>>>>>>>>
+[12:17:16] Info   * Building Diagnostic Event Memories
+[12:17:16] Info   At User-Defined-Memory 0x10 
+[12:17:16] Info     - User-Defined-Memory-Qualifier set to 'Development_Fault_Memory'
+[12:17:16] Info   * Checking Diagnostic Event Memories (DTC)
+[12:17:16] Info   * Checking Diagnostic Event Memories (EDR)
+[12:17:16] Info   * Checking Diagnostic Event Memories (Snapshot)
+[12:17:16] Info   At Service 0x29 
+[12:17:16] Info     - Qualifier changed from 'Authentication_Deauthenticate' to 'Authentication'
+[12:17:16] WARN   At Service 0x29 SubService 0x4 
+[12:17:16] WARN     - Evaluation-Id of Service 'Authentication_Transmit_Certificate' cannot be read from protocol
+[12:17:16] Info   At Service 0x29 SubService 0x0 
+[12:17:16] Info     - Qualifier changed from 'Authentication_Deauthenticate' to 'DeAuthenticate'
+[12:17:16] Info   At Service 0x29 SubService 0x1 
+[12:17:16] Info     - Qualifier changed from 'Authentication_Verify_Certificate_Unidirectional' to 'VerifyCertificateUnidirectional'
+[12:17:16] Info   At Service 0x29 SubService 0x3 
+[12:17:16] Info     - Qualifier changed from 'Authentication_Proof_Of_Ownership' to 'ProofOfOwnership'
+[12:17:16] Info   At Service 0x29 SubService 0x8 
+[12:17:16] Info     - Qualifier changed from 'Authentication_Authentication_Configuration' to 'AuthenticationConfiguration'
+[12:17:16] Info   At Service 0x14 
+[12:17:16] Info     - Qualifier changed from 'FaultMem_ClearGroup' to 'ClearDiagInfo'
+[12:17:16] Info   At Service 0x14 SubService 
+[12:17:16] Info     - SubService action qualifier set to 'Clear'
+[12:17:16] Info     - Qualifier changed from 'FaultMem_ClearGroup' to 'ClearDiagInfo'
+[12:17:16] Info   At Service 0x19 
+[12:17:16] Info     - Qualifier changed from 'FaultMem_ReportDTCByStatusMask' to 'ReadDtcInfo'
+[12:17:16] Info   At Service 0x19 SubService 0x2 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDtc'
+[12:17:16] Info   At Service 0x19 SubService 0x1 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDtc'
+[12:17:16] Info   At Service 0x19 SubService 0x4 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDtc'
+[12:17:16] Info   At Service 0x19 SubService 0x6 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDtc'
+[12:17:16] Info   At Service 0x19 SubService 0xa 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDtc'
+[12:17:16] Info   At Service 0x19 SubService 0x14 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDtc'
+[12:17:16] Info   At Service 0x19 SubService 0x17 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDtc'
+[12:17:16] Info   At Service 0x19 SubService 0x18 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDtc'
+[12:17:16] Info   At Service 0x19 SubService 0x19 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDtc'
+[12:17:16] Info   At Service 0x19 SubService 0x1 
+[12:17:16] Info     - Qualifier changed from 'FaultMem_ReportNbrOfDTCStatusMask' to 'RNODTCBSM'
+[12:17:16] Info   At Service 0x19 SubService 0x2 
+[12:17:16] Info     - Qualifier changed from 'FaultMem_ReportDTCByStatusMask' to 'RDTCBSM'
+[12:17:16] Info   At Service 0x19 SubService 0x4 
+[12:17:16] Info     - Qualifier changed from 'FaultMem_ReportDTCSnapshotRecordByDTCNbr' to 'RDTCSSBDTC'
+[12:17:16] Info   At Service 0x19 SubService 0x6 
+[12:17:16] Info     - Qualifier changed from 'FaultMem_ReportDTCExtendedDataByDTCNbr' to 'RDTCEDRBDN'
+[12:17:16] Info   At Service 0x19 SubService 0xa 
+[12:17:16] Info     - Qualifier changed from 'FaultMem_ReportSupportedDTCs' to 'RSUPDTC'
+[12:17:16] Info   At Service 0x19 SubService 0x14 
+[12:17:16] Info     - Qualifier changed from 'FaultMem_ReportFaultDetectionCounter' to 'RDTCFDC'
+[12:17:16] Info   At Service 0x22 
+[12:17:16] Info     - Qualifier changed from 'New_Stored_Data_1_Read' to 'ReadDataById'
+[12:17:16] Info     - Service action qualifier set to 'Read'
+[12:17:16] Info   At Service 0x22 SubService 0x100 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDid'
+[12:17:16] Info   At Service 0x22 SubService 0x101 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDid'
+[12:17:16] Info   At Service 0x22 SubService 0x102 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDid'
+[12:17:16] Info   At Service 0x22 SubService 0x103 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDid'
+[12:17:16] Info   At Service 0x22 SubService 0xf100 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDid'
+[12:17:16] Info   At Service 0x22 SubService 0xf154 
+[12:17:16] Info     - SubService action qualifier set to 'ReadDid'
+[12:17:16] Info   At Service 0x2e 
+[12:17:16] Info     - Spec changed from '10' to 'Other'(12)
+[12:17:16] Info     - Qualifier changed from 'New_Variant_Coding_1_Write' to 'WriteDataById'
+[12:17:16] Info     - Service action qualifier set to 'Write'
+[12:17:16] Info   At Service 0x2e SubService 0x103 
+[12:17:16] Info     - SubService action qualifier set to 'WriteDid'
+[12:17:16] Info   At Service 0x2f 
+[12:17:16] Info     - Qualifier changed from 'New_IO_Control_1_ReturnControl' to 'IoControlById'
+[12:17:16] Info     - Service action qualifier set to 'IoCtrl'
+[12:17:16] Info   At Service 0x2f SubService 0x102 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'IoCtrlRetCtrlToEcu'
+[12:17:16] Info   At Service 0x2f SubService 0x102 0x1 
+[12:17:16] Info     - SubService action qualifier set to 'IoCtrlRstToDefault'
+[12:17:16] Info   At Service 0x2f SubService 0x102 0x2 
+[12:17:16] Info     - SubService action qualifier set to 'IoCtrlFrzCurrState'
+[12:17:16] Info   At Service 0x2f SubService 0x102 0x3 
+[12:17:16] Info     - SubService action qualifier set to 'IoCtrlShortTermAdj'
+[12:17:16] Info   At Service 0x31 
+[12:17:16] Info     - Qualifier changed from 'Neu_Synchronous_Routine_Start' to 'RoutineControl'
+[12:17:16] Info   At Service 0x31 SubService 0x1 
+[12:17:16] Info     - SubService action qualifier set to 'RtnCtrlStart'
+[12:17:16] Info   At Service 0x31 SubService 0x1 
+[12:17:16] Info     - SubService action qualifier set to 'RtnCtrlStart'
+[12:17:16] Info   At Service 0x31 SubService 0x1 
+[12:17:16] Info     - SubService action qualifier set to 'RtnCtrlStart'
+[12:17:16] Info   At Service 0x31 SubService 0x1 
+[12:17:16] Info     - SubService action qualifier set to 'RtnCtrlStart'
+[12:17:16] Info   At Service 0x31 SubService 0x1 
+[12:17:16] Info     - SubService action qualifier set to 'RtnCtrlStart'
+[12:17:16] Info   At Service 0x31 SubService 0x2 
+[12:17:16] Info     - SubService action qualifier set to 'RtnCtrlStop'
+[12:17:16] Info   At Service 0x31 SubService 0x3 
+[12:17:16] Info     - SubService action qualifier set to 'RtnCtrlReqRes'
+[12:17:16] Info   At Service 0x34 SubService 
+[12:17:16] Info     - SubService action qualifier set to 'RequestDownload'
+[12:17:16] Info   At Service 0x35 
+[12:17:16] Info     - Qualifier changed from 'SAR_Data_Request_Upload' to 'RequestUpload'
+[12:17:16] Info   At Service 0x35 SubService 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'RequestUpload'
+[12:17:16] Info   At Service 0x35 SubService 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'RequestUpload'
+[12:17:16] Info   At Service 0x35 SubService 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'RequestUpload'
+[12:17:16] Info   At Service 0x35 SubService 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'RequestUpload'
+[12:17:16] Info   At Service 0x35 SubService 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'RequestUpload'
+[12:17:16] Info   At Service 0x35 SubService 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'RequestUpload'
+[12:17:16] Info   At Service 0x35 SubService 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'RequestUpload'
+[12:17:16] Info   At Service 0x35 SubService 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'RequestUpload'
+[12:17:16] Info   At Service 0x35 SubService 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'RequestUpload'
+[12:17:16] Info   At Service 0x35 SubService 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'RequestUpload'
+[12:17:16] Info   At Service 0x36 
+[12:17:16] Info     - Qualifier changed from 'File_Transfer_Transmit' to 'TransferData'
+[12:17:16] Info   At Service 0x36 SubService 
+[12:17:16] Info     - SubService action qualifier set to 'TransferData'
+[12:17:16] Info   At Service 0x37 
+[12:17:16] Info     - Qualifier changed from 'File_Transfer_Stop' to 'RequestTransferExit'
+[12:17:16] Info   At Service 0x37 SubService 
+[12:17:16] Info     - SubService action qualifier set to 'RequestTransferExit'
+[12:17:16] Info   At Service 0x3e SubService 0x0 
+[12:17:16] Info     - SubService action qualifier set to 'Send'
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep Service (completed in 0.032s (32ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep StateMachine >>>>>>>>>>>>>
+[12:17:16] Info   * Merging Environmental Modes
+[12:17:16] Info   * Merging Environmental Dids
+[12:17:16] Info   * Merging Environmental Rules
+[12:17:16] Info   * Merging Access Conditions
+[12:17:16] Info   * Analyse Diagnostic Sessions
+[12:17:16] Info   * Checking Diagnostic Sessions
+[12:17:16] ERROR    - Service 0x10 could not be found for building diagnostic sessions
+[12:17:16] Info   * Analyse Diagnostic Securities
+[12:17:16] Info   * Checking Diagnostic Securities
+[12:17:16] WARN     - Service 0x27 could not be found for building diagnostic securities although security state group exists
+[12:17:16] INFO       Security state group will be ignored
+[12:17:16] Info   * Checking Authorizations with options [authServiceOptional,]
+[12:17:16] Info   * Building Authorizations
+[12:17:16] Info   * Checking Environmental Conditions
+[12:17:16] Info   * Building Environmental Conditions
+[12:17:16] Info   * Building Access Conditions
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] Info     - Access Cond '|' created
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Default' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Programming' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Extended' has no corresponding session
+[12:17:16] ERROR    - Session-State 'SafetySystem' has no corresponding session
+[12:17:16] ERROR    - Session-State 'Update_Session' has no corresponding session
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep StateMachine (completed in 0.031s (31ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep StateMachine2 >>>>>>>>>>>>>
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep StateMachine2 (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep StateMachine3 >>>>>>>>>>>>>
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep StateMachine3 (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep Settings >>>>>>>>>>>>>
+[12:17:16] Info   At Ecu 'New_CDD' 
+[12:17:16] Info     - Set 'periodic rate slow' to '1000'
+[12:17:16] Info     - Set 'periodic rate medium' to '100'
+[12:17:16] Info     - Set 'periodic rate fast' to '20'
+[12:17:16] Info     - Set 'maximum number of dynamically defined dids' to '5'
+[12:17:16] Info     - Set 'storage of dynamically defined dids' to 'volatile'
+[12:17:16] Info     - Set 'check access of dynamically defined dids' to 'false'
+[12:17:16] Info     - Set 'authentication timeout' to '20'
+[12:17:16] Info     - Set 'certificate evaluation Id' to '2'
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep Settings (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep FaultMemory >>>>>>>>>>>>>
+[12:17:16] Info   At DTC 0x1 
+[12:17:16] Info     - Set DTC-Prop 'Severity' to '0'
+[12:17:16] Info     - Set DTC-Prop 'Priority' to '2'
+[12:17:16] Info     - Set DTC-Prop 'DtcType' to 'Fault'
+[12:17:16] Info     - Set DTC-Prop 'AgingCount' to '100'
+[12:17:16] Info   At DTC 0x1 DTC_AGING_SUPPORTED == supported 
+[12:17:16] Info     - Set DTC-Prop 'AgingAllowed' to 'true'
+[12:17:16] Info   At Faultmemory  
+[12:17:16] Info     - Set fault memory property 'ecgNaming' to 'singleElem'
+[12:17:16] Info   At Service 0x19 SubService 0x1 
+[12:17:16] Info     - Set fault memory property 'dtcFormat' to 'Iso14229'
+[12:17:16] Info   At Service 0x19 SubService 0x2 
+[12:17:16] Info     - Set primary memory property 'StatAvailMask' to '57'
+[12:17:16] Info   At Service 0x19 SubService 0x17 
+[12:17:16] Info     - Set UserDef memory 16 property 'StatAvailMask' to '41'
+[12:17:16] ERROR  At Service 0x19 SubService 0x18 
+[12:17:16] ERROR    - No UserDef memory Id found at service 'Development_Fault_Memory_ReportDTCSnapshotRecordByDtcNbr'
+[12:17:16] Info   At Event-Memory  
+[12:17:16] Info     - Set primary memory property 'ssrUpdatable' to 'true'
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep FaultMemory (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep FaultMemory1 >>>>>>>>>>>>>
+[12:17:16] Info   At DTC 0x1 Qualifier is Null 
+[12:17:16] Info     - Set DTC-Prop 'ShortName' to 'DTC_0x000001'
+[12:17:16] Info   At DTC 0x1 AgingCycle is Null DTC_AGING_CYCLE exists 
+[12:17:16] Info     - Set DTC-Prop 'AgingCycle' to 'DEM_DRIVE_MODE_PT_Ready_Not_Ready' using 'useNameMatch'
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep FaultMemory1 (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep FaultMemory2 >>>>>>>>>>>>>
+[12:17:16] Info   * Building DidSets
+[12:17:16] WARN     - DTC '1' has no UDS-Dids - reference to UDS-Snapshot removed
+[12:17:16] Info   * Shaping Events
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep FaultMemory2 (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep FaultMemory3 >>>>>>>>>>>>>
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep FaultMemory3 (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep FaultMemory4 >>>>>>>>>>>>>
+[12:17:16] Info   At Event 'DTC_0x000001_Event' DebounceType is Null 
+[12:17:16] Info     - Set Event-Prop 'DebounceType' to 'Internal' using 'updatable'
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep FaultMemory4 (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep FaultMemory5 >>>>>>>>>>>>>
+[12:17:16] Info   At DTC 0x1 
+[12:17:16] Info     - Set DTC-Prop 'AltQualifier' to ''
+[12:17:16] Info   * Merging Debounce Algorithms
+[12:17:16] Info        - Algorithm 'MBC_Default_Counter_Based_Debounce_Algorithm' has 1 duplicate(s)
+[12:17:16] Info   * Merging Operation Cycles
+[12:17:16] Info        - Operation Cycle 'DEM_DRIVE_MODE_PT_Ready_Not_Ready' has 1 duplicate(s)
+[12:17:16] Info        - Operation Cycle 'DEM_WARMUP_OBD_Warm_up_Cycle' has 1 duplicate(s)
+[12:17:16] Info        - Operation Cycle 'DEM_OBD_DCY_OBD_Driving_Cycle' has 1 duplicate(s)
+[12:17:16] Info        - Operation Cycle 'DEM_POWER_Power_ON_OFF_Cycle' has 1 duplicate(s)
+[12:17:16] Info   * Merging Warning Indicators
+[12:17:16] Info   * Merging Enable/Storage/Clear Conditions
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep FaultMemory5 (completed in 0.016s (16ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep Obd >>>>>>>>>>>>>
+[12:17:16] Info   * Building OBD Service Pids
+[12:17:16] Info   * Building OBD Service Monitor Identifier
+[12:17:16] Info   * Building OBD Service Rids
+[12:17:16] Info   * Building OBD Service Vehicle Infos
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep Obd (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   >>>>>>>>>>>>> ShapingStep CleanUp >>>>>>>>>>>>>
+[12:17:16] Info   * Finding duplicated sub-services in clean-up... 
+[12:17:16] Info   * Shaping Memory Identifiers, use prefix: true
+[12:17:16] Info   * Merging Data Component Properties (DOP)
+[12:17:16] Info   * Checking Diagnostic Event Memories (EDR)
+[12:17:16] Info     - Removing unused snapshot record 0x10 from SSR-Pool of 'Prim'
+[12:17:16] Info     - Removing unused snapshot record 0x20 from SSR-Pool of 'Prim'
+[12:17:16] Info     - Removing unused snapshot record 0x10 from SSR-Pool of 'U10'
+[12:17:16] Info     - Removing unused snapshot record 0x20 from SSR-Pool of 'U10'
+[12:17:16] Info   * Checking Diagnostic Event Memories (Snapshot)
+[12:17:16] Info   * Checking Diagnostic Event Memories (Snapshot)
+[12:17:16] Info     - Removing unused operation cycle 'DEM_OBD_DCY_OBD_Driving_Cycle' from Pool
+[12:17:16] Info     - Removing unused operation cycle 'DEM_WARMUP_OBD_Warm_up_Cycle' from Pool
+[12:17:16] Info   <<<<<<<<<<<<< ShapingStep CleanUp (completed in 0.000s (0ms) <<<<<<<<<<<<<
+[12:17:16] Info   <<<<<<<<<<<<< SHAPING finished after 0.250s (250ms) <<<<<<<<<<<<<
+[12:17:16] Warn   Calling obsolete AR-Shaper
+[12:17:18] INFO   >>>>>>>>>>>>> Diagnostic Extract Generation >>>>>>>>>>>>>>
+[12:17:18] INFO   AUTOSAR Platform:   'Classic'
+[12:17:18] INFO   AUTOSAR Version:    '00046'
+[12:17:18] INFO   DEXT Naming Schema: '24.0'
+[12:17:18] WARN   W9070: Service 0x29 (Authentication) needs AUTOSAR Version 21-11 or higher
+[12:17:21] INFO   <<<<<<<<<<<<< DEXT Export finished after 3.660  Conv: 0.306  Build: 0.266  Struct: 0.026  Gen: 3.062
+[12:17:21] INFO   <<<<<<<<<<<<< DEXT Generation Details: DS: 2.066  Elem: 0.681  Ref: 0.160
+[12:17:21] INFO   <<<<<<<<<<<<< Diagnostic Extract Generation <<<<<<<<<<<<<<
+[12:17:21] Info   <---- Process of diagnostic specification.

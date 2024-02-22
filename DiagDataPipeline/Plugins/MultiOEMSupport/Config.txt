@@ -1,0 +1,4 @@
+TargetCDD=NewCDD.cdd
+SourceCDD=NewCDD.cdd
+TargetVariant=Common_Diagnostics
+SourceVariant=Common_Diagnostics
